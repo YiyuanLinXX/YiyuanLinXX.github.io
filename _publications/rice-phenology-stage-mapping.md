@@ -3,6 +3,7 @@ title: "Automated rice phenology stage mapping using UAV images and deep learnin
 collection: publications
 category: manuscripts
 permalink: /publication/rice-phenology-stage-mapping
+excerpt: ''
 date: 2023-01-25
 venue: 'Drones'
 paperurl: 'https://www.mdpi.com/2504-446X/7/2/83'
