@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate and graduate combined course"
 permalink: /teaching/ece-4110-5110
 venue: "Cornell University, School of Electrical and Computer Engineering"
-date: 2024
+date: 2024-12-01
 location: "Ithaca, NY"
 ---
 
