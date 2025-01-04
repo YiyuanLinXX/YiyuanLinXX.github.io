@@ -21,6 +21,9 @@ Education
 
 Work experience
 ======
+* 2023/08 - Present: Research Assistant
+  * [CAIR Lab](https://cair.cals.cornell.edu/), Cornell University
+  * Supervisor: Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) at [CAIR Lab](https://cair.cals.cornell.edu/)
 
 * 2024/08 - 2024/12: Teaching Assistant
   * School of Electrical and Computer Engineering, Cornell University
