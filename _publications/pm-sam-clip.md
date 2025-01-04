@@ -3,6 +3,7 @@ title: "Effective integration of vision foundational models for semantic segment
 collection: publications
 category: conferences
 permalink: /publications/pm-sam-clip
+excerpt: ''
 date: 2024-02-18
 venue: 'ASABE AIM 2024'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
