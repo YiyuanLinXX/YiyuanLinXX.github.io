@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,35 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical and Computer Engineering, Cornell University, 2023-present
+* B.Eng. in Agriculture Engineering, Zhejiang University, 2019-2023
+
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2024/08 - 2024/12: Teaching Assistant
+  * School of Electrical and Computer Engineering, Cornell University
+  * Supervisor: Dr. [Qing Zhao](https://www.ece.cornell.edu/faculty-directory/qing-zhao)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2022/04 - 2023/04: Research Assistant
+  * [FAST Lab](http://zju-fast.com/), Zhejiang University
+  * Huzhou Institute of Zhejiang University
+  * Supervisor: Dr. [Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/) and Dr. [Fei Gao](http://zju-fast.com/research-group/fei-gao/)
+
+
 
 Publications
 ======
@@ -61,4 +50,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Chairman of Chiu Chow Hometown Association of Zhejiang University 2021/01 - 2022/01
