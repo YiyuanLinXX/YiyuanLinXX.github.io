@@ -2,7 +2,7 @@
 title: "Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection"
 collection: publications
 category: conference
-permalink: /publication/pm-sam-clip
+permalink: /publications/pm-sam-clip
 excerpt:
 date: 2024-02-18
 venue: 'ASABE AIM 2024'
