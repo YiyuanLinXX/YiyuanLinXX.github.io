@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+Research Interests: Robotics Swarm, Autonomous and Intelligent System, High-throughtput Phenotyping
+email: yl3663@cornell.edu
+
 Education
 ======
 * Ph.D in Electrical and Computer Engineering, Cornell University, 2023-present
