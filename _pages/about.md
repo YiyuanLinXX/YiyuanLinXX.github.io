@@ -12,5 +12,5 @@ I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell 
 <br/>
 
 # Recent News
-- Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)
+- Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
 - I received the AG2PI Student Conference Travel Award
