@@ -3,7 +3,7 @@ title: "Effective integration of vision foundational models for semantic segment
 collection: publications
 category: conferences
 permalink: /publications/pm-sam-clip
-excerpt: '2024 ITSC Best Paper Award<br/><strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang, <i><strong>ASABE Annual International Meeting</strong></i>, 2024'
+excerpt: '<strong>2024 ITSC Best Paper Award</strong><br/><br/><strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang, <i><strong>ASABE Annual International Meeting</strong></i>, 2024'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
 ---
