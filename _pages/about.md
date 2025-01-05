@@ -19,4 +19,4 @@ I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell 
 # Selected Awards
 - 2019/05, The legendary fastest downhill racer of Queshi Mountain, "Queshi Mountain Takumi" from Jinshan High School, Shantou. 汕头市金山中学礐石山下山赛最速传说，礐石山车神
 - 2010/11, Champion of the Grade 4 Yo-Yo Competition at Chaoyang Primary School, Shantou. 汕头市朝阳小学悠悠球大赛四年级组冠军，火力少年王
-- 2009/08, Runner-up of the Saierhao Competition at Chaoyang Primary School, Shantou. 汕头市朝阳小学赛尔号大赛亚军
+- 2009/08, Runner-up of the Seer Competition at Chaoyang Primary School, Shantou. 汕头市朝阳小学赛尔号大赛亚军
