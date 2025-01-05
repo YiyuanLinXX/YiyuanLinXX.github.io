@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Research Interests: Robotics Swarm, Autonomous and Intelligent System, High-throughtput Phenotyping
+
 email: yl3663@cornell.edu
 
 Education
