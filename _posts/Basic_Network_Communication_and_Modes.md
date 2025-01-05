@@ -1,7 +1,7 @@
 ---
 title: 'Isaac Sim Beginner Tutorial and First Setup'
 date: 2024-12-15
-permalink: /posts/2024/isaac-sim-first-setup
+permalink: /posts/2025/basic-network-communication-and-modes
 tags:
   - Network
   - Router
@@ -89,7 +89,7 @@ Uplinking is a crucial concept in network architecture as it facilitates scalabi
 
 ## Our Robot Swarm Network and Communication Design
 
-<img src='/images/posts/Swarm_Network_Design_and_Communication.png'>
+<img src='/images/posts/basic_network_communication_and_modes/Swarm_Network_Design_and_Communication.png'>
 
 
 
