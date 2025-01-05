@@ -1,7 +1,7 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Isaac Sim Beginner Tutorial and First Setup'
+date: 2024-12-15
+permalink: /posts/2024/12/isaac-sim-first-setup/
 tags:
   - cool posts
   - category1

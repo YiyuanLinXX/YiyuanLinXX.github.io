@@ -1,7 +1,7 @@
 ---
-title: 'Isaac Sim Beginner Tutorial and First Setup'
-date: 2024-12-15
-permalink: /posts/2025/basic-network-communication-and-modes/
+title: 'Basic Network Communication and Modes'
+date: 2025-01-05
+permalink: /posts/2025/01/basic-network-communication-and-modes/
 tags:
   - Network
   - Router
