@@ -1,6 +1,6 @@
 ---
-title: "Strawberry Nursery Robot"
-excerpt: "First Prize in 2021 ASABE Student Robotics Competition<br/><img src='/images/portfolio/MrY/Mr.Y.jpg'>"
+title: "Strawberry Nursery Robot - Mr. Y"
+excerpt: "First Prize in 2021 ASABE Student Robotics Competition<br/><img src='/images/portfolio/MrY/Mr.Y.jpg' style="zoom: 33%;>"
 collection: portfolio
 ---
 
