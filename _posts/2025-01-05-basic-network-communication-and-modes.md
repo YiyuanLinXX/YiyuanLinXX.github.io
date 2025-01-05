@@ -23,7 +23,7 @@ Routers generally support 3 primary network modes depending on the context and c
 
    - It assigns IP addresses to devices on the LAN using DHCP and performs NAT (Network Address Translation).
 
-
+<img src='/images/posts/basic_network_communication_and_modes/router_mode.png'>
 
 
 2. **Access Point (AP) Mode**:
@@ -32,6 +32,7 @@ Routers generally support 3 primary network modes depending on the context and c
 
    - The router disables its DHCP server, and devices connected to it share the main network's IP range.
 
+<img src='/images/posts/basic_network_communication_and_modes/ap_mode.png'>
    
 
 3. **Repeater/Extender Mode**:
@@ -40,6 +41,7 @@ Routers generally support 3 primary network modes depending on the context and c
 
    - It connects wirelessly to the primary router and extends its signal for better coverage.
 
+<img src='/images/posts/basic_network_communication_and_modes/repeater_mode.png'>
 
 
 
