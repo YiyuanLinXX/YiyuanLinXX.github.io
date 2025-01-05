@@ -16,6 +16,8 @@ I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell 
 - 2024/05, Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
 - 2024/02, I received the AG2PI Student Conference Travel Award.
 
+<br/>
+
 # Selected Awards
 - 2024/08, Best Chinese Cuisine Master Chef (top 1) in Geneva NY
 - 2023/08, Best Chinese Cuisine Master Chef (top 1%) in Ithaca NY
