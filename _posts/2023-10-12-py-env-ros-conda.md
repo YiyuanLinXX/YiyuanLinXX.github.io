@@ -11,12 +11,12 @@ tags:
   - Robotics
 ---
 
+---
 
+ I prioritize robotics over AI, as I find robotics more engaging. This preference leads me to install ROS/ROS2 before Anaconda whenever setting up a new Ubuntu system. For those working in both robotics and AI, it’s common to have ROS/ROS2 and Anaconda on the same device. However, this setup can lead to a tricky environment issue: ROS 2 Humble supports Python 3.10 by default, whereas Anaconda often defaults to Python 3.11. This mismatch can create compatibility problems.
 
-I have privilage on robotics as I think AI is not fun at all, so I always install ROS/ROS2 before Anaconda on a new Ubuntu system. For many people who also work on robotics and AI, it is very likely that you use ROS/ROS2 and Anaconda on the same device, especially if you install ROS/ROS2 before Anaconda like me. There is a tricky environment issue that ROS 2 Humble supports Python 3.10 by default, and if you are using Anaconda and its default Python version is 3.11, this might cause an environment issue.
+I personally encountered this issue while running Nav2 scripts and various simulations using Gazebo (classic).
 
-
-I encountered this issue when trying to run the Nav2 scripts and many simulations with Gazebo (classic).
 
 ```bash
 (base) yl3663@yiyuanlin-Desktop-CU:~$ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
