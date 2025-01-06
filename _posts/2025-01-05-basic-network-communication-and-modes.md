@@ -97,10 +97,10 @@ Uplinking is a crucial concept in network architecture as it facilitates scalabi
 
 
 
-### **Detailed Explanation of Uplinking in Your System:**
+### **Detailed Explanation of Uplinking in Our System:**
 
-1. What is Uplinking in Your System?
-   - **Uplinking** in your system refers to the connection between the **network switch** inside each robot and the **wireless router** mounted on the same robot.
+1. What is Uplinking in Our System?
+   - **Uplinking** in our system refers to the connection between the **network switch** inside each robot and the **wireless router** mounted on the same robot.
    - This uplink enables devices connected to the **switch** (e.g., GPS + IMU, low-level module, and functional modules) to communicate with external networks via the router.
    - The uplink also serves as a bridge between the **robot's internal network** (LAN) and the **central wireless network** (WAN) shared by all robots.
 
@@ -108,7 +108,7 @@ Uplinking is a crucial concept in network architecture as it facilitates scalabi
 
 
 
-### **How Uplinking Works in Your Setup:**
+### **How Uplinking Works in Our Setup:**
 
 #### **Step 1: Internal Device Communication (Robot LAN)**
 
