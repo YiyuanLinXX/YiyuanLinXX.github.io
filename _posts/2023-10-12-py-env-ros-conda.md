@@ -11,7 +11,7 @@ tags:
   - Robotics
 ---
 
----
+# 
 
  I prioritize robotics over AI, as I find robotics more engaging. This preference leads me to install ROS/ROS2 before Anaconda whenever setting up a new Ubuntu system. For those working in both robotics and AI, it’s common to have ROS/ROS2 and Anaconda on the same device. However, this setup can lead to a tricky environment issue: ROS 2 Humble supports Python 3.10 by default, whereas Anaconda often defaults to Python 3.11. This mismatch can create compatibility problems.
 
