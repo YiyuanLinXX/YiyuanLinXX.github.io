@@ -72,6 +72,6 @@ We tested the NTRIP via eduroam on  Emlid Reach RS2+ and Reach RS3 successfully.
     
 1. Connect to the rover (RS3) and enter the interface, then click `Correction input` (Figure 4a) to select the correction input method as `NTRIP`. You need to enter the NTRIP configuration information generated from the base station (RS2+) from step 4 (Figure 3c and 4b). Then the rover (RS3) should receive corrections (Figure 4c) from the base station (RS2+).
    
-    <img src='/images/posts/ntrip_via_eduroam/Figure_4_Operation_on_the_rover.png.png'>
+    <img src='/images/posts/ntrip_via_eduroam/Figure_4_Operation_on_the_rover.png'>
 
     Figure 4. Operation on the rover
