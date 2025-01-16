@@ -11,6 +11,7 @@ tags:
   - Navigation
   - Waypoint Follower
   - Swarm
+  - Robotics
 ---
 
 

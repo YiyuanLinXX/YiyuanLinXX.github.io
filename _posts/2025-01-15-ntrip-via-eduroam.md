@@ -40,7 +40,7 @@ We tested the NTRIP via eduroam on  Emlid Reach RS2+ and Reach RS3 successfully.
     
     Figure 1. Wi-Fi conection operation
     
-1. Enter the Wi-Fi network information and then click `Connect` .
+2. Enter the Wi-Fi network information and then click `Connect` .
     - Network name: `eduroam`
     - Security: `WPA Enterprise`
     - Password: <Your password for you university ID / email>
@@ -52,7 +52,7 @@ We tested the NTRIP via eduroam on  Emlid Reach RS2+ and Reach RS3 successfully.
     
     Figure 2. eduroam connection information
     
-1. Follow the instruction on your device to connect the GPS receiver to the `eduroam` Wi-Fi network. For Emlid Reach GPS receivers, you need to connect your own device (e.g. your computer or phone, which is used to connect to the GPS receiver and edit the information in the interface) to the `eduroam` Wi-Fi network. Then the GPS receiver would also connect to it.
+3. Follow the instruction on your device to connect the GPS receiver to the `eduroam` Wi-Fi network. For Emlid Reach GPS receivers, you need to connect your own device (e.g. your computer or phone, which is used to connect to the GPS receiver and edit the information in the interface) to the `eduroam` Wi-Fi network. Then the GPS receiver would also connect to it.
 
 
 
@@ -64,14 +64,19 @@ We tested the NTRIP via eduroam on  Emlid Reach RS2+ and Reach RS3 successfully.
 
 
 
-1. Connect to the base station (RS2+) and enter the interface, then click `Base output` (Figure 3a) to select the base output method as `Local NTRIP` (Figure 3b). It will automatically generate the NTRIP configuration information (Figure 3c). You probably want to write it down or make a screenshot to record this as you will need to enter these information on the rover (RS3)
+4. Connect to the base station (RS2+) and enter the interface, then click `Base output` (Figure 3a) to select the base output method as `Local NTRIP` (Figure 3b). It will automatically generate the NTRIP configuration information (Figure 3c). You probably want to write it down or make a screenshot to record this as you will need to enter these information on the rover (RS3)
    
     <img src='/images/posts/ntrip_via_eduroam/Figure_3_Operation_on_the_base_station.png'>
     
     Figure 3. Operation on the base station
     
-1. Connect to the rover (RS3) and enter the interface, then click `Correction input` (Figure 4a) to select the correction input method as `NTRIP`. You need to enter the NTRIP configuration information generated from the base station (RS2+) from step 4 (Figure 3c and 4b). Then the rover (RS3) should receive corrections (Figure 4c) from the base station (RS2+).
+5. Connect to the rover (RS3) and enter the interface, then click `Correction input` (Figure 4a) to select the correction input method as `NTRIP`. You need to enter the NTRIP configuration information generated from the base station (RS2+) from step 4 (Figure 3c and 4b). Then the rover (RS3) should receive corrections (Figure 4c) from the base station (RS2+).
    
     <img src='/images/posts/ntrip_via_eduroam/Figure_4_Operation_on_the_rover.png'>
 
     Figure 4. Operation on the rover
+
+
+For the above operations, we used local NTRIP via eduroam. We can also use NTRIP via eduroam since Emlid provides Emlid NTRIP Caster. Emlid Caster is a cloud service that implements the NTRIP protocol and acts as a line of communication between connected to the internet GNSS receivers. With Emlid Caster, you can easily transmit RTK corrections—connect your base and rover to the same mount point, an automatically generated correction stream, and start surveying.
+
+To set up RTK over Emlid NTRIP Caster, please refer to the [official guide](https://docs.emlid.com/reachrs3/rtk-quickstart/reachrs3-kit/rtk-over-emlid-ntrip-caster/).
