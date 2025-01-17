@@ -9,13 +9,13 @@ main:
     url: /publications/
 
   # - title: "Talks"
-  #   url: /talks/    
+  #   url: /talks/
+
+  - title: "Mentorship"
+    url: /mentorship/
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: "Mentorship"
-    url: /mentorship/    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -25,4 +25,3 @@ main:
     
   - title: "CV"
     url: /cv/
-    
