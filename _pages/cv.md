@@ -28,6 +28,7 @@ Work experience
 
 * 2024/08 - 2024/12: Teaching Assistant
   * School of Electrical and Computer Engineering, Cornell University
+  * Course: ECE4110 / ECE 5110 - Random Signals in Communications and Signal Processing
   * Supervisor: Dr. [Qing Zhao](https://www.ece.cornell.edu/faculty-directory/qing-zhao)
 
 * 2022/04 - 2023/04: Research Assistant
