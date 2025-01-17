@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell University. I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) at [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering at Zhejiang University. My research focuses on Robotics, Autonomous Systems, AI, and High Throughput Phenotyping.
+I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell University. I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) at [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering at Zhejiang University. My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
 
 <br/>
 
