@@ -1,7 +1,7 @@
 ---
 title: 'NTRIP and Local NTRIP via eduroam'
 date: 2025-01-07
-permalink: /posts/2025/01/basic-network-communication-and-modes/
+permalink: /posts/2025/01/ntrip-via-eduroam/
 tags:
   - GPS
   - Navigation

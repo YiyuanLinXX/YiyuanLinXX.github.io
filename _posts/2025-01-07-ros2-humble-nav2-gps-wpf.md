@@ -1,7 +1,7 @@
 ---
 title: 'How to use Nav2 GPS Waypoint Follower with ROS2 Humble'
 date: 2025-01-07
-permalink: /posts/2025/01/basic-network-communication-and-modes/
+permalink: /posts/2025/01/nav2-gps-wpf-humble/
 tags:
   - Nav2
   - ROS2
