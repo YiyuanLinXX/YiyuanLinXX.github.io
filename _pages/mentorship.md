@@ -12,8 +12,8 @@ redirect_from:
 ### Fall 2024
 - [Mridula Buragohain](https://mridulaburagohain.github.io/)
     - 2024/08 - 2024/12
-    - Undergraduate student at Indian Institute of Technology Kharagpur in Kharagpur
-    - Motion Planning on Robotics Arm
+    - Undergraduate student at Indian Institute of Technology Kharagpur
+    - Motion Planning for Robotic Arm
 
 ### Summer 2024
 - [Albert Sun](https://github.com/asun121)
@@ -23,7 +23,7 @@ redirect_from:
 
 - [Mridula Buragohain](https://mridulaburagohain.github.io/)
     - 2024/05 - 2024/08
-    - Undergraduate student at Indian Institute of Technology Kharagpur in Kharagpur
+    - Undergraduate student at Indian Institute of Technology Kharagpur
     - LLMs and VFMs for Grape Disease Segmentation and Quantification
 
 - [Owen Bates](https://github.com/okb6)
