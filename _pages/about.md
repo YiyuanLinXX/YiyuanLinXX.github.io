@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell University. I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) at [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering at Zhejiang University. My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
+
+My unparalleled emotional sponsor: Xunyu Luo
 
 <br/>
 
