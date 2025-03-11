@@ -15,7 +15,7 @@ email: yl3663@cornell.edu
 
 Education
 ======
-* Ph.D in Electrical and Computer Engineering, Cornell University, 2023-present
+* Ph.D. in Electrical and Computer Engineering, Cornell University, 2023-present
 * B.Eng. in Agriculture Engineering, Zhejiang University, 2019-2023
 
 
