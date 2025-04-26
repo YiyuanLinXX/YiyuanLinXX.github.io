@@ -9,7 +9,6 @@ tags:
   - File System
   - exFAT
 ---
-# 
 
 
 
