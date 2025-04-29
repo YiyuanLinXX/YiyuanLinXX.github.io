@@ -14,7 +14,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
 <br/>
 
 # Recent News
-- 2025/04, I passed my PhD Qualificatio Exam at Cornell ECE.
+- 2025/04, I passed my PhD Qualification Exam at Cornell ECE.
 - 2024/08, We hosted the NASA Acres leadership visiting group and demostrated our robots.[[news](https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers)]
 - 2024/05, Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
 - 2024/02, I received the AG2PI Student Conference Travel Award.
