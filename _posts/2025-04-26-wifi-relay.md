@@ -86,7 +86,7 @@ This ensures **a stable internal LAN** on each robot, while the wireless router 
 <img src='/images/posts/wifi_relay/client.png'>
 
 
-<img src='/images/images/posts/wifi_relay/zones.png'>
+<img src='/images/posts/wifi_relay/zones.png'>
 
 ## 🤖 Beyond GPS: Robust Networking for Edge Devices and Robot Swarms
 
