@@ -83,7 +83,10 @@ This ensures **a stable internal LAN** on each robot, while the wireless router 
    - **Masquerading (NAT)** should be checked for wwan interface
    - Devices on LAN/switch receive IPs and route via `192.168.4.1`
 
+<img src='/images/posts/wifi_relay/client.png'>
 
+
+<img src='/images/images/posts/wifi_relay/zones.png'>
 
 ## 🤖 Beyond GPS: Robust Networking for Edge Devices and Robot Swarms
 
@@ -148,7 +151,7 @@ With the above network infrastructure, two downstream GPS correction pipelines b
 - The architecture supports modular scalability: plug additional devices into the switch with zero reconfiguration.
 
 
-</br>
+
 
 
 This flexible relay design with RUT951 and onboard network switches has become the backbone of my field robot swarm and RTK deployments. It enables robust communication, scalable sensor integration, and swarm coordination in real-world environments.
