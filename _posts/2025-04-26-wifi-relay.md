@@ -85,7 +85,7 @@ This ensures **a stable internal LAN** on each robot, while the wireless router 
 
 
 
-### 🤖 Beyond GPS: Robust Networking for Edge Devices and Robot Swarms
+## 🤖 Beyond GPS: Robust Networking for Edge Devices and Robot Swarms
 
 While GPS receivers often struggle with weak WiFi connectivity in the field, edge computing devices (e.g., Jetson Orin, Raspberry Pi, industrial PCs) face similar challenges — especially when mounted on mobile robots operating across large outdoor environments like vineyards.
 
@@ -106,11 +106,11 @@ This architecture scales well and ensures that even if Internet access is unavai
 
 
 
-### 🛰️ RTK-GPS Application Layer
+## 🛰️ RTK-GPS Application Layer
 
 With the above network infrastructure, two downstream GPS correction pipelines become possible:
 
-#### Option 1: NTRIP Over the Internet
+### Option 1: NTRIP Over the Internet
 
 - GPS Rover connects to the wireless router AP (IP: 192.168.4.65)
 
@@ -124,7 +124,7 @@ With the above network infrastructure, two downstream GPS correction pipelines b
 
   
 
-#### Option 2: Local NTRIP (No Internet)
+### Option 2: Local NTRIP (No Internet)
 
 - GPS Base station is connected to Crittenden_South (only local network, no Internet, e.g., gets IP 192.168.50.25)
 - Runs a local NTRIP base output
@@ -139,7 +139,7 @@ With the above network infrastructure, two downstream GPS correction pipelines b
 
 
 
-### Takeaways
+## Takeaways
 
 - Separate the concerns: let the router and switch manage connectivity; sensors and GPS stay focused on their roles.
 
@@ -148,7 +148,7 @@ With the above network infrastructure, two downstream GPS correction pipelines b
 - The architecture supports modular scalability: plug additional devices into the switch with zero reconfiguration.
 
 
-
+</br>
 
 
 This flexible relay design with RUT951 and onboard network switches has become the backbone of my field robot swarm and RTK deployments. It enables robust communication, scalable sensor integration, and swarm coordination in real-world environments.
