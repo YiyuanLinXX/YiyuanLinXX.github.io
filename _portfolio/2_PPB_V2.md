@@ -4,7 +4,7 @@ excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/im
 collection: portfolio
 ---
 
-
+<img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
 <img src='/images/portfolio/PPB_V2/IMG_0394.jpeg'>
 <img src='/images/portfolio/PPB_V2/IMG_0395.jpeg'>
 <img src='/images/portfolio/PPB_V2/IMG_0397.jpeg'>
