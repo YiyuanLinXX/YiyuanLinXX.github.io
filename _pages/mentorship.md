@@ -9,6 +9,13 @@ redirect_from:
 ## Current Mentees
 
 ## Former Mentees
+
+### Summer 2025
+- [Owen Bates](https://github.com/okb6)
+    - 2025/05 - 2025/08
+    - Undergraduate student at Rochester Institute of Technology
+    - Robotics Swarm Autonomous Navigation
+
 ### Fall 2024
 - [Mridula Buragohain](https://mridulaburagohain.github.io/)
     - 2024/08 - 2024/12
