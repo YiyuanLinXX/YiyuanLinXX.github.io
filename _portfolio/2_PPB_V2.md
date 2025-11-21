@@ -11,10 +11,6 @@ PPBv2 (PhytoPatholoBot v2) is a second-generation field-deployable robotic platf
 
 The imaging suite is optimized for powdery mildew detection and canopy analysis, supporting downstream tasks such as semantic segmentation, disease quantification, and multi-date temporal phenotyping. PPBv2 has been actively used in field deployments across commercial vineyards and research plots, providing robust, consistent, and scalable data for vision-language-model (VLM) based phenotyping pipelines such as SAM-CLIP.
 
-If you want a slightly more detailed technical version (still concise)
-
-PPBv2 is a second-generation autonomous phenotyping robot equipped with:
-
 Key Feature:
 - Active illumination module (strobe-based) with fast shutter camera(s) to reduce background
 - Stereo RGB camera pair for 3D canopy reconstruction
