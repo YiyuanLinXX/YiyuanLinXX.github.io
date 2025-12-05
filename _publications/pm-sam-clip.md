@@ -8,7 +8,6 @@ excerpt: '<strong>2024 ITSC Best Paper Award</strong><br/><strong>Yiyuan Lin</st
 paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
 ---
 
-
 Citation:  2024 ASABE Annual International Meeting  2401108.(doi:10.13031/aim.202401108)
 Authors:   Yiyuan Lin, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang
 
