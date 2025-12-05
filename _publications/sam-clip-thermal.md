@@ -1,7 +1,7 @@
 ---
 title: "SAM-CLIP-Thermal: Leveraging Large Multimodal Models for Reliable and Scalable Annotation of Thermal Image Segmentation in Field Plant Phenotyping"
 collection: publications
-category: journal
+category: manuscript
 permalink: /publications/sam-clip-thermal
 excerpt: '<br/><strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang, (under review 2025)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'

@@ -1,7 +1,7 @@
 ---
 title: "Automated rice phenology stage mapping using UAV images and deep learning"
 collection: publications
-category: journal
+category: manuscript
 permalink: /publication/rice-phenology-stage-mapping
 excerpt: 'Xiangyu Lu, Jun Zhou, Rui Yang, Zhiyan Yan, <strong>Yiyuan Lin</strong>, Jie Jiao, Fei Liu, <i><strong>Drones</strong></i>, 2023'
 paperurl: 'https://www.mdpi.com/2504-446X/7/2/83'
