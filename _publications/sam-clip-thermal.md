@@ -9,7 +9,13 @@ excerpt: '<strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang, (un
 ---
 
 <!-- Citation:  2024 ASABE Annual International Meeting  2401108.(doi:10.13031/aim.202401108) -->
-Authors: Yiyuan Lin, Chenjiao Tan, Changying Li, Yu Jiang
+Authors: Yiyuan Lin^1^, Chenjiao Tan^2^, Changying Li^2^, Yu Jiang^3^
+1 School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY 14850, USA
+
+2 Department of Agricultural and Biological Engineering, Institute of Food and Agricultural Sciences, University of Florida, Gainesville, FL 32611, USA
+
+3 Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, NY 14456, USA
+
 
 **Abstract**
 
