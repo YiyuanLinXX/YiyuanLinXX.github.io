@@ -11,8 +11,6 @@ I am a Ph.D. student majoring in Electrical and Computer Engineering at Cornell 
 
 My unparalleled emotional sponsor: Xunyu Luo.
 
-<br/>
-
 <style>
 .education-section {
   margin: 2rem 0;
@@ -33,7 +31,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   margin: 0.1rem 0;  /* tighten spacing between lines */
   line-height: 1.3;
 }
-.education-details h1 {
+.education-details h3 {
   margin: 0;
   font-size: 1.1rem;
 }
@@ -45,25 +43,26 @@ My unparalleled emotional sponsor: Xunyu Luo.
 </style>
 
 <div class="education-section">
-<h2>Education</h2>
+  <h1>Education</h1>
 
-<div class="education-entry">
-  <img src="/images/logo/Cornell_logo.png" alt="Cornell University logo" class="education-logo" />
-  <div class="education-details">
-    <h3>Cornell University</h3>
-    <p class="education-dates">August 2023 – Present</p>
-    <p class="education-degree">Ph.D. in Electrical and Computer Engineering</p>
+  <div class="education-entry">
+    <img src="/images/logo/Cornell_logo.png" alt="Cornell University logo" class="education-logo" />
+    <div class="education-details">
+      <h3>Cornell University</h3>
+      <p class="education-dates">August 2023 – Present</p>
+      <p class="education-degree">Ph.D. in Electrical and Computer Engineering</p>
+    </div>
   </div>
-</div>
 
-<div class="education-entry">
-  <img src="/images/logo/ZJU_Logo.png" alt="Zhejiang University logo" class="education-logo" />
-  <div class="education-details">
-    <h3>Zhejiang University</h3>
-    <p class="education-dates">September 2019 – June 2023</p>
-    <p class="education-degree">B.Eng. in Agricultural Engineering</p>
+  <div class="education-entry">
+    <img src="/images/logo/ZJU_Logo.png" alt="Zhejiang University logo" class="education-logo" />
+    <div class="education-details">
+      <h3>Zhejiang University</h3>
+      <p class="education-dates">September 2019 – June 2023</p>
+      <p class="education-degree">B.Eng. in Agricultural Engineering</p>
+    </div>
   </div>
-</div>
+  
 </div>
 
 # Recent News
