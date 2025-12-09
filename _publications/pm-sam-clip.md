@@ -21,7 +21,11 @@ Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3<
 <sup>*</sup> Correspondence: yujiang@cornell.edu
 
 <!-- Paper URL -->
+**Publication**
+
 [Full Paper](https://elibrary.asabe.org/abstract.asp?aid=54830)
+
+---
 
 <!-- Abstract and Keyword -->
 **Abstract**
@@ -32,7 +36,7 @@ Deepening the understanding of powdery mildew (PM) and developing PM-resistant c
 
 <!-- Citation -->
 **Citation**
-```
+```bibtex
 @inproceedings{linEffectiveIntegrationVision2024,
   title = {Effective Integration of Vision Foundational Models for Semantic Segmentation to Quantify Grape Foliage Powdery Mildew Infection},
   booktitle = {2024 {{ASABE Annual International Meeting}}},
