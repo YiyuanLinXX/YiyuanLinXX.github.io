@@ -13,6 +13,57 @@ My unparalleled emotional sponsor: Xunyu Luo.
 
 <br/>
 
+<style>
+.education-section {
+  margin: 2rem 0;
+  padding-top: 0.5rem;
+}
+.education-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.education-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+.education-details h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.education-dates,
+.education-degree {
+  margin: 0.15rem 0;
+  color: #555;
+}
+</style>
+
+<div class="education-section">
+<h2>Education</h2>
+
+<div class="education-entry">
+  <img src="/images/logo/Cornell_logo.png" alt="Cornell University logo" class="education-logo" />
+  <div class="education-details">
+    <h3>Cornell University</h3>
+    <p class="education-dates">August 2023 – Present</p>
+    <p class="education-degree">Ph.D. in Electrical and Computer Engineering</p>
+  </div>
+</div>
+
+<div class="education-entry">
+  <img src="/images/logo/ZJU_Logo.png" alt="Zhejiang University logo" class="education-logo" />
+  <div class="education-details">
+    <h3>Zhejiang University</h3>
+    <p class="education-dates">September 2019 – June 2023</p>
+    <p class="education-degree">B.Eng. in Agricultural Engineering</p>
+  </div>
+</div>
+</div>
+
+<br/>
+
 # Recent News
 - 2025/04, I passed my PhD Qualification Exam at Cornell ECE.
 - 2024/08, We hosted the NASA Acres leadership visiting group and demostrated our robots.[[news](https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers)]
