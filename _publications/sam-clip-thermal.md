@@ -6,6 +6,7 @@ permalink: /publications/sam-clip-thermal
 excerpt: '<strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang, Computers and Electronics in Agriculture (under review), 2025'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
+date: 2025-12-04
 ---
 
 <!-- Citation:  2024 ASABE Annual International Meeting  2401108.(doi:10.13031/aim.202401108) -->
