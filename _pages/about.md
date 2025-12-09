@@ -29,7 +29,11 @@ My unparalleled emotional sponsor: Xunyu Luo.
   object-fit: contain;
   margin-right: 1rem;
 }
-.education-details h3 {
+.education-details p {
+  margin: 0.1rem 0;  /* tighten spacing between lines */
+  line-height: 1.3;
+}
+.education-details h1 {
   margin: 0;
   font-size: 1.1rem;
 }
@@ -61,8 +65,6 @@ My unparalleled emotional sponsor: Xunyu Luo.
   </div>
 </div>
 </div>
-
-<br/>
 
 # Recent News
 - 2025/04, I passed my PhD Qualification Exam at Cornell ECE.
