@@ -3,7 +3,7 @@ title: "DATR: Diffusion-based 3D Apple Tree Reconstruction Framework with Sparse
 collection: publications
 category: manuscripts
 permalink: /publications/datr
-excerpt: 'Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang, <i><strong>IEEE Robotics and Automation Letters (RA-L)</strong></i>, 2025'
+excerpt: "Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang, <i><strong>IEEE Robotics and Automation Letters (RA-L)</strong></i>, 2025<br/><img src='/images/publications/datr.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2508.19508#:~:text=This%20study%20developed%20a%20two-stage%20framework%20%28DATR%29%20for,semi-automatically%20generate%20tree%20masks%20from%20complex%20field%20images.'
 date: 2025-08-27

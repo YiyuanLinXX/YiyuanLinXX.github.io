@@ -3,7 +3,7 @@ title: "SAM-CLIP-Thermal: Leveraging Large Multimodal Models for Reliable and Sc
 collection: publications
 category: manuscripts
 permalink: /publications/sam-clip-thermal
-excerpt: '<strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang, <i><strong>Computers and Electronics in Agriculture</strong></i> (under review), 2025'
+excerpt: "<strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang, <i><strong>Computers and Electronics in Agriculture</strong></i> (under review), 2025<br/><img src='/images/publications/sam_clip_gigascience.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
 date: 2025-12-04
