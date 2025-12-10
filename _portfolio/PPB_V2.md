@@ -1,5 +1,5 @@
 ---
-title: "PhytoPatholoBot V2 - PPB-Amiga"
+title: "PhytoPatholoBot V2 - PPBv2"
 excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif'>"
 collection: robot
 permalink: /robots/ppbv2
@@ -12,7 +12,7 @@ date: 2025-05-01
 
 ## Overview
 
-PPBv2 (PhytoPatholoBot v2) is a second-generation field-deployable robotic platform designed for high-throughput phenotyping in specialty crops. Built on a compact mobile base and integrated with an active illumination system, PPBv2 captures synchronized structured-light RGB stereo imagery under controlled lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
+PhytoPatholoBot v2 (PPBv2) is a second-generation field-deployable robotic platform designed for high-throughput phenotyping in specialty crops. Built on a compact mobile base and integrated with an active illumination system, PPBv2 captures synchronized structured-light RGB stereo imagery under controlled lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
 The imaging system is optimized for powdery mildew detection and canopy analysis, supporting downstream tasks such as semantic segmentation, disease quantification, and multi-date temporal phenotyping. PPBv2 has been actively used in field deployments across commercial vineyards and research plots, providing robust, consistent, and scalable data for vision-language-model (VLM) based phenotyping pipelines such as [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP).
 

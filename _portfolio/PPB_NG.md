@@ -10,7 +10,7 @@ date: 2025-07-29
 
 ## Overview
 
-PPB-NG (PhytoPatholoBot Next Generation) is a field-deployable multi-modal robotic platform designed for high-throughput phenotyping in specialty crops. The system is built on a compact mobile base and integrates two hyperspectral cameras, one thermal camera, and one RGB camera, enabling synchronized acquisition of hyperspectral, thermal, and RGB imagery under natural and uncontrolled field lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
+PhytoPatholoBot Next Generation (PPB-NG) is a field-deployable multi-modal robotic platform designed for high-throughput phenotyping in specialty crops. The system is built on a compact mobile base and integrates two hyperspectral cameras, one thermal camera, and one RGB camera, enabling synchronized acquisition of hyperspectral, thermal, and RGB imagery under natural and uncontrolled field lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
 **Key Features:**
 - Multi-source sensing and multi-modal phenotyping for comprehensive canopy and disease characterization
