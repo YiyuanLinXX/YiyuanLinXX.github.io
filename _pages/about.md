@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://www.engineering.cornell.edu/ece/) at [Cornell University](https://www.cornell.edu/). I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) in the [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering from [Zhejiang University](https://www.zju.edu.cn/english/)([浙江大学](https://www.zju.edu.cn/)), where I was supervised by Dr. [Fei Liu](https://person.zju.edu.cn/en/liufei) at the iGE Lab for my thesis, and Dr. [Yanjun Cao](https://yanjundream.github.io/author/yanjun-cao-%E6%9B%B9%E7%87%95%E5%86%9B/), and Dr. [Fei Gao](https://yanjundream.github.io/author/fei-gao-%E9%AB%98%E9%A3%9E/) at the [FAST Lab](https://yanjundream.github.io/) of [Huzhou Institute of Zhejiang University](http://hzi.zju.edu.cn/site/main) for my research intern. My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
+I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://www.engineering.cornell.edu/ece/) at [Cornell University](https://www.cornell.edu/). I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) in the [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering from [Zhejiang University](https://www.zju.edu.cn/english/) ([浙江大学](https://www.zju.edu.cn/)), where I was supervised by Dr. [Fei Liu](https://person.zju.edu.cn/en/liufei) at the iGE Lab for my thesis, and Dr. [Yanjun Cao](https://yanjundream.github.io/author/yanjun-cao-%E6%9B%B9%E7%87%95%E5%86%9B/), and Dr. [Fei Gao](https://yanjundream.github.io/author/fei-gao-%E9%AB%98%E9%A3%9E/) at the [FAST Lab](https://yanjundream.github.io/) of [Huzhou Institute of Zhejiang University](http://hzi.zju.edu.cn/site/main) for my research intern. My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
 
 My unparalleled emotional sponsor: Xunyu Luo.
 
@@ -92,26 +92,27 @@ My unparalleled emotional sponsor: Xunyu Luo.
 - 2025/07 — The [PPB-NG](https://yiyuanlinxx.github.io/robots/ppbng) prototype robot was deployed in the field at Cornell AgriTech to perform synchronized data collection with NASA JPL's [AVIRIS](https://aviris.jpl.nasa.gov/) mission. [[news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp)] [[news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/)] [[news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#)] [[news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)]
 - 2025/04 — I passed my PhD Qualification Exam at Cornell ECE.
 - 2024/08 — We hosted the NASA Acres leadership visiting group and demostrated our robots.[[news](https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers)]
-- 2024/05, Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
+- 2024/05 — Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
 - 2024/02 — I received the AG2PI Student Conference Travel Award.
 
-<br/>
 
 <div class="robots-section">
-  <h1>Robots</h1>
+  <h1>Selected Robots</h1>
 
   <div class="robots-grid">
     <div class="robot-card">
       <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" />
       <a class="robot-name" href="/robots/ppbng">PhytoPatholoBot Next Generation (PPB-NG)</a>
     </div>
-
     <div class="robot-card">
       <img src="/images/portfolio/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" />
       <a class="robot-name" href="/robots/ppbv2">PhytoPatholoBot v2 (PPBv2)</a>
     </div>
   </div>
 </div>
+
+Check more robots [here](/robots/)!
+<br/>
 
 # Selected Awards
 - 2024/08, Best Chinese Cuisine Master Chef (top 1) in Geneva NY
