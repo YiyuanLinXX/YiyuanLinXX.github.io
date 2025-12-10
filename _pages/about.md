@@ -87,7 +87,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   
 </div>
 
-# Recent News
+# News
 - 2025/09 — Two [PPBv2](https://yiyuanlinxx.github.io/robots/ppbv2) robots were successfully deployed in more than 15 vineyards across the Finger Lakes region from May through Oct 2025. The same imaging systems on them were also mounted on ATVs and deployed at Cornell AgriTech, UMN, SDSU, USDA-ARS (Parlier CA) and USDA-AFRS (Kearneysville WV). In each vineyard, the robots/imaging systems operated weekly in the field, collecting over 7TB of imagery data for downstream research. [[news 1](https://news.cornell.edu/stories/2025/09/robot-matches-humans-scouting-vineyard-diseases)] [[news 2](https://vitisgen3.umn.edu/phytopatholobots-deployed-two-vitisgen3-sites)] [[news 3](https://www.instagram.com/reel/C9ftnvhS8cI/?igsh=MXV0NjgzeWFoY3RrOQ%3D%3D)]
 - 2025/07 — The [PPB-NG](https://yiyuanlinxx.github.io/robots/ppbng) prototype robot was deployed in the field at Cornell AgriTech to perform synchronized data collection with NASA JPL's [AVIRIS](https://aviris.jpl.nasa.gov/) mission. [[news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp)] [[news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/)] [[news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#)] [[news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)]
 - 2025/04 — I passed my PhD Qualification Exam at Cornell ECE.
