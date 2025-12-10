@@ -1,12 +1,14 @@
 ---
 title: "PhytoPatholoBot Next Generation - PPB-NG"
-excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/portfolio/PPB_NG/ppbng_ver1_2025.jpeg'>"
+excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>"
 collection: robot
 permalink: /robots/ppbng
 date: 2025-07-29
 ---
 
 > The PPB-NG codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPB-NG) (under construction).
+
+<img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>
 
 ## Overview
 

@@ -7,36 +7,43 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://www.engineering.cornell.edu/ece/) at [Cornell University](https://www.cornell.edu/). I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) in the [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering from [Zhejiang University](https://www.zju.edu.cn/english/)([浙江大学](https://www.zju.edu.cn/)), where I was supervised by Dr. [Fei Liu](https://person.zju.edu.cn/en/liufei) at the iGE Lab, and Dr. [Yanjun Cao](https://yanjundream.github.io/author/yanjun-cao-%E6%9B%B9%E7%87%95%E5%86%9B/), and Dr. [Fei Gao](https://yanjundream.github.io/author/fei-gao-%E9%AB%98%E9%A3%9E/) at the [FAST Lab](https://yanjundream.github.io/) of [Huzhou Institute of Zhejiang University](http://hzi.zju.edu.cn/site/main). My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
+I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://www.engineering.cornell.edu/ece/) at [Cornell University](https://www.cornell.edu/). I am fortunate to be mentored by Dr. [Yu Jiang](https://cals.cornell.edu/yu-jiang) in the [CAIR Lab](https://cair.cals.cornell.edu/). Prior to joining Cornell, I earned my B.Eng degree in Agriculture Engineering from [Zhejiang University](https://www.zju.edu.cn/english/)([浙江大学](https://www.zju.edu.cn/)), where I was supervised by Dr. [Fei Liu](https://person.zju.edu.cn/en/liufei) at the iGE Lab for my thesis, and Dr. [Yanjun Cao](https://yanjundream.github.io/author/yanjun-cao-%E6%9B%B9%E7%87%95%E5%86%9B/), and Dr. [Fei Gao](https://yanjundream.github.io/author/fei-gao-%E9%AB%98%E9%A3%9E/) at the [FAST Lab](https://yanjundream.github.io/) of [Huzhou Institute of Zhejiang University](http://hzi.zju.edu.cn/site/main) for my research intern. My research focuses on Robotics, Autonomous Systems, AI, and High-throughput Phenotyping.
 
 My unparalleled emotional sponsor: Xunyu Luo.
 
 <style>
-.education-section {
+.education-section,
+.robots-section {
   margin: 2rem 0;
   padding-top: 0.5rem;
 }
-.education-entry {
+.education-entry,
+.robot-entry {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-.education-logo {
+.education-logo,
+.robot-logo {
   width: 72px;
   height: 72px;
   object-fit: contain;
   margin-right: 1rem;
 }
-.education-details p {
+.education-details p,
+.robot-details p {
   margin: 0.1rem 0;  /* tighten spacing between lines */
   line-height: 1.3;
 }
-.education-details h3 {
+.education-details h3,
+.robot-details h3 {
   margin: 0;
   font-size: 1.1rem;
 }
 .education-dates,
-.education-degree {
+.education-degree,
+.robot-dates,
+.robot-role {
   margin: 0.15rem 0;
   color: #555;
 }
@@ -74,6 +81,28 @@ My unparalleled emotional sponsor: Xunyu Luo.
 - 2024/02 — I received the AG2PI Student Conference Travel Award.
 
 <br/>
+
+<div class="robots-section">
+  <h1>Robots</h1>
+
+  <div class="robot-entry">
+    <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" class="robot-logo" />
+    <div class="robot-details">
+      <h3><a href="/robots/ppbng">PhytoPatholoBot Next Generation (PPB-NG)</a></h3>
+      <p class="robot-dates">2025 – Present</p>
+      <p class="robot-role">Lead developer for multi-modal hyperspectral/thermal/RGB field phenotyping platform.</p>
+    </div>
+  </div>
+
+  <div class="robot-entry">
+    <img src="/images/portfolio/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" class="robot-logo" />
+    <div class="robot-details">
+      <h3><a href="/robots/ppbv2">PhytoPatholoBot v2 (PPBv2)</a></h3>
+      <p class="robot-dates">2024 – Present</p>
+      <p class="robot-role">Co-designer for dual-sided active-illumination phenotyping robot deployed across vineyards.</p>
+    </div>
+  </div>
+</div>
 
 # Selected Awards
 - 2024/08, Best Chinese Cuisine Master Chef (top 1) in Geneva NY
