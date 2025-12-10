@@ -1,11 +1,14 @@
 ---
 title: "PhytoPatholoBot V2 - PPB-Amiga"
-excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif'> <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif'>"
+excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif'>"
 collection: portfolio
 ---
 
 > The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPBv2).
+
 <img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif'>
+
+## Overview
 
 PPBv2 (PhytoPatholoBot v2) is a second-generation field-deployable robotic platform designed for high-throughput phenotyping in specialty crops. Built on a compact mobile base and integrated with an active illumination system, PPBv2 captures synchronized structured-light RGB stereo imagery under controlled lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
@@ -18,8 +21,11 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
-
+# PPBv2 2025 Edition
 <img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
+
+# PPBv2 2024 Edition
+<img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif'> <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif'>
 
 <img src='/images/portfolio/PPB_V2/IMG_0394.jpeg'>
 
