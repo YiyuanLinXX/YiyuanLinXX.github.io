@@ -3,6 +3,7 @@ title: "PhytoPatholoBot V2 - PPB-Amiga"
 excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif'>"
 collection: robot
 permalink: /robots/ppbv2
+date: 2025-05-01
 ---
 
 > The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPBv2).

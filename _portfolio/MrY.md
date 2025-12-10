@@ -2,6 +2,8 @@
 title: "Strawberry Nursery Robot - Mr. Y"
 excerpt: "First Prize in 2021 ASABE Student Robotics Competition<br/><img src='/images/portfolio/MrY/Mr.Y.jpg'>"
 collection: portfolio
+permalink: /robots/mry
+date: 2021-07-01
 ---
 
 A strawberry nursery robot developed by Team Qizhen Lakers from the Agricultural Robotics Club(ARC) of Zhejiang University(ZJU), which is awarded 2nd Place (Best Electronic Presentation) in the Standard Division of the 2021 ASABE Robotics Competition
