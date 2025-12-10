@@ -17,35 +17,50 @@ My unparalleled emotional sponsor: Xunyu Luo.
   margin: 2rem 0;
   padding-top: 0.5rem;
 }
-.education-entry,
-.robot-entry {
+.education-entry {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-.education-logo,
-.robot-logo {
+.education-logo {
   width: 72px;
   height: 72px;
   object-fit: contain;
   margin-right: 1rem;
 }
-.education-details p,
-.robot-details p {
+.education-details p {
   margin: 0.1rem 0;  /* tighten spacing between lines */
   line-height: 1.3;
 }
-.education-details h3,
-.robot-details h3 {
+.education-details h3 {
   margin: 0;
   font-size: 1.1rem;
 }
 .education-dates,
-.education-degree,
-.robot-dates,
-.robot-role {
+.education-degree {
   margin: 0.15rem 0;
   color: #555;
+}
+
+.robots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.robot-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.robot-name {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 </style>
 
@@ -85,21 +100,15 @@ My unparalleled emotional sponsor: Xunyu Luo.
 <div class="robots-section">
   <h1>Robots</h1>
 
-  <div class="robot-entry">
-    <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" class="robot-logo" />
-    <div class="robot-details">
-      <h3><a href="/robots/ppbng">PhytoPatholoBot Next Generation (PPB-NG)</a></h3>
-      <p class="robot-dates">2025 – Present</p>
-      <p class="robot-role">Lead developer for multi-modal hyperspectral/thermal/RGB field phenotyping platform.</p>
+  <div class="robots-grid">
+    <div class="robot-card">
+      <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" />
+      <a class="robot-name" href="/robots/ppbng">PhytoPatholoBot Next Generation (PPB-NG)</a>
     </div>
-  </div>
 
-  <div class="robot-entry">
-    <img src="/images/portfolio/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" class="robot-logo" />
-    <div class="robot-details">
-      <h3><a href="/robots/ppbv2">PhytoPatholoBot v2 (PPBv2)</a></h3>
-      <p class="robot-dates">2024 – Present</p>
-      <p class="robot-role">Co-designer for dual-sided active-illumination phenotyping robot deployed across vineyards.</p>
+    <div class="robot-card">
+      <img src="/images/portfolio/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" />
+      <a class="robot-name" href="/robots/ppbv2">PhytoPatholoBot v2 (PPBv2)</a>
     </div>
   </div>
 </div>
