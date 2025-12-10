@@ -10,7 +10,7 @@ date: 2025-12-04
 ---
 
 <!-- Authors -->
-Authors: Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,*</sup>, Yu Jiang<sup>3,*</sup>
+Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,*</sup>, Yu Jiang<sup>3,*</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY 14850, USA<br/>
