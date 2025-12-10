@@ -31,7 +31,7 @@ The platform is fully ROS2-integrated and designed for rugged outdoor operation 
 
 # PPBv2 2024 Edition
 
-<img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif' width="100%"> <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif' width="100%">
+<img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif' width="50%"> <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif' width="50%">
 
 <img src='/images/portfolio/PPB_V2/IMG_0394.jpeg'>
 
