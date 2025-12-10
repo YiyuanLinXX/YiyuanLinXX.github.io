@@ -106,6 +106,8 @@ My unparalleled emotional sponsor: Xunyu Luo.
 <div class="robots-section">
   <h1>Selected Robots</h1>
 
+ <strong>Explore more robots designed and built by me [here](/robots/)!</strong>
+
   <div class="robots-grid">
     <div class="robot-card">
       <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" />
@@ -118,7 +120,6 @@ My unparalleled emotional sponsor: Xunyu Luo.
   </div>
 </div>
 
-**Explore more robots designed and built by me [here](/robots/)!**
 
 <br/>
 
