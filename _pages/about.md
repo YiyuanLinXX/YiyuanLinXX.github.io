@@ -92,8 +92,15 @@ My unparalleled emotional sponsor: Xunyu Luo.
 - 2025/07 — The [PPB-NG](https://yiyuanlinxx.github.io/robots/ppbng) prototype robot was deployed in the field at Cornell AgriTech to perform synchronized data collection with NASA JPL's [AVIRIS](https://aviris.jpl.nasa.gov/) mission. [[news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp)] [[news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/)] [[news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#)] [[news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)]
 - 2025/04 — I passed my PhD Qualification Exam at Cornell ECE.
 - 2024/08 — We hosted the NASA Acres leadership visiting group and demostrated our robots.[[news](https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers)]
-- 2024/05 — Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
-- 2024/02 — I received the AG2PI Student Conference Travel Award.
+- 2024/05 — Our paper, ***Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection***, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
+
+<details>
+  <summary><strong>Past News</strong></summary>
+  <ul>
+    <li>2024/02 — I received the AG2PI Student Conference Travel Award.</li>
+    <li>2023/06 — I graduated from Zhejiang University, with deep gratitude for the experience and memories that will last a lifetime. </li>
+  </ul>
+</details>
 
 
 <div class="robots-section">
