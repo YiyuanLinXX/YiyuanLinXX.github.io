@@ -106,7 +106,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
 <div class="robots-section">
   <h1>Selected Robots</h1>
 
- <strong>Explore more robots designed and built by me [here](/robots/)!</strong>
+<strong>Explore more robots designed and built by me <a href="/robots/">here</a>!</strong>
 
   <div class="robots-grid">
     <div class="robot-card">
