@@ -4,7 +4,7 @@ excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/po
 collection: portfolio
 ---
 
-> The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPB-NG) (under construction).
+> The PPB-NG codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPB-NG) (under construction).
 
 ## Overview
 
