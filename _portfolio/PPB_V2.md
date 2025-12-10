@@ -23,6 +23,9 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
+## Collected Sample Data
+<img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
+
 # PPBv2 2025 Edition
 <img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
 

@@ -28,6 +28,9 @@ The entire system is natively integrated within ROS2 and is engineered for rugge
 
 <img src='/images/portfolio/PPB_NG/ppbng_ver1_2025_2.jpeg'>
 
+## Collected Sample Data
+<img src='/images/portfolio/PPB_NG/ppbng_sample_data.png'>
+
 ## Modular Design
 <img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20250804.png'>
 
