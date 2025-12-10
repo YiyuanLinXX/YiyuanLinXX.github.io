@@ -66,6 +66,8 @@ My unparalleled emotional sponsor: Xunyu Luo.
 </div>
 
 # Recent News
+- 2025/09, two [PPBv2](https://yiyuanlinxx.github.io/robot/2_PPB_V2/) robots have been deployed in more than 10 vineyards across Finger Lakes region from May to Oct 2025, and its imaging system has been deployed in Cornell AgriTech, UMN, SDSU, USDA-ARS, Parlier CA,  USDA-AFRS, Kearneysville WV successfully. For each vineyard, the robot/imaging system run in the field weekly and collected more than 500GB imagery data for downstream study.
+- 2025/07, the [PPB-NG](https://yiyuanlinxx.github.io/robot/1_PPB_NG/) prototype robot was deployed in the field to synchronize with NASA JPL [AVIRIS](https://aviris.jpl.nasa.gov/). [news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp) [news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/) [news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#) [news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)
 - 2025/04, I passed my PhD Qualification Exam at Cornell ECE.
 - 2024/08, We hosted the NASA Acres leadership visiting group and demostrated our robots.[[news](https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers)]
 - 2024/05, Our paper, *Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection*, received the ITSC Best Paper Award at ASABE 2024 AIM. [[news](https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards)]
