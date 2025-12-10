@@ -6,17 +6,17 @@ collection: portfolio
 
 > The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPB-NG) (under construction).
 
-PPB-NG (PhytoPatholoBot Next Generation) is a field-deployable multi-modal robotic system designed for high-throughput phenotyping in specialty crops. Built on a compact mobile base and integrated with 2 hyper-spectral cameras, 1 thermal camera and 1 RGB camera, PPBNG captures synchronized hyper-specetral images, thermal images and RGB images under uncontrolled field lighting conditions. The robot is equipped with GPS-synchronized data logging and real-time navigation, enabling centimeter-level localization and geo-referenced data alignment in vineyard environments.
+## Overview
 
-Key Feature:
-- Multi source data fusion and multi-modal phenotyping
-- RTK-GPS + IMU for autonomous navigation and precise georeferencing of each image frame
+PPB-NG (PhytoPatholoBot Next Generation) is a field-deployable multi-modal robotic platform designed for high-throughput phenotyping in specialty crops. The system is built on a compact mobile base and integrates two hyperspectral cameras, one thermal camera, and one RGB camera, enabling synchronized acquisition of hyperspectral, thermal, and RGB imagery under natural and uncontrolled field lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
-The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPB-NG enables scalable, objective, and repeatable field phenotyping studies.
+**Key Features:**
+- Multi-source sensing and multi-modal phenotyping for comprehensive canopy and disease characterization
+- RTK-GPS and IMU for autonomous navigation and accurate geo-referencing of all collected imagery
+
+The entire system is natively integrated within ROS2 and is engineered for rugged outdoor operation in vineyards. The data collected by PPB-NG enables scalable, objective, and repeatable field phenotyping studies at large spatial and temporal scales.
 
 **We are currently optimizing the PPB-NG and trying to release the upgraded version asap, please stay tuned!**
-
-## Overview
 
 <img src='/images/portfolio/PPB_NG/PPBNG_Annotation_new.png'>
 
