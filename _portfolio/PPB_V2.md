@@ -10,7 +10,7 @@ date: 2025-05-01
 
 <img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif' width="100%">
 
-## Overview
+# Overview
 
 PhytoPatholoBot v2 (PPBv2) is a second-generation field-deployable robotic platform designed for high-throughput phenotyping in specialty crops. Built on a compact mobile base and integrated with an active illumination system, PPBv2 captures synchronized structured-light RGB stereo imagery under controlled lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
@@ -23,7 +23,7 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
-## Collected Sample Data
+# Collected Sample Data
 <img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
 
 # PPBv2 2025 Edition

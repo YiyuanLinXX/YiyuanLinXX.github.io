@@ -10,7 +10,7 @@ date: 2025-07-29
 
 <img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>
 
-## Overview
+# Overview
 
 PhytoPatholoBot Next Generation (PPB-NG) is a field-deployable multi-modal robotic platform designed for high-throughput phenotyping in specialty crops. The system is built on a compact mobile base and integrates two hyperspectral cameras, one thermal camera, and one RGB camera, enabling synchronized acquisition of hyperspectral, thermal, and RGB imagery under natural and uncontrolled field lighting conditions. The robot supports real-time navigation and GPS-synchronized data logging, providing centimeter-level localization and precise geo-referencing of every image frame in vineyard environments.
 
@@ -28,11 +28,11 @@ The entire system is natively integrated within ROS2 and is engineered for rugge
 
 <img src='/images/portfolio/PPB_NG/ppbng_ver1_2025_2.jpeg'>
 
-## Collected Sample Data
+# Collected Sample Data
 <img src='/images/portfolio/PPB_NG/ppbng_sample_data.png'>
 
-## Modular Design
+# Modular Design
 <img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20250804.png'>
 
-## Power Design
+# Power Design
 <img src='/images/portfolio/PPB_NG/PPB_NG_Power_System_20251210.png'>
