@@ -8,7 +8,7 @@ date: 2025-05-01
 
 > The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPBv2).
 
-<img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif' width="100%>
+<img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif' width="100%">
 
 ## Overview
 
