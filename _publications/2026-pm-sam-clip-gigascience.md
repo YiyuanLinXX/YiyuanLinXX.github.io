@@ -21,7 +21,7 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 <sup>*</sup> Corresponding authors.
 
 
-[[**`Paper`**]()] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)] [[**`BibTex`**]()]
+[[**`Paper`**]] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
 
 <!-- Paper URL -->
 ### Publication
