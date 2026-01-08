@@ -20,21 +20,21 @@ Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,*</
 <sup>*</sup> Corresponding authors.
 
 <!-- Paper URL -->
-**Publication**
+### Publication
 
 Paper is currently under review and will be released once published.
 
 ---
 
 <!-- Abstract and Keyword -->
-**Abstract**
+### Abstract
 
 Thermal imaging enables non-invasive assessment of canopy temperature an essential indicator of plant stresses, yet the lack of color cues and strong shadow interference makes plant segmentation in thermal images difficult. Recent advances in foundation models have demonstrated improved performance and generalizability across applications, showing promises to domain applications with limited annotated datasets such as plant segmentation in thermal images. This study investigates large multimodal models (LMMs) for thermal image segmentation in plant phenotyping. Building upon the SAM-CLIP framework, we design a unified pipeline spanning zero-shot inference, few-shot and low-shot fine-tuning, and active learning to maximize accuracy with minimal supervision. Evaluations on two thermal datasets, LadyBird Brassica and UGA Brassica, demonstrate robust performance after minimal adaptation across both datasets and superior performance over conventional baselines, achieving mIoU^D^ values of 97.54% on LadyBird dataset and 76.94% on UGA dataset. We also release the resulting thermal segmentation annotations to support community benchmarking and reproducible research, highlighting the potential of LMMs to enable scalable, high quality dataset construction for field phenotyping. The released datasets can be found at: [https://cornell.box.com/s/dh69xf84464yrc1vlws92l1tflx7qa89](https://cornell.box.com/s/dh69xf84464yrc1vlws92l1tflx7qa89).
 
 **Keywords**: thermal image segmentation; large multimodal models; SAM; CLIP; transfer learning; dataset
 
 <!-- Citation -->
-**Citation**
+### Citation
 ```bibtex
 TODO
 ```

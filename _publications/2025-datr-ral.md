@@ -20,15 +20,15 @@ Tian Qiu<sup>1</sup>, Alan Zoubi<sup>2</sup>, Yiyuan Lin<sup>1</sup>, Ruiming Du
 <sup>5</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, USA<br/>
 <sup>*</sup> Corresponding authors.
 
-[[**`Paper`**](https://arxiv.org/abs/2508.19508#:~:text=This%20study%20developed%20a%20two-stage%20framework%20%28DATR%29%20for,semi-automatically%20generate%20tree%20masks%20from%20complex%20field%20images.)] [[**`Codebase`**](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)] [[**`BibTex`**](### Citation)]
+[[**`Paper`**](https://arxiv.org/abs/2508.19508#:~:text=This%20study%20developed%20a%20two-stage%20framework%20%28DATR%29%20for,semi-automatically%20generate%20tree%20masks%20from%20complex%20field%20images.)] [[**`Codebase`**](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)]
 
 <!-- Paper URL -->
-**Publication**
+### Publication
+Please find the manuscript here: [Preprint](https://arxiv.org/abs/2508.19508#:~:text=This%20study%20developed%20a%20two-stage%20framework%20%28DATR%29%20for,semi-automatically%20generate%20tree%20masks%20from%20complex%20field%20images.)
 
-[Preprint](https://arxiv.org/abs/2508.19508#:~:text=This%20study%20developed%20a%20two-stage%20framework%20%28DATR%29%20for,semi-automatically%20generate%20tree%20masks%20from%20complex%20field%20images.)
-
-**Codebase**
+### Codebase
 The codebase for this work is open source and public available at [DATR](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)
+
 ---
 
 <!-- Abstract and Keyword -->

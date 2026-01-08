@@ -24,22 +24,21 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 [[**`Paper`**]()] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)] [[**`BibTex`**]()]
 
 <!-- Paper URL -->
-**Publication**
-
+### Publication
 Paper is currently under review and will be released once published.
 
-**Codebase**
+### Codebase
 
 The codebase for this work is open source and public available at [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP).
 
-**Dataset**
+### Dataset
 
 The data for this work is open source and public available at [PM-SAM-CLIP_GigaScience](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1).
 
 ---
 
 <!-- Abstract and Keyword -->
-**Abstract**
+### Abstract
 
 Powdery mildew is a major fungal disease of grapevines, yet its field quantification remains constrained by subjective visual assessments, inconsistent scoring protocols, and the high cost of annotated datasets. Large multi-modal models that integrate vision and language offer new opportunities for scalable phenotyping, but applying them to agricultural imagery is challenging due to subtle symptoms and domain shifts across environments. This study presents an automated phenotyping pipeline that combines active illumination imaging with a unified Segment Anything Model-Contrastive Language-Image Pretraining (SAM-CLIP) framework for powdery mildew segmentation and vine-level severity quantification.
 
@@ -52,7 +51,7 @@ Overall, this work demonstrates that large multi-modal models adapted through vi
 **Keywords**: Large multi-modal model; foundation model; grape powdery mildew; high-throughput phenotyping; semantic segmentation; SAM; CLIP; QTL analysis; precision viticulture;
 
 <!-- Citation -->
-**Citation**
+### Citation
 ```bibtex
 TODO
 ```
