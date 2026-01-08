@@ -2,7 +2,7 @@
 title: "Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection"
 collection: publications
 category: conferences
-permalink: /publications/pm-sam-clip
+permalink: /publications/pm-sam-clip-2024-asabe
 excerpt: "<strong>2024 ITSC Best Paper Award</strong><br/><strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang, <i><strong>ASABE Annual International Meeting</strong></i>, 2024<br/><img src='/images/publications/pm_sam_clip_asabe.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
