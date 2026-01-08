@@ -26,9 +26,11 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 Paper is currently under review and will be released once published.
 
 **Codebase**
+
 The codebase for this work is open source and public available at [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP).
 
 **Dataset**
+
 The data for this work is open source and public available at [PM-SAM-CLIP_GigaScience](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1).
 
 ---
