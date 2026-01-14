@@ -3,7 +3,7 @@ title: "Integrating Large Multi-Modal Models for Automated Powdery Mildew Phenot
 collection: publications
 category: manuscripts
 permalink: /publications/sam-clip
-excerpt: "<strong>Yiyuan Lin</strong>, Zachary Dashner, Ana Jimenez, Dustin Wilkerson, Lance Cadle-Davidson, Summaira Riaz, Yu Jiang, <i><strong>GigaScience</strong></i> (under review), 2026<br/><img src='/images/publications/sam_clip_gigascience.png'>"
+excerpt: "<strong>Yiyuan Lin</strong>, Zachary Dashner, Ana Jimenez, Dustin Wilkerson, Lance Cadle-Davidson, Summaira Riaz, Yu Jiang, <i><strong>Artificial Intelligence in Agriculture</strong></i> (under review), 2026<br/><img src='/images/publications/sam_clip_gigascience.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
 date: 2026-01-08
@@ -33,7 +33,7 @@ The codebase for this work is open source and public available at [SAM-CLIP](htt
 
 ### Dataset
 
-The data for this work is open source and public available at [PM-SAM-CLIP_GigaScience](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1).
+The data for this work is open source and public available at [PM-SAM-CLIP_AI_in_Ag](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1).
 
 ---
 
