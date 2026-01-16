@@ -12,6 +12,9 @@ tags:
   - Network
 ---
 
+High-precision GNSS positioning in robotic systems often relies on RTK corrections delivered through NTRIP. In many academic or campus environments, however, dedicated cellular modems or open local networks are not always available, and the only stable wireless infrastructure may be an enterprise Wi-Fi network such as eduroam.
+
+This post documents a practical workflow for running both standard NTRIP and local NTRIP over eduroam using Emlid Reach GNSS receivers. The focus is on non-GUI devices, authentication constraints imposed by enterprise Wi-Fi, and the configuration details required to make base and rover communication work reliably in real deployments. The goal is to provide a reproducible reference for robotics and swarm navigation setups that operate within university-managed networks.
 
 ## Terms
 

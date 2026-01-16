@@ -12,7 +12,9 @@ tags:
   - BTDF
 ---
 
+Isaac Sim is a physics-based robotics simulation platform built on NVIDIA Omniverse, and is widely used for robotics research, synthetic data generation, and digital twin development.
 
+This post serves as a beginner-oriented tutorial and setup note for Isaac Sim, focusing on the initial installation process, common environment issues on Linux, and essential components required for a functional workflow. The goal is not to reproduce official documentation, but to provide a practical, experience-driven guide that helps new users get Isaac Sim running smoothly and avoid common pitfalls during first-time setup.
 
 ## Installation
 

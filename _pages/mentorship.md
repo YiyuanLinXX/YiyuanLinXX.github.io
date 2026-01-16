@@ -14,7 +14,7 @@ redirect_from:
 - [Owen Bates](https://github.com/okb6)
     - 2025/05 - 2025/08
     - Undergraduate student at Rochester Institute of Technology
-    - Robotics Swarm Autonomous Navigation
+    - Robotics solution and application in vineyard management
 
 ### Fall 2024
 - [Mridula Buragohain](https://mridulaburagohain.github.io/)

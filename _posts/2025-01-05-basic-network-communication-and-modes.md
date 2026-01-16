@@ -11,7 +11,9 @@ tags:
   - Swarm
 ---
 
+In multi-robot systems and distributed robotic platforms, reliable network communication is a foundational component that directly affects system scalability, coordination efficiency, and robustness. Practical deployments often involve a combination of routers, switches, wireless links, and multiple network modes, each serving different roles within the overall architecture.
 
+This post provides a concise overview of common router operation modes, the concept of uplinking, and how these networking principles are applied in a real-world robot swarm communication setup. The focus is on building an intuitive understanding of data flow, network boundaries, and design trade-offs, rather than on protocol-level theory, making it suitable for robotics researchers and engineers who need to design or debug distributed robotic networks.
 
 ## Router Modes
 
