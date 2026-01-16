@@ -10,7 +10,7 @@ tags:
   - exFAT
 ---
 
-
+When deploying Jetson Orin–based robotic systems with JetPack 6.2, storage configuration often requires additional manual setup beyond a standard Ubuntu installation. In practice, systems commonly rely on both portable SSDs for data transfer and NVMe M.2 SSDs for high-throughput data logging and long-term storage. This note records a minimal and reproducible disk configuration workflow for Jetson Orin, focusing on enabling exFAT support for removable drives and configuring persistent mounts for NVMe SSDs in a robotics deployment context.
 
 ## Portable SSD (exFAT)
 On JetPack 6.2, the exFAT file system is not recognized by default. Therefore, you need to perform the following steps to enable exFAT support, ensuring that your portable SSD formatted with exFAT can be properly read and written.
