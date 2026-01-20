@@ -41,15 +41,16 @@ Digital twin applications offered transformative potential by enabling real-time
 <!-- Citation -->
 ### Citation
 ```bibtex
-@misc{qiu2025datrdiffusionbased3dapple,
-      title={DATR: Diffusion-based 3D Apple Tree Reconstruction Framework with Sparse-View}, 
-      author={Tian Qiu and Alan Zoubi and Yiyuan Lin and Ruiming Du and Lailiang Cheng and Yu Jiang},
-      year={2025},
-      eprint={2508.19508},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2508.19508}, 
-}
+@ARTICLE{11359011,
+  author={Qiu, Tian and Zoubi, Alan and Lin, Yiyuan and Du, Ruiming and Cheng, Lailiang and Jiang, Yu},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={DATR: Diffusion-Based 3D Apple Tree Reconstruction Framework With Sparse-View}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Three-dimensional displays;Image reconstruction;Trees (botanical);Robots;Diffusion models;Accuracy;Geometry;Crops;Cameras;Solid modeling;Agricultural robotics;digital twin;few-shot 3D reconstruction;Real2Sim closed loop;robot perception},
+  doi={10.1109/LRA.2026.3655283}}
 ```
 
 
