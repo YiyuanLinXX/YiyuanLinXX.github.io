@@ -11,9 +11,94 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.pub-list {
+  margin-top: 1.5rem;
+}
+
+.pub-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.pub-image-wrap {
+  width: 180px;
+  flex: 0 0 180px;
+}
+
+.pub-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.pub-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-title {
+  margin: 0 0 0.3rem 0;
+  line-height: 1.35;
+}
+
+.pub-authors,
+.pub-meta,
+.pub-highlight {
+  margin: 0.2rem 0;
+  line-height: 1.4;
+}
+
+.pub-highlight {
+  color: #8a3b00;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .pub-item {
+    flex-direction: column;
+  }
+
+  .pub-image-wrap {
+    width: 100%;
+    flex-basis: auto;
+  }
+
+  .pub-image {
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
+  }
+}
+</style>
+
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
-{% for post in sorted_publications %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
+<div class="pub-list">
+  {% for post in sorted_publications %}
+    <div class="pub-item">
+      <div class="pub-image-wrap">
+        {% if post.pub_image %}
+          <img class="pub-image" src="{{ post.pub_image | prepend: base_path }}" alt="{{ post.title }} cover image">
+        {% endif %}
+      </div>
+      <div class="pub-content">
+        <h3 class="pub-title">
+          <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a>
+        </h3>
+        {% if post.authors %}
+          <p class="pub-authors">{{ post.authors }}</p>
+        {% endif %}
+        {% if post.publication %}
+          <p class="pub-meta"><i>{{ post.publication }}</i>, {{ post.date | date: "%Y" }}</p>
+        {% endif %}
+        {% if post.highlight %}
+          <p class="pub-highlight">{{ post.highlight }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

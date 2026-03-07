@@ -3,6 +3,9 @@ title: "Integrating Large Multi-Modal Models for Automated Powdery Mildew Phenot
 collection: publications
 category: manuscripts
 permalink: /publications/sam-clip
+authors: "<strong>Yiyuan Lin</strong>, Zachary Dashner, Ana Jimenez, Dustin Wilkerson, Lance Cadle-Davidson, Summaira Riaz, Yu Jiang"
+publication: "Artificial Intelligence in Agriculture (under review)"
+pub_image: "/images/publications/sam_clip_gigascience.png"
 excerpt: "<strong>Yiyuan Lin</strong>, Zachary Dashner, Ana Jimenez, Dustin Wilkerson, Lance Cadle-Davidson, Summaira Riaz, Yu Jiang, <i><strong>Artificial Intelligence in Agriculture</strong></i> (under review), 2026<br/><img src='/images/publications/sam_clip_gigascience.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://dx.doi.org/10.2139/ssrn.6170008'

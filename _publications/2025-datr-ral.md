@@ -3,6 +3,9 @@ title: "DATR: Diffusion-based 3D Apple Tree Reconstruction Framework with Sparse
 collection: publications
 category: manuscripts
 permalink: /publications/datr
+authors: "Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang"
+publication: "IEEE Robotics and Automation Letters (RA-L)"
+pub_image: "/images/publications/datr.png"
 excerpt: "Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang, <i><strong>IEEE Robotics and Automation Letters (RA-L)</strong></i>, 2025<br/><img src='/images/publications/datr.png'>"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://ieeexplore.ieee.org/document/11359011'
@@ -52,7 +55,6 @@ Digital twin applications offered transformative potential by enabling real-time
   keywords={Three-dimensional displays;Image reconstruction;Trees (botanical);Robots;Diffusion models;Accuracy;Geometry;Crops;Cameras;Solid modeling;Agricultural robotics;digital twin;few-shot 3D reconstruction;Real2Sim closed loop;robot perception},
   doi={10.1109/LRA.2026.3655283}}
 ```
-
 
 
 
