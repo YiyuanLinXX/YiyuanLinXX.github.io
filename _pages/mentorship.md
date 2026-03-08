@@ -6,7 +6,7 @@ redirect_from:
   - /mentee
 ---
 
-<div class="notice--info">
+<div class="notice--info" style="font-size:1.1em;">
 
 <p><strong>Openings</strong></p>
 
@@ -43,7 +43,7 @@ Students who are interested in joining the lab are encouraged to email me with t
 
 N/A 
 
-<div class="notice--info">
+<div class="notice--info" style="font-size:1.1em;">
 
 <p><strong>Research Opportunities</strong></p>
 

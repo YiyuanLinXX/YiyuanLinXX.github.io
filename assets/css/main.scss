@@ -42,7 +42,6 @@
     "vendor/font-awesome/brands"
 ;
 
-
 /* ---------- Custom notice style ---------- */
 
 .notice,
@@ -52,17 +51,11 @@
 .notice--success,
 .notice--danger {
   border-radius: 6px;
-  padding: 1.1rem 1.3rem;
-  margin: 1.6rem 0;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
   border-left: 4px solid;
   background: #f8f9fb;
-
-  /* larger text */
-  font-size: 2.0em;
-  line-height: 1.6;
 }
-
-/* notice colors */
 
 .notice--primary {
   border-left-color: #3b82f6;
@@ -82,30 +75,4 @@
 
 .notice--danger {
   border-left-color: #ef4444;
-}
-
-
-/* improve spacing inside notice */
-
-.notice p,
-.notice--primary p,
-.notice--info p,
-.notice--warning p,
-.notice--success p,
-.notice--danger p {
-  margin-bottom: 0.6em;
-}
-
-
-/* nicer title inside notice */
-
-.notice strong,
-.notice--primary strong,
-.notice--info strong,
-.notice--warning strong,
-.notice--success strong,
-.notice--danger strong {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 0.35rem;
 }

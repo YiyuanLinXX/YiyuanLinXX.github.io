@@ -11,7 +11,7 @@ I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://w
 
 My unparalleled emotional sponsor: Xunyu Luo.
 
-<div class="notice--info">
+<div class="notice--info" style="font-size:1.1em;">
 
 <p><strong>Research Opportunities</strong></p>
 
