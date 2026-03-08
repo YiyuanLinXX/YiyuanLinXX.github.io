@@ -39,7 +39,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
 .education-dates,
 .education-degree {
   margin: 0.15rem 0;
-  color: #555;
+  /* color: #555; */
 }
 
 .robots-grid {
