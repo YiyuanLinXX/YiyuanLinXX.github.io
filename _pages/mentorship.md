@@ -44,8 +44,11 @@ Students who are interested in joining the lab are encouraged to email me with t
 N/A 
 
 <div class="notice--info">
-<strong>Research Opportunities</strong><br>
-I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship.
+
+<p><strong>Research Opportunities</strong></p>
+
+<p>I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship.</p>
+
 </div>
 
 ## Former Mentees
