@@ -11,13 +11,15 @@ I am a Ph.D. student majoring in [Electrical and Computer Engineering](https://w
 
 My unparalleled emotional sponsor: Xunyu Luo.
 
-<div class="notice--info" style="font-size:2.2em;">
+<div class="notice--info">
 
-<p><strong>Research Opportunities</strong></p>
+<p><strong style="color:#8a3b00;">Research Opportunities</strong></p>
 
 <p>I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship.</p>
 
 </div>
+
+
 
 <style>
 .education-section,
