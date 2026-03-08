@@ -8,43 +8,6 @@ redirect_from:
 
 <div class="notice--info">
 
-<strong>Openings</strong>
-
-We welcome motivated undergraduate and graduate students who are interested in robotics, artificial intelligence, and autonomous systems to join the <a href="https://www.cair.cornell.edu/">CAIR Lab</a>.
-
-Students may participate in our research through the following pathways:
-
-1. <strong>Summer Scholars Program</strong>  
-   Undergraduate students can apply through the <a href="https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars">Cornell AgriTech Summer Research Scholars Program</a>.
-
-2. <strong>Direct Research Positions</strong>  
-   We regularly recruit <strong>summer interns</strong> and <strong>long-term research assistants</strong> to work on ongoing research projects in robotics and AI for agriculture.
-
-Students who are interested in joining the lab are encouraged to email me with their <strong>CV</strong> and a brief description of their <strong>research interests</strong>.
-
-</div>
-
-
-
-
-> **Openings**
->
-> We welcome motivated undergraduate and graduate students who are interested in robotics, artificial intelligence, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
->
-> Students may participate in our research through the following pathways:
->
-> 1. **Summer Scholars Program**  
->    Undergraduate students can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
->
-> 2. **Direct Research Positions**  
->    We regularly recruit **summer interns** and **long-term research assistants** to work on ongoing research projects in robotics and AI for agriculture.
->
-> Students who are interested in joining the lab are encouraged to email me with their **CV** and a brief description of their **research interests**.
-{: .notice--info}
-
-
-<div class="notice--info">
-
 <p><strong>Openings</strong></p>
 
 <p>
@@ -64,7 +27,7 @@ Cornell AgriTech Summer Research Scholars Program
 </li>
 
 <li>
-<strong>Direct Research Positions</strong><br>
+<strong>Research Assistant Positions</strong><br>
 We regularly recruit <strong>summer interns</strong> and <strong>long-term research assistants</strong> to work on ongoing research projects in robotics and AI for agriculture.
 </li>
 </ol>
@@ -81,7 +44,8 @@ Students who are interested in joining the lab are encouraged to email me with t
 N/A 
 
 <div class="notice--info">
-I am looking for motivated engineering students with experience in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to work on these robotic projects under my mentorship.
+<strong>Research Opportunities</strong><br>
+I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship.
 </div>
 
 ## Former Mentees
