@@ -15,6 +15,16 @@ In addition, we regularly recruit summer interns and long-term research assistan
 
 Interested students are encouraged to email me with their CV and a brief description of their research interests.
 
+> We welcome motivated undergraduate and graduate students with interests in robotics, AI, and autonomous systems at [CAIR Lab](https://www.cair.cornell.edu/).
+>
+> Students may apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
+>
+> In addition, we regularly recruit summer interns and long-term research assistants.
+>
+> Interested students are encouraged to email me with their CV and a brief description of their research interests.
+
+**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
+{: .notice}
 
 ## Current Mentees
 
