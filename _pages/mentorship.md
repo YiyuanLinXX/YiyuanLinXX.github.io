@@ -5,29 +5,32 @@ author_profile: true
 redirect_from: 
   - /mentee
 ---
+
 ## Openings
 
-We welcome motivated undergraduate and graduate students with interests in robotics, AI, and autonomous systems at [CAIR Lab](https://www.cair.cornell.edu/).
-
-Students may apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
-
-In addition, we regularly recruit summer interns and long-term research assistants.
-
-Interested students are encouraged to email me with their CV and a brief description of their research interests.
-
-> We welcome motivated undergraduate and graduate students with interests in robotics, AI, and autonomous systems at [CAIR Lab](https://www.cair.cornell.edu/).
+> We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
 >
-> Students may apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
+> Students may join the lab through two primary pathways:
 >
-> In addition, we regularly recruit summer interns and long-term research assistants.
+> 1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
+>
+> 2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
 >
 > Interested students are encouraged to email me with their CV and a brief description of their research interests.
 
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
+
+We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
+Students may join the lab through two primary pathways:
+1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
+2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
+Interested students are encouraged to email me with their CV and a brief description of their research interests.
 {: .notice}
 
 ## Current Mentees
 
+N/A 
+
+I am looking for motivated engineering students with experience in robotics, particularly in robotic arm motion planning and control or robot navigation, to work on these robotic projects under my mentorship.
 
 ## Former Mentees
 
