@@ -24,6 +24,58 @@ Students who are interested in joining the lab are encouraged to email me with t
 
 </div>
 
+
+
+
+> **Openings**
+>
+> We welcome motivated undergraduate and graduate students who are interested in robotics, artificial intelligence, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
+>
+> Students may participate in our research through the following pathways:
+>
+> 1. **Summer Scholars Program**  
+>    Undergraduate students can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
+>
+> 2. **Direct Research Positions**  
+>    We regularly recruit **summer interns** and **long-term research assistants** to work on ongoing research projects in robotics and AI for agriculture.
+>
+> Students who are interested in joining the lab are encouraged to email me with their **CV** and a brief description of their **research interests**.
+{: .notice--info}
+
+
+<div class="notice--info">
+
+<p><strong>Openings</strong></p>
+
+<p>
+We welcome motivated undergraduate and graduate students who are interested in robotics, artificial intelligence, and autonomous systems to join the 
+<a href="https://www.cair.cornell.edu/">CAIR Lab</a>.
+</p>
+
+<p>Students may participate in our research through the following pathways:</p>
+
+<ol>
+<li>
+<strong>Summer Scholars Program</strong><br>
+Undergraduate students can apply through the 
+<a href="https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars">
+Cornell AgriTech Summer Research Scholars Program
+</a>.
+</li>
+
+<li>
+<strong>Direct Research Positions</strong><br>
+We regularly recruit <strong>summer interns</strong> and <strong>long-term research assistants</strong> to work on ongoing research projects in robotics and AI for agriculture.
+</li>
+</ol>
+
+<p>
+Students who are interested in joining the lab are encouraged to email me with their 
+<strong>CV</strong> and a brief description of their <strong>research interests</strong>.
+</p>
+
+</div>
+
 ## Current Mentees
 
 N/A 
