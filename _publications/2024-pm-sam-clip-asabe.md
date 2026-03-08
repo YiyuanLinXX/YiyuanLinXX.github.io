@@ -7,9 +7,6 @@ authors: "<strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana 
 publication: "ASABE Annual International Meeting"
 pub_image: "/images/publications/pm_sam_clip_asabe.png"
 highlight: "2024 ITSC Best Paper Award"
-excerpt: "<strong>2024 ITSC Best Paper Award</strong><br/><strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang, <i><strong>ASABE Annual International Meeting</strong></i>, 2024<br/><img src='/images/publications/pm_sam_clip_asabe.png'>"
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://elibrary.asabe.org/abstract.asp?aid=54830'
 date: 2024-04-21
 ---
 

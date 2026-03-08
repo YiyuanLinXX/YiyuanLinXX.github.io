@@ -6,9 +6,6 @@ permalink: /publications/datr
 authors: "Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang"
 publication: "IEEE Robotics and Automation Letters (RA-L)"
 pub_image: "/images/publications/datr.png"
-excerpt: "Tian Qiu, Alan Zoubi, <strong>Yiyuan Lin</strong>, Ruiming Du, Lailiang Cheng, Yu Jiang, <i><strong>IEEE Robotics and Automation Letters (RA-L)</strong></i>, 2025<br/><img src='/images/publications/datr.png'>"
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://ieeexplore.ieee.org/document/11359011'
 date: 2025-08-27
 ---
 

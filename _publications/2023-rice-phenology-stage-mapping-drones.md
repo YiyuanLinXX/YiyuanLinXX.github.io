@@ -6,8 +6,6 @@ permalink: /publication/rice-phenology-stage-mapping
 authors: "Xiangyu Lu, Jun Zhou, Rui Yang, Zhiyan Yan, <strong>Yiyuan Lin</strong>, Jie Jiao, Fei Liu"
 publication: "Drones"
 pub_image: "/images/publications/drones-07-00083-g005.webp"
-excerpt: "Xiangyu Lu, Jun Zhou, Rui Yang, Zhiyan Yan, <strong>Yiyuan Lin</strong>, Jie Jiao, Fei Liu, <i><strong>Drones</strong></i>, 2023<br/><img src='/images/publications/drones-07-00083-g005.webp'>"
-paperurl: 'https://www.mdpi.com/2504-446X/7/2/83'
 date: 2023-01-25
 ---
 
