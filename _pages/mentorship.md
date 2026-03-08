@@ -8,34 +8,7 @@ redirect_from:
 
 ## Openings
 
-> We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
->
-> Students may join the lab through two primary pathways:
->
-> 1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
->
-> 2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
->
-> Interested students are encouraged to email me with their CV and a brief description of their research interests.
-
-
-We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
-Students may join the lab through two primary pathways:
-1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
-2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
-Interested students are encouraged to email me with their CV and a brief description of their research interests.
-{: .notice--info}
-
-<div class="notice">
-
-We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
-Students may join the lab through two primary pathways:
-1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
-2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
-Interested students are encouraged to email me with their CV and a brief description of their research interests.
-{: .notice}
-
-<div class="notice">
+<div class="notice--info">
 
 We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
 
