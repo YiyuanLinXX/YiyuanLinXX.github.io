@@ -6,18 +6,21 @@ redirect_from:
   - /mentee
 ---
 
-## Openings
-
 <div class="notice--info">
 
-We welcome motivated undergraduate and graduate students interested in robotics, AI, and autonomous systems to join the [CAIR Lab](https://www.cair.cornell.edu/).
+<strong>Openings</strong>
 
-Students may join the lab through two primary pathways:
+We welcome motivated undergraduate and graduate students who are interested in robotics, artificial intelligence, and autonomous systems to join the <a href="https://www.cair.cornell.edu/">CAIR Lab</a>.
 
-1. **Summer Scholars Program**: Applicants can apply through the [Cornell AgriTech Summer Research Scholars Program](https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars).
-2. **Direct Research Positions**: We also regularly recruit **summer interns** and **long-term research assistants** for ongoing research projects.
+Students may participate in our research through the following pathways:
 
-Interested students are encouraged to email me with their CV and a brief description of their research interests.
+1. <strong>Summer Scholars Program</strong>  
+   Undergraduate students can apply through the <a href="https://cals.cornell.edu/cornell-agritech/our-expertise/student-programs/summer-scholars">Cornell AgriTech Summer Research Scholars Program</a>.
+
+2. <strong>Direct Research Positions</strong>  
+   We regularly recruit <strong>summer interns</strong> and <strong>long-term research assistants</strong> to work on ongoing research projects in robotics and AI for agriculture.
+
+Students who are interested in joining the lab are encouraged to email me with their <strong>CV</strong> and a brief description of their <strong>research interests</strong>.
 
 </div>
 
@@ -25,7 +28,9 @@ Interested students are encouraged to email me with their CV and a brief descrip
 
 N/A 
 
-I am looking for motivated engineering students with experience in robotics, particularly in **robotic arm motion planning and control** or **robot navigation**, to work on these robotic projects under my mentorship.
+<div class="notice--info">
+I am looking for motivated engineering students with experience in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to work on these robotic projects under my mentorship.
+</div>
 
 ## Former Mentees
 
