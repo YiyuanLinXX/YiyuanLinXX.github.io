@@ -49,21 +49,21 @@ response of linear systems to random signals.
     7. Random vectors, jointly Gaussian random variables
 
 2. Basic concepts of random processes
-  1. Deﬁnition and description of a random process
-  2. Important properties of a random process:
-    1. Stationarity and wide-sense stationarity
-    2. Independent increments
-  3. Examples of widely used random processes:
-    1. Discrete-time processes: i.i.d. sequence, sum process, random walk, and Binomial counting process
-    2. Continuous-time processes: Poisson process, Gaussian process, Wiener process and Brownian motion
+    1. Deﬁnition and description of a random process
+    2. Important properties of a random process:
+        1. Stationarity and wide-sense stationarity
+        2. Independent increments
+    3. Examples of widely used random processes:
+        1. Discrete-time processes: i.i.d. sequence, sum process, random walk, and Binomial counting process
+        2. Continuous-time processes: Poisson process, Gaussian process, Wiener process and Brownian motion
 
 3. Markov chains, renewal processes, and queueing theory
-  1. Discrete-time Markov chains: transition matrix, Chapman-Kolmogorov equations, stationary distribution, classiﬁcation of states, recurrence and transience, ergodicity and limit theorem
-  2. Continuous-time Markov processes: transition rate matrix, stationary distribution, global balance equations
-  3. Renewal processes
-  4. Queueing systems, M/M/1 queue, Little’s formula
+    1. Discrete-time Markov chains: transition matrix, Chapman-Kolmogorov equations, stationary distribution, classiﬁcation of states, recurrence and transience, ergodicity and limit theorem
+    2. Continuous-time Markov processes: transition rate matrix, stationary distribution, global balance equations
+    3. Renewal processes
+    4. Queueing systems, M/M/1 queue, Little’s formula
 
 4. Analysis and processing of random signals
-  1. Correlation functions and power spectral densities
-  2. Response of linear systems to random signals
-  3. Wiener ﬁltering
+    1. Correlation functions and power spectral densities
+    2. Response of linear systems to random signals
+    3. Wiener ﬁltering
