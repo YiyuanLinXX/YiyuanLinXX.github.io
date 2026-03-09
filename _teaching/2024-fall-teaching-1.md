@@ -15,6 +15,8 @@ location: "Ithaca, NY"
 - Lecture: MW 1:25pm - 2:40pm, Hollister Hall 320
 - Discussion: F 10:10pm - 11:00pm, Hollister Hall 206
 - Oﬃce Hour: W: 4:30-6:00 via Zoom
+- Course Webpage: Canvas
+- Ed-Discussion: monitored daily, M to F
 - Credits: 4
 
 ## Prerequisites
