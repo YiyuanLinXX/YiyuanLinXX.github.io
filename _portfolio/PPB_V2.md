@@ -29,6 +29,9 @@ All data were collected during daylight hours.
 
 <img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
 
+# Modular Design
+<img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260312'>
+
 # PPBv2 2025 Edition
 <img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
 
