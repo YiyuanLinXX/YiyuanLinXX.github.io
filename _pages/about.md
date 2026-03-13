@@ -17,7 +17,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
 
 <p><strong style="color:#8a3b00;">Research Opportunities</strong></p>
 
-<p>I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship.</p>
+<p>I am currently seeking motivated engineering students interested in robotics, particularly in <strong>robotic arm motion planning and control</strong> or <strong>robot navigation</strong>, to join ongoing research projects under my mentorship. Students who are interested in joining the lab are encouraged to email me with their <strong>CV</strong> and a brief description of their <strong>research interests</strong>.</p>
 
 </div>
 
