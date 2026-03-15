@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publications/sam-clip-thermal
 authors: "<strong>Yiyuan Lin</strong>, Chenjiao Tan, Changying Li, Yu Jiang"
-publication: "Computers and Electronics in Agriculture (under review)"
+publication: "Plant Phenomics (under review)"
 pub_image: "/images/publications/sam_clip_thermal.png"
 date: 2025-12-04
 ---
@@ -18,6 +18,9 @@ Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,*</
 <sup>3</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, NY 14456, USA<br/>
 <sup>†</sup> These authors contributed equally and share first authorship.<br/>
 <sup>*</sup> Corresponding authors.
+
+
+[[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/dh69xf84464yrc1vlws92l1tflx7qa89)]
 
 <!-- Paper URL -->
 ### Publication
