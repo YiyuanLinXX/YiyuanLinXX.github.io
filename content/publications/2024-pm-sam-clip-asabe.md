@@ -21,7 +21,7 @@ Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3<
 <sup>5</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva NY 14456, USA<br/>
 <sup>&#42;</sup> Correspondence: yujiang@cornell.edu
 
-[[**`Paper`**](https://dx.doi.org/10.2139/ssrn.6170008)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
+[[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=54830)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
 
 <!-- Paper URL -->
 ### Publication
