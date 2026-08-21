@@ -104,7 +104,8 @@ function expandAutoSections(markdown, collections) {
 
 async function compileDraft(draft, collections) {
   const expanded = expandAutoSections(prepareMarkdown(draft.markdown), collections);
-  const html = await marked.parse(expanded);
+  const html = (await marked.parse(expanded))
+    .replace(/<pre><code class="language-bibtex">/g, '<pre class="citation-block"><code class="language-bibtex">');
   return {
     kind: draft.kind,
     source_file: draft.source_file,

@@ -18,6 +18,20 @@ export function displayDate(date: string | null) {
   return new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
 }
 
+function robotExcerptParts(excerpt: unknown) {
+  const html = String(excerpt ?? "");
+  const video = html.match(/<video\b[\s\S]*?<\/video>/i)?.[0];
+  const image = html.match(/<img\b[^>]*>/i)?.[0];
+  const media = video ?? image ?? "";
+  const description = html
+    .replace(/<video\b[\s\S]*?<\/video>/gi, "")
+    .replace(/<img\b[^>]*>/gi, "")
+    .replace(/<br\s*\/?\s*>/gi, " ")
+    .trim();
+
+  return { media, description };
+}
+
 export function normalizePath(path: string | null) {
   if (!path) return "";
   return `/${path.replace(/^\/+|\/+$/g, "")}`;
@@ -88,9 +102,9 @@ export function SiteFooter() {
   );
 }
 
-export function SiteFrame({ title, children }: { title: string; children: React.ReactNode }) {
+export function SiteFrame({ title, children, variant }: { title: string; children: React.ReactNode; variant?: "publication-detail" }) {
   return (
-    <div id="top">
+    <div id="top" className={variant}>
       <SiteHeader />
       <div className="page-shell">
         <ProfileSidebar />
@@ -175,15 +189,19 @@ export function RobotsPage() {
   return (
     <SiteFrame title="Robots">
       <div className="robot-list">
-        {sorted(siteData.collections.robots).map((item) => (
-          <article className="robot-item" key={item.permalink}>
-            <a className="robot-excerpt" href={item.permalink ?? "#"} dangerouslySetInnerHTML={{ __html: String(item.metadata.excerpt ?? "") }} />
-            <div>
-              <span className="item-type">{year(item.date)}</span>
-              <h2><a href={item.permalink ?? "#"}>{item.title}</a></h2>
-            </div>
-          </article>
-        ))}
+        {sorted(siteData.collections.robots).map((item) => {
+          const { media, description } = robotExcerptParts(item.metadata.excerpt);
+          return (
+            <article className="robot-item" key={item.permalink}>
+              <a className="robot-media" href={item.permalink ?? "#"} dangerouslySetInnerHTML={{ __html: media }} />
+              <div className="robot-summary">
+                <span className="item-type">{year(item.date)}</span>
+                <h2><a href={item.permalink ?? "#"}>{item.title}</a></h2>
+                {description ? <p className="robot-description" dangerouslySetInnerHTML={{ __html: description }} /> : null}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </SiteFrame>
   );

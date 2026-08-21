@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const content = JSON.parse(await readFile(new URL("../app/generated-content.json", import.meta.url), "utf8"));
@@ -31,6 +31,20 @@ test("every collection entry has a title and permalink", () => {
   }
 });
 
+test("every publication preview image exists", async () => {
+  for (const publication of content.collections.publications) {
+    const image = publication.metadata.pub_image;
+    assert.equal(typeof image, "string", publication.source_file);
+    await access(new URL(`../public${image}`, import.meta.url));
+  }
+});
+
+test("BibTeX citations use the adaptive citation style", () => {
+  for (const publication of content.collections.publications) {
+    assert.match(publication.html, /<pre class="citation-block"><code class="language-bibtex">/, publication.source_file);
+  }
+});
+
 test("CV collection lists are generated from collection metadata", () => {
   assert.match(content.pages.cv.html, /SAM-CLIP-Thermal/);
   assert.match(content.pages.cv.html, /PhytoPatholoBot Imaging System/);
@@ -51,6 +65,9 @@ test("key routes render from generated Markdown content", async () => {
   const checks = [
     ["/", "About Me"],
     ["/publications", "Publications"],
+    ["/talks", "Talks and Presentations"],
+    ["/teaching", "Teaching"],
+    ["/robots", "Robots"],
     ["/year-archive", "Blog posts"],
     ["/cv", "Curriculum Vitae"],
   ];
@@ -60,4 +77,13 @@ test("key routes render from generated Markdown content", async () => {
     assert.equal(response.status, 200, pathname);
     assert.match(await response.text(), new RegExp(expected, "i"), pathname);
   }
+});
+
+test("robot overview places each description below its title", async () => {
+  const response = await render("/robots");
+  const html = await response.text();
+  assert.match(
+    html,
+    /class="robot-summary"[\s\S]*?<h2>[\s\S]*?PPB-OTR-UVC[\s\S]*?<p class="robot-description">PhytoPatholoBot running over the row with UV-C treatment<\/p>/,
+  );
 });
