@@ -102,6 +102,27 @@ npm test               # 构建并检查关键内容
 
 如果某个文件缺少 `title` 或 `permalink`，内容生成会直接指出具体文件。
 
+## 发布到 GitHub Pages
+
+仓库已经包含 `.github/workflows/deploy-pages.yml`。推送到 `main` 分支后，GitHub 会自动安装依赖、生成静态网站并发布；不需要提交 `dist/`。
+
+首次部署时：
+
+1. 在 GitHub 创建公开仓库 `YiyuanLinXX.github.io`，不要勾选自动创建 README。
+2. 把本地仓库连接到 `git@github.com:YiyuanLinXX/YiyuanLinXX.github.io.git` 并推送 `main`。
+3. 打开仓库 `Settings → Pages`，在 `Build and deployment` 中把 `Source` 设为 `GitHub Actions`。
+4. 在 `Actions` 页面等待 `Deploy website to GitHub Pages` 完成，然后访问 `https://yiyuanlinxx.github.io`。
+
+以后修改内容后的发布流程：
+
+```bash
+git add .
+git commit -m "Update website content"
+git push
+```
+
+每次推送到 `main` 都会自动更新线上网站。
+
 ## 样式修改
 
 大部分字体、颜色、间距和响应式布局集中在 `app/globals.css`。页面结构主要在 `app/site.tsx`，日夜模式组件位于 `app/theme-toggle.tsx`。

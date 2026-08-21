@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import {
   CVPage,
   findRecord,
@@ -16,6 +15,8 @@ import {
 } from "../site";
 
 type RouteProps = { params: Promise<{ slug: string[] }> };
+
+export const dynamicParams = false;
 
 const listTitles: Record<string, string> = {
   publications: "Publications",
@@ -57,11 +58,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     ? plainText(String(record.metadata.excerpt ?? `${record.kind} by ${siteConfig.name}`)).slice(0, 180)
     : `${title} — ${siteConfig.name}`;
 
-  const requestHeaders = await headers();
-  const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
-  const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const image = record ? recordImage(record) : null;
-  const images = image ? [new URL(image, `${protocol}://${host}`).toString()] : [];
+  const images = image ? [new URL(image, siteConfig.url).toString()] : [];
 
   return {
     title: `${title} | ${siteConfig.name}`,

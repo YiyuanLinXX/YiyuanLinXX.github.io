@@ -13,6 +13,7 @@ export type ContentRecord = {
 };
 
 export type SiteConfig = {
+  url: string;
   name: string;
   name_zh: string;
   role_lines: string[];
