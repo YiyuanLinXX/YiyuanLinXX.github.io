@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publications/berry-color-asabe
 authors: "<strong>Yiyuan Lin</strong>, Madan Pandey, Lance Cadle-Davidson, Matthew Clark, Soon Li Teh, Yu Jiang"
-publication: "ASABE Annual International Meeting"
+publication: "ASABE 2026 Annual International Meeting"
 pub_image: "/images/publications/berry_color_asabe.png"
 highlight: "1st Place in the 2026 AOCABFE Student Paper Competition<br>2nd Place in the 2026 AOCABFE Student Research Presentation Competition"
 date: 2026-05-14

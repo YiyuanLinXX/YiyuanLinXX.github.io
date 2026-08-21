@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publications/pm-sam-clip-2024-asabe
 authors: "<strong>Yiyuan Lin</strong>, Anna Underhill, Lance Cadle-Davison, Ana Jimenez, Summaira Riaz, Yu Jiang"
-publication: "ASABE Annual International Meeting"
+publication: "ASABE 2024 Annual International Meeting"
 pub_image: "/images/publications/pm_sam_clip_asabe.png"
 highlight: "2024 ITSC Best Paper Award"
 date: 2024-04-21

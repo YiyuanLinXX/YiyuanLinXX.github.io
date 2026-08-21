@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publications/beyond-seasonality-asabe
 authors: "Ruiming Du, <strong>Yiyuan Lin</strong>, Daoyuan Jin, Nicholas Gunner, Yu Jiang"
-publication: "ASABE Annual International Meeting"
+publication: "ASABE 2026 Annual International Meeting"
 pub_image: "/images/publications/beyond_seasonality_asabe.png"
 highlight: "2026 ITSC Best Paper Award"
 date: 2026-04-20
