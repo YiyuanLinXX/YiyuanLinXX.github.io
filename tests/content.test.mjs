@@ -5,6 +5,15 @@ import test from "node:test";
 const content = JSON.parse(await readFile(new URL("../app/generated-content.json", import.meta.url), "utf8"));
 const site = JSON.parse(await readFile(new URL("../content/site.json", import.meta.url), "utf8"));
 
+function assertLinksOpenInNewTabs(html, label) {
+  const links = html.match(/<a\b[^>]*>/g) ?? [];
+  assert.ok(links.length > 0, `${label} has no links to check`);
+  for (const link of links) {
+    assert.match(link, /target="_blank"/, `${label}: ${link}`);
+    assert.match(link, /rel="noopener noreferrer"/, `${label}: ${link}`);
+  }
+}
+
 test("site configuration contains the editable profile fields", () => {
   assert.equal(site.name, "Yiyuan Lin");
   assert.ok(site.navigation.length >= 7);
@@ -45,6 +54,17 @@ test("BibTeX citations use the adaptive citation style", () => {
   }
 });
 
+test("links generated from content open in a new tab", () => {
+  for (const [section, records] of Object.entries(content.collections)) {
+    for (const record of records) {
+      if (record.html.includes("<a ")) assertLinksOpenInNewTabs(record.html, `${section}/${record.source_file}`);
+    }
+  }
+  for (const [name, page] of Object.entries(content.pages)) {
+    if (page.html.includes("<a ")) assertLinksOpenInNewTabs(page.html, `pages/${name}`);
+  }
+});
+
 test("CV collection lists are generated from collection metadata", () => {
   assert.match(content.pages.cv.html, /SAM-CLIP-Thermal/);
   assert.match(content.pages.cv.html, /PhytoPatholoBot Imaging System/);
@@ -75,7 +95,9 @@ test("key routes render from generated Markdown content", async () => {
   for (const [pathname, expected] of checks) {
     const response = await render(pathname);
     assert.equal(response.status, 200, pathname);
-    assert.match(await response.text(), new RegExp(expected, "i"), pathname);
+    const html = await response.text();
+    assert.match(html, new RegExp(expected, "i"), pathname);
+    assertLinksOpenInNewTabs(html, pathname);
   }
 });
 

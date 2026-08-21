@@ -39,6 +39,15 @@ function prepareMarkdown(markdown) {
     .replace(/^\{%[^%]*%\}\s*$/gm, "");
 }
 
+function openLinksInNewTabs(html) {
+  return html.replace(/<a\b([^>]*)>/gi, (_match, attributes) => {
+    const safeAttributes = String(attributes)
+      .replace(/\s+target\s*=\s*["'][^"']*["']/gi, "")
+      .replace(/\s+rel\s*=\s*["'][^"']*["']/gi, "");
+    return `<a${safeAttributes} target="_blank" rel="noopener noreferrer">`;
+  });
+}
+
 async function markdownFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   return entries
@@ -104,8 +113,10 @@ function expandAutoSections(markdown, collections) {
 
 async function compileDraft(draft, collections) {
   const expanded = expandAutoSections(prepareMarkdown(draft.markdown), collections);
-  const html = (await marked.parse(expanded))
-    .replace(/<pre><code class="language-bibtex">/g, '<pre class="citation-block"><code class="language-bibtex">');
+  const html = openLinksInNewTabs(
+    (await marked.parse(expanded))
+      .replace(/<pre><code class="language-bibtex">/g, '<pre class="citation-block"><code class="language-bibtex">'),
+  );
   return {
     kind: draft.kind,
     source_file: draft.source_file,
