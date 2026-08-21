@@ -25,7 +25,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   <h1>Education</h1>
 
   <div class="education-entry">
-    <img src="/images/logo/Cornell_logo.png" alt="Cornell University logo" class="education-logo" />
+    <img src="/images/logo/Cornell_logo.svg" alt="Cornell University logo" class="education-logo" />
     <div class="education-details">
       <h3>Cornell University</h3>
       <p class="education-dates">August 2023 – Present</p>
@@ -34,7 +34,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   </div>
 
   <div class="education-entry">
-    <img src="/images/logo/ZJU_Logo.png" alt="Zhejiang University logo" class="education-logo" />
+    <img src="/images/logo/ZJU_Logo.svg" alt="Zhejiang University logo" class="education-logo" />
     <div class="education-details">
       <h3>Zhejiang University</h3>
       <p class="education-dates">September 2019 – June 2023</p>

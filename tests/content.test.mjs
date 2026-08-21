@@ -48,6 +48,17 @@ test("every publication preview image exists", async () => {
   }
 });
 
+test("education logos use transparent vector assets", async () => {
+  for (const logo of ["Cornell_logo.svg", "ZJU_Logo.svg"]) {
+    const source = await readFile(new URL(`../public/images/logo/${logo}`, import.meta.url), "utf8");
+    assert.match(source, /<svg\b/);
+    assert.doesNotMatch(source, /<image\b|<script\b|<foreignObject\b/);
+  }
+
+  assert.match(content.pages.about.html, /\/images\/logo\/Cornell_logo\.svg/);
+  assert.match(content.pages.about.html, /\/images\/logo\/ZJU_Logo\.svg/);
+});
+
 test("BibTeX citations use the adaptive citation style", () => {
   for (const publication of content.collections.publications) {
     assert.match(publication.html, /<pre class="citation-block"><code class="language-bibtex">/, publication.source_file);
