@@ -54,6 +54,18 @@ test("BibTeX citations use the adaptive citation style", () => {
   }
 });
 
+test("superscript author markers remain plain text", () => {
+  for (const publication of content.collections.publications) {
+    assert.doesNotMatch(publication.html, /<sup\b[^>]*>[\s\S]*?<em>|<\/em>[\s\S]*?<\/sup>/, publication.source_file);
+  }
+
+  const thermal = content.collections.publications.find(
+    (publication) => publication.source_file === "2026-sam-clip-thermal-plantphenomics.md",
+  );
+  assert.ok(thermal);
+  assert.match(thermal.html, /Changying Li<sup>2,&#42;<\/sup>, Yu Jiang<sup>3,&#42;<\/sup>/);
+});
+
 test("links generated from content open in a new tab", () => {
   for (const [section, records] of Object.entries(content.collections)) {
     for (const record of records) {

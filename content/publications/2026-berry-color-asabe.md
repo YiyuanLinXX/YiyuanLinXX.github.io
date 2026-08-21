@@ -11,14 +11,14 @@ date: 2026-05-14
 ---
 
 <!-- Authors -->
-Yiyuan Lin<sup>1</sup>, Madan Pandey<sup>2</sup>, Lance Cadle-Davidson<sup>3,4</sup>, Matthew Clark<sup>2</sup>, Soon Li Teh<sup>2</sup>, Yu Jiang <sup>4,*</sup>
+Yiyuan Lin<sup>1</sup>, Madan Pandey<sup>2</sup>, Lance Cadle-Davidson<sup>3,4</sup>, Matthew Clark<sup>2</sup>, Soon Li Teh<sup>2</sup>, Yu Jiang <sup>4,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY, USA<br/>
 <sup>2</sup> Department of Horticulture Science, University of Minnesota, Minneapolis, MN, USA <br/>
 <sup>3</sup> Grape Genetics Research Unit, United States Department of Agriculture-Agricultural Research Service, Geneva, NY, USA<br/>
 <sup>4</sup> School of Integrative Plant Science, Cornell University, Geneva, NY, USA<br/>
-<sup>*</sup> Corresponding authors.
+<sup>&#42;</sup> Corresponding authors.
 
 
 [[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=55975)]

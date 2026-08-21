@@ -11,13 +11,13 @@ date: 2026-04-20
 ---
 
 <!-- Authors -->
-Ruiming Du<sup>1</sup>, Yiyuan Lin<sup>2</sup>, Daoyuan Jin<sup>2</sup>, Nicholas Gunner<sup>3</sup>, Yu Jiang <sup>3,*</sup>
+Ruiming Du<sup>1</sup>, Yiyuan Lin<sup>2</sup>, Daoyuan Jin<sup>2</sup>, Nicholas Gunner<sup>3</sup>, Yu Jiang <sup>3,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> Department of Biological and Environment Engineering, Cornell University, Ithaca, NY,<br/>
 <sup>2</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY, USA<br/>
 <sup>3</sup> School of Integrative Plant Science, Cornell University, Geneva, NY, USA<br/>
-<sup>*</sup> Corresponding authors.
+<sup>&#42;</sup> Corresponding authors.
 
 [[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=56025)]
 

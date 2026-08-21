@@ -32,8 +32,14 @@ function dateValue(metadata) {
   return typeof value === "string" ? value.slice(0, 10) : null;
 }
 
+function protectSuperscriptStars(markdown) {
+  return markdown.replace(/<sup\b([^>]*)>([\s\S]*?)<\/sup>/gi, (_match, attributes, content) =>
+    `<sup${attributes}>${content.replaceAll("*", "&#42;")}</sup>`,
+  );
+}
+
 function prepareMarkdown(markdown) {
-  return markdown
+  return protectSuperscriptStars(markdown)
     .replace(/<style>[\s\S]*?<\/style>/gi, "")
     .replace(/^\{:\s*[^}]+\}\s*$/gm, "")
     .replace(/^\{%[^%]*%\}\s*$/gm, "");

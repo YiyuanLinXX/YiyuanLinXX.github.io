@@ -10,14 +10,14 @@ date: 2026-08-09
 ---
 
 <!-- Authors -->
-Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,*</sup>, Yu Jiang<sup>3,*</sup>
+Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,&#42;</sup>, Yu Jiang<sup>3,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY 14850, USA<br/>
 <sup>2</sup> Department of Agricultural and Biological Engineering, Institute of Food and Agricultural Sciences, University of Florida, Gainesville, FL 32611, USA<br/>
 <sup>3</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, NY 14456, USA<br/>
 <sup>†</sup> These authors contributed equally and share first authorship.<br/>
-<sup>*</sup> Corresponding authors.
+<sup>&#42;</sup> Corresponding authors.
 
 
 [[**`Paper`**](https://www.sciencedirect.com/science/article/pii/S2643651526001019)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/dh69xf84464yrc1vlws92l1tflx7qa89)]

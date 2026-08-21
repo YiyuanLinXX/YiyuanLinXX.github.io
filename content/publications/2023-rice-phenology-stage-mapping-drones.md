@@ -10,14 +10,14 @@ date: 2023-01-25
 ---
 
 <!-- Authors -->
-Xiangyu Lu<sup>1,2</sup>, Jun Zhou<sup>1,3</sup>, Rui Yang<sup>1</sup>, Zhiyan Yan<sup>4</sup>, Yiyuan Lin<sup>1</sup>, Jie Jiao<sup>1</sup>, Fei Liu<sup>1,2,*</sup>
+Xiangyu Lu<sup>1,2</sup>, Jun Zhou<sup>1,3</sup>, Rui Yang<sup>1</sup>, Zhiyan Yan<sup>4</sup>, Yiyuan Lin<sup>1</sup>, Jie Jiao<sup>1</sup>, Fei Liu<sup>1,2,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> College of Biosystems Engineering and Food Science, Zhejiang University, Hangzhou 310058, China<br/>
 <sup>2</sup> Huanan Industrial Technology Research Institute, Zhejiang University, Guangzhou 510700, China<br/>
 <sup>3</sup> College of Mechanical and Electrical Engineering, Xinjiang Agricultural University, Urumqi 830052, China<br/>
 <sup>4</sup> Institute of Agricultural Economics and information, Jiangxi Academy of Agricultural Sciences, Nanchang 330200, China<br/>
-<sup>*</sup> Author to whom correspondence should be addressed.
+<sup>&#42;</sup> Author to whom correspondence should be addressed.
 
 <!-- Paper URL -->
 ### Publication

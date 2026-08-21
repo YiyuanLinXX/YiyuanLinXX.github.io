@@ -10,7 +10,7 @@ date: 2025-08-27
 ---
 
 <!-- Authors -->
-Tian Qiu<sup>1</sup>, Alan Zoubi<sup>2</sup>, Yiyuan Lin<sup>1</sup>, Ruiming Du<sup>3</sup>, Lailiang Cheng<sup>4</sup>, Yu Jiang<sup>5,*</sup>
+Tian Qiu<sup>1</sup>, Alan Zoubi<sup>2</sup>, Yiyuan Lin<sup>1</sup>, Ruiming Du<sup>3</sup>, Lailiang Cheng<sup>4</sup>, Yu Jiang<sup>5,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, Cornell University, Ithaca, USA<br/>
@@ -18,7 +18,7 @@ Tian Qiu<sup>1</sup>, Alan Zoubi<sup>2</sup>, Yiyuan Lin<sup>1</sup>, Ruiming Du
 <sup>3</sup>School of Biological and Environmental Engineering, Cornell University, Ithaca, USA<br/>
 <sup>4</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Ithaca, USA<br/>
 <sup>5</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, USA<br/>
-<sup>*</sup> Corresponding authors.
+<sup>&#42;</sup> Corresponding authors.
 
 [[**`Paper`**](https://ieeexplore.ieee.org/document/11359011)] [[**`Codebase`**](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)]
 

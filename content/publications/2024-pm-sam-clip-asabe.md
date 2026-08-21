@@ -11,7 +11,7 @@ date: 2024-04-21
 ---
 
 <!-- Authors -->
-Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3</sup>, Ana Jimenez<sup>4</sup>, Summaira Riaz<sup>4</sup>, Yu Jiang<sup>5,*</sup>
+Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3</sup>, Ana Jimenez<sup>4</sup>, Summaira Riaz<sup>4</sup>, Yu Jiang<sup>5,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY 14850, USA<br/>
@@ -19,7 +19,7 @@ Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3<
 <sup>3</sup> Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, Geneva, NY 14456, USA<br/>
 <sup>4</sup> San Joaquin Valley Agricultural Center, United States Department of Agriculture-Agricultural Research Service, Parlier, CA 93648, USA<br/>
 <sup>5</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva NY 14456, USA<br/>
-<sup>*</sup> Correspondence: yujiang@cornell.edu
+<sup>&#42;</sup> Correspondence: yujiang@cornell.edu
 
 [[**`Paper`**](https://dx.doi.org/10.2139/ssrn.6170008)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
 

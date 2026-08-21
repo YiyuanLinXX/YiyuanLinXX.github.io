@@ -10,7 +10,7 @@ date: 2026-01-08
 ---
 
 <!-- Authors -->
-Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Dustin Wilkerson<sup>3</sup>, Lance Cadle-Davidson<sup>4,5</sup>, Summaira Riaz<sup>2,*</sup>, Yu Jiang <sup>5,*</sup>
+Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Dustin Wilkerson<sup>3</sup>, Lance Cadle-Davidson<sup>4,5</sup>, Summaira Riaz<sup>2,&#42;</sup>, Yu Jiang <sup>5,&#42;</sup>
 
 <!-- Affiliation -->
 <sup>1</sup> School of Electrical and Computer Engineering, College of Engineering, Cornell University, Ithaca, NY 14850, USA<br/>
@@ -18,7 +18,7 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 <sup>3</sup> Institute of Biotechnology, Cornell University, Ithaca, NY 14850, USA<br/>
 <sup>4</sup> Grape Genetics Research Unit, United States Department of Agriculture-Agricultural Research Service, Geneva, NY 14456, USA<br/>
 <sup>5</sup> School of Integrative Plant Science, Cornell University, Geneva, NY 14456, USA<br/>
-<sup>*</sup> Corresponding authors.
+<sup>&#42;</sup> Corresponding authors.
 
 
 [[**`Paper`**](https://dx.doi.org/10.2139/ssrn.6170008)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]

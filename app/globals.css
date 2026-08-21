@@ -191,7 +191,7 @@ img, video { max-width: 100%; }
 .page-intro a { color: var(--green); border-bottom: 1px solid currentColor; }
 
 .prose { color: #303a36; font-size: 16px; line-height: 1.78; }
-.prose > p:first-child { margin-top: 0; font-size: 18px; line-height: 1.72; }
+.prose > p:first-child { margin-top: 0; }
 .prose p { margin: 0 0 1.25em; }
 .prose a { color: var(--green); text-decoration: underline; text-decoration-color: rgba(36,91,71,.35); text-underline-offset: 3px; }
 .prose a:hover { text-decoration-color: var(--green); }
