@@ -26,10 +26,10 @@
     { "id": "github", "label": "GitHub", "href": "https://github.com/YiyuanLinXX" },
     { "id": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/yiyuan-lin-36463b293" },
     { "id": "x", "label": "X / Twitter", "href": "https://twitter.com/YiyuanLIN_" },
-    { "id": "rednote", "label": "RedNote", "href": "https://www.xiaohongshu.com/" }
+    { "id": "rednote", "label": "RedNote", "href": "https://www.xiaohongshu.com/user/profile/5fc714e800000000010017ac" }
   ],
   "metadata": {
-    "title": "Yiyuan Lin | Field Robotics & AI",
+    "title": "Yiyuan Lin",
     "description": "Academic portfolio of Yiyuan Lin, a Cornell ECE Ph.D. candidate researching field robotics, autonomous systems, AI, and high-throughput phenotyping.",
     "social_description": "Field robotics, multimodal vision, and intelligent systems for high-throughput crop phenotyping."
   }
