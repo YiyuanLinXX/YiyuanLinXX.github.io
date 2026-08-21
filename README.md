@@ -1,43 +1,55 @@
 # Yiyuan Lin Personal Website
 
-这是 Yiyuan Lin 的个人学术网站。代码与内容已经分离：日常更新主要编辑 `content/`，通常不需要修改 `app/` 中的页面代码。
+English | [简体中文](README.zh-CN.md)
 
-## 目录说明
+This repository contains the source code and content for [Yiyuan Lin's personal academic website](https://yiyuanlinxx.github.io).
+
+The code and content are separated so that most routine updates only require editing files under `content/`. In most cases, there is no need to modify the page components in `app/`.
+
+## Project Structure
 
 ```text
 content/
-├── site.json          # 姓名、职称、导航、社交链接和网站简介
-├── pages/             # About、Mentorship、CV 等固定页面
-├── publications/      # 每篇论文一个 Markdown 文件
-├── talks/             # 每个 Talk 一个 Markdown 文件
-├── teaching/          # 每门课程一个 Markdown 文件
-├── robots/            # 每个机器人项目一个 Markdown 文件
-└── posts/             # 每篇 Blog Post 一个 Markdown 文件
+├── site.json          # Profile, navigation, social links, and site metadata
+├── pages/             # Static pages such as About, Mentorship, and CV
+├── publications/      # One Markdown file per publication
+├── talks/             # One Markdown file per talk
+├── teaching/          # One Markdown file per course
+├── robots/            # One Markdown file per robot project
+└── posts/             # One Markdown file per blog post
 
-public/images/         # 页面使用的图片、GIF 和视频
-templates/             # 新内容模板
-scripts/               # 内容生成与检查脚本
-app/                   # 页面组件和视觉样式
+public/images/         # Images, GIFs, and videos used by the website
+templates/             # Templates for new content
+scripts/               # Content generation and validation scripts
+app/                   # Page components and visual styles
 ```
 
-## 第一次运行
+## Requirements and Local Development
 
-需要 Node.js 22 或更高版本。
+Node.js 22.13 or later is required.
 
 ```bash
 npm install
 npm run dev
 ```
 
-打开 `http://localhost:3000`。启动和构建前，脚本会自动把 `content/` 中的 Markdown 转换为网站数据。
+Open `http://localhost:3000`. Before development and production builds, the project automatically converts the Markdown files under `content/` into website data.
 
-## 修改个人信息、导航和社交链接
+## Updating Profile, Navigation, and Social Links
 
-编辑 `content/site.json`。这里可以修改姓名、中文名、职称、头像、所在地、学校、导航顺序和所有社交媒体链接。
+Edit `content/site.json` to update the following information:
 
-## 修改 About、Mentorship 或 CV
+- Name and Chinese name
+- Academic title
+- Profile photo
+- Location and institution
+- Navigation order
+- Social media links
+- Site and social-sharing metadata
 
-分别编辑：
+## Updating About, Mentorship, or CV
+
+Edit the corresponding Markdown file:
 
 ```text
 content/pages/about.md
@@ -45,11 +57,11 @@ content/pages/mentorship.md
 content/pages/cv.md
 ```
 
-文件顶部 `---` 之间是页面信息，下面是 Markdown 正文。CV 中的论文、Talk 和 Teaching 列表会根据对应内容目录自动生成。
+The content between the opening `---` markers is the page metadata. Everything below it is the Markdown body. Publication, talk, and teaching lists on the CV page are generated automatically from their respective content directories.
 
-## 新增内容
+## Adding New Content
 
-推荐使用模板命令：
+The recommended approach is to use the content creation command:
 
 ```bash
 npm run new -- publication paper-short-name
@@ -60,13 +72,13 @@ npm run new -- post post-short-name
 npm run new -- page page-short-name
 ```
 
-命令会在正确目录创建一个带有常用字段的新 Markdown 文件。完成内容后，把图片放入 `public/images/`，并在 Markdown 中使用 `/images/...` 路径引用。
+The command creates a Markdown file with the commonly used fields in the correct directory. Add associated media to `public/images/` and reference it in Markdown with an `/images/...` path.
 
-也可以直接复制 `templates/` 中的模板到相应的 `content/` 子目录。
+Alternatively, copy a file from `templates/` into the appropriate `content/` subdirectory.
 
-## 常用字段
+## Common Front Matter Fields
 
-论文示例：
+Publication example:
 
 ```yaml
 ---
@@ -79,7 +91,7 @@ pub_image: "/images/publications/paper-image.png"
 ---
 ```
 
-Blog Post 示例：
+Blog post example:
 
 ```yaml
 ---
@@ -92,28 +104,28 @@ tags:
 ---
 ```
 
-## 检查与构建
+## Validation and Production Build
 
 ```bash
-npm run content:build  # 只检查并生成内容
-npm run build          # 完整生产构建
-npm test               # 构建并检查关键内容
+npm run content:build  # Validate and generate content only
+npm run build          # Create the complete production build
+npm test               # Build the site and run content tests
 ```
 
-如果某个文件缺少 `title` 或 `permalink`，内容生成会直接指出具体文件。
+If a content file is missing a required `title` or `permalink`, the content generator reports the affected file directly.
 
-## 发布到 GitHub Pages
+## Deployment to GitHub Pages
 
-仓库已经包含 `.github/workflows/deploy-pages.yml`。推送到 `main` 分支后，GitHub 会自动安装依赖、生成静态网站并发布；不需要提交 `dist/`。
+The repository includes `.github/workflows/deploy-pages.yml`. Every push to the `main` branch automatically installs dependencies, builds the static website, and deploys it to GitHub Pages. The generated `dist/` directory does not need to be committed.
 
-首次部署时：
+For the initial deployment:
 
-1. 在 GitHub 创建公开仓库 `YiyuanLinXX.github.io`，不要勾选自动创建 README。
-2. 把本地仓库连接到 `git@github.com:YiyuanLinXX/YiyuanLinXX.github.io.git` 并推送 `main`。
-3. 打开仓库 `Settings → Pages`，在 `Build and deployment` 中把 `Source` 设为 `GitHub Actions`。
-4. 在 `Actions` 页面等待 `Deploy website to GitHub Pages` 完成，然后访问 `https://yiyuanlinxx.github.io`。
+1. Create a public GitHub repository named `YiyuanLinXX.github.io` without automatically creating a README.
+2. Connect the local repository to `git@github.com:YiyuanLinXX/YiyuanLinXX.github.io.git` and push the `main` branch.
+3. Open `Settings → Pages` in the GitHub repository and set `Build and deployment → Source` to `GitHub Actions`.
+4. Wait for the `Deploy website to GitHub Pages` workflow to finish, then visit [https://yiyuanlinxx.github.io](https://yiyuanlinxx.github.io).
 
-以后修改内容后的发布流程：
+For routine updates:
 
 ```bash
 git add .
@@ -121,8 +133,6 @@ git commit -m "Update website content"
 git push
 ```
 
-每次推送到 `main` 都会自动更新线上网站。
+## Styling and Layout
 
-## 样式修改
-
-大部分字体、颜色、间距和响应式布局集中在 `app/globals.css`。页面结构主要在 `app/site.tsx`，日夜模式组件位于 `app/theme-toggle.tsx`。
+Most typography, colors, spacing, and responsive layout rules are defined in `app/globals.css`. The main page structure is implemented in `app/site.tsx`, and the light/dark theme control is located in `app/theme-toggle.tsx`.
