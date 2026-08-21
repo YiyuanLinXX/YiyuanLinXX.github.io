@@ -1,5 +1,5 @@
 ---
-title: "PhytoPatholoBot Next Generation - PPB-NG"
+title: "PhytoPatholoBot Next Gen - PPB-NG"
 excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>"
 collection: robot
 permalink: /robots/ppbng

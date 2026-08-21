@@ -41,10 +41,7 @@ Students who are interested in joining the lab are encouraged to email me with t
 
 ## Current Mentees
 
-- [Yukta Karki](https://github.com/okb6)
-    - 2026/06 - 2026/08
-    - Undergraduate student at University of Louisiana Monroe
-    - Vision-based field robot navigation
+
 
 <div class="notice--info">
 
@@ -55,6 +52,12 @@ Students who are interested in joining the lab are encouraged to email me with t
 </div>
 
 ## Former Mentees
+
+### Summer 2026
+- [Yukta Karki](https://github.com/okb6)
+    - 2026/06 - 2026/08
+    - Undergraduate student at University of Louisiana Monroe
+    - Vision-based field robot navigation
 
 ### Summer 2025
 - [Owen Bates](https://github.com/okb6)
