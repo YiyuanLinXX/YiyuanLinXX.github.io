@@ -5,6 +5,17 @@ export { siteConfig, siteData } from "./content";
 
 const socialIconClasses = new Set(["email", "github", "linkedin", "x"]);
 const newTabLinkProps = { target: "_blank", rel: "noopener noreferrer" } as const;
+const siteHostname = new URL(siteConfig.url).hostname.toLowerCase();
+
+function linkTargetProps(href: string) {
+  try {
+    const url = new URL(href, siteConfig.url);
+    if ((url.protocol === "http:" || url.protocol === "https:") && url.hostname.toLowerCase() === siteHostname) return {};
+  } catch {
+    return {};
+  }
+  return newTabLinkProps;
+}
 
 export function sorted(items: ContentRecord[]) {
   return [...items].sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")));
@@ -56,12 +67,12 @@ export function SiteHeader() {
   return (
     <header className="masthead">
       <div className="masthead-inner">
-        <a className="site-name" href="/" aria-label={`${siteConfig.name} home`} {...newTabLinkProps}>
+        <a className="site-name" href="/" aria-label={`${siteConfig.name} home`} {...linkTargetProps("/")}>
           <span>{siteConfig.name}</span><small>{siteConfig.name_zh}</small>
         </a>
         <div className="header-actions">
           <nav className="main-nav" aria-label="Primary navigation">
-            {siteConfig.navigation.map(({ label, href }) => <a href={href} key={href} {...newTabLinkProps}>{label}</a>)}
+            {siteConfig.navigation.map(({ label, href }) => <a href={href} key={href} {...linkTargetProps(href)}>{label}</a>)}
           </nav>
           <ThemeToggle />
         </div>
@@ -84,7 +95,7 @@ export function ProfileSidebar() {
       </dl>
       <div className="profile-links">
         {siteConfig.social_links.map((link) => (
-          <a href={link.href} key={link.id} {...newTabLinkProps}>
+          <a href={link.href} key={link.id} {...linkTargetProps(link.href)}>
             <span className="link-icon-wrap" aria-hidden="true"><img className={`link-icon${socialIconClasses.has(link.id) ? " icon-dark-adapt" : ""}`} src={`/icons/yiyuan-${link.id}.svg`} alt="" /></span>
             <span className="link-label">{link.label}</span><span className="link-arrow">↗</span>
           </a>
@@ -98,7 +109,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div><span>© 2026 {siteConfig.name}</span></div>
-      <a href="#top" {...newTabLinkProps}>Back to top ↑</a>
+      <a href="#top" {...linkTargetProps("#top")}>Back to top ↑</a>
     </footer>
   );
 }
@@ -129,22 +140,22 @@ export function PublicationsPage() {
   const items = sorted(siteData.collections.publications);
   return (
     <SiteFrame title="Publications">
-      <p className="page-intro">You can also find my articles on <a href="https://scholar.google.com/citations?user=OeaxVcEAAAAJ&hl=en" {...newTabLinkProps}>my Google Scholar profile</a>.</p>
+      <p className="page-intro">You can also find my articles on <a href="https://scholar.google.com/citations?user=OeaxVcEAAAAJ&hl=en" {...linkTargetProps("https://scholar.google.com/citations?user=OeaxVcEAAAAJ&hl=en")}>my Google Scholar profile</a>.</p>
       <div className="publication-list">
         {items.map((item) => (
           <article className="publication-item" key={item.permalink}>
-            <a className="publication-thumb" href={item.permalink ?? "#"} {...newTabLinkProps}>
+            <a className="publication-thumb" href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>
               {item.metadata.pub_image ? <img src={String(item.metadata.pub_image)} alt={`${item.title} cover`} /> : null}
             </a>
             <div className="publication-body">
               <div className="publication-year">{year(item.date)}</div>
-              <h2><a href={item.permalink ?? "#"} {...newTabLinkProps}>{item.title}</a></h2>
+              <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
               {item.metadata.authors ? <p className="publication-authors" dangerouslySetInnerHTML={{ __html: String(item.metadata.authors) }} /> : null}
               <p className="publication-venue"><em>{String(item.metadata.publication ?? "")}</em></p>
               {item.resources.length > 0 ? (
                 <div className="publication-resources" aria-label="Publication resources">
                   {item.resources.map((resource) => (
-                    <a href={resource.href} key={`${resource.label}-${resource.href}`} {...newTabLinkProps}>{`[${resource.label}]`}</a>
+                    <a href={resource.href} key={`${resource.label}-${resource.href}`} {...linkTargetProps(resource.href)}>{`[${resource.label}]`}</a>
                   ))}
                 </div>
               ) : null}
@@ -184,7 +195,7 @@ export function TeachingPage() {
         {sorted(siteData.collections.teaching).map((item) => (
           <article className="archive-item" key={item.permalink}>
             <p className="item-type">{String(item.metadata.type ?? "Course")}</p>
-            <h2><a href={item.permalink ?? "#"} {...newTabLinkProps}>{item.title}</a></h2>
+            <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
             <p>{String(item.metadata.venue ?? "")} · {String(item.metadata.location ?? "")} · {year(item.date)}</p>
           </article>
         ))}
@@ -201,10 +212,10 @@ export function RobotsPage() {
           const { media, description } = robotExcerptParts(item.metadata.excerpt);
           return (
             <article className="robot-item" key={item.permalink}>
-              <a className="robot-media" href={item.permalink ?? "#"} {...newTabLinkProps} dangerouslySetInnerHTML={{ __html: media }} />
+              <a className="robot-media" href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")} dangerouslySetInnerHTML={{ __html: media }} />
               <div className="robot-summary">
                 <span className="item-type">{year(item.date)}</span>
-                <h2><a href={item.permalink ?? "#"} {...newTabLinkProps}>{item.title}</a></h2>
+                <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
                 {description ? <p className="robot-description" dangerouslySetInnerHTML={{ __html: description }} /> : null}
               </div>
             </article>
@@ -226,7 +237,7 @@ export function PostsPage() {
             {items?.map((item) => (
               <article className="post-item" key={item.permalink}>
                 <time>{displayDate(item.date)}</time>
-                <h3><a href={item.permalink ?? "#"} {...newTabLinkProps}>{item.title}</a></h3>
+                <h3><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h3>
                 {Array.isArray(item.metadata.tags) ? <p>{item.metadata.tags.join(" · ")}</p> : null}
               </article>
             ))}

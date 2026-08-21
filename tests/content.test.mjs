@@ -5,12 +5,30 @@ import test from "node:test";
 const content = JSON.parse(await readFile(new URL("../app/generated-content.json", import.meta.url), "utf8"));
 const site = JSON.parse(await readFile(new URL("../content/site.json", import.meta.url), "utf8"));
 
-function assertLinksOpenInNewTabs(html, label) {
+const siteHostname = new URL(site.url).hostname.toLowerCase();
+
+function isInternalHref(href) {
+  try {
+    const url = new URL(href, site.url);
+    return (url.protocol === "http:" || url.protocol === "https:")
+      && url.hostname.toLowerCase() === siteHostname;
+  } catch {
+    return true;
+  }
+}
+
+function assertLinkTargets(html, label) {
   const links = html.match(/<a(?:\s|>)[^>]*>/g) ?? [];
   assert.ok(links.length > 0, `${label} has no links to check`);
   for (const link of links) {
-    assert.match(link, /target="_blank"/, `${label}: ${link}`);
-    assert.match(link, /rel="noopener noreferrer"/, `${label}: ${link}`);
+    const href = link.match(/\bhref="([^"]*)"/i)?.[1];
+    if (!href || isInternalHref(href)) {
+      assert.doesNotMatch(link, /\btarget=/i, `${label}: ${link}`);
+      assert.doesNotMatch(link, /\brel=/i, `${label}: ${link}`);
+    } else {
+      assert.match(link, /target="_blank"/, `${label}: ${link}`);
+      assert.match(link, /rel="noopener noreferrer"/, `${label}: ${link}`);
+    }
   }
 }
 
@@ -92,14 +110,14 @@ test("publication resource links are extracted from Markdown", () => {
   assert.equal(rice?.resources[0]?.label, "Paper");
 });
 
-test("links generated from content open in a new tab", () => {
+test("generated links keep site links in place and open external links in a new tab", () => {
   for (const [section, records] of Object.entries(content.collections)) {
     for (const record of records) {
-      if (record.html.includes("<a ")) assertLinksOpenInNewTabs(record.html, `${section}/${record.source_file}`);
+      if (record.html.includes("<a ")) assertLinkTargets(record.html, `${section}/${record.source_file}`);
     }
   }
   for (const [name, page] of Object.entries(content.pages)) {
-    if (page.html.includes("<a ")) assertLinksOpenInNewTabs(page.html, `pages/${name}`);
+    if (page.html.includes("<a ")) assertLinkTargets(page.html, `pages/${name}`);
   }
 });
 
@@ -135,7 +153,7 @@ test("key routes render from generated Markdown content", async () => {
     assert.equal(response.status, 200, pathname);
     const html = await response.text();
     assert.match(html, new RegExp(expected, "i"), pathname);
-    assertLinksOpenInNewTabs(html, pathname);
+    assertLinkTargets(html, pathname);
   }
 });
 

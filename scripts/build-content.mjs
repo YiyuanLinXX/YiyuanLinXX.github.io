@@ -7,6 +7,8 @@ import { marked } from "marked";
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentRoot = path.join(projectRoot, "content");
 const outputFile = path.join(projectRoot, "app", "generated-content.json");
+const siteConfig = JSON.parse(await readFile(path.join(contentRoot, "site.json"), "utf8"));
+const siteUrl = new URL(siteConfig.url);
 
 const collectionKinds = {
   publications: "publication",
@@ -45,11 +47,23 @@ function prepareMarkdown(markdown) {
     .replace(/^\{%[^%]*%\}\s*$/gm, "");
 }
 
-function openLinksInNewTabs(html) {
+function isInternalHref(href) {
+  try {
+    const url = new URL(String(href).trim(), siteUrl);
+    return (url.protocol === "http:" || url.protocol === "https:")
+      && url.hostname.toLowerCase() === siteUrl.hostname.toLowerCase();
+  } catch {
+    return true;
+  }
+}
+
+function applyLinkTargets(html) {
   return html.replace(/<a\b([^>]*)>/gi, (_match, attributes) => {
     const safeAttributes = String(attributes)
       .replace(/\s+target\s*=\s*["'][^"']*["']/gi, "")
       .replace(/\s+rel\s*=\s*["'][^"']*["']/gi, "");
+    const href = safeAttributes.match(/\bhref\s*=\s*(["'])(.*?)\1/i)?.[2];
+    if (!href || isInternalHref(href)) return `<a${safeAttributes}>`;
     return `<a${safeAttributes} target="_blank" rel="noopener noreferrer">`;
   });
 }
@@ -142,7 +156,7 @@ function expandAutoSections(markdown, collections) {
 
 async function compileDraft(draft, collections) {
   const expanded = expandAutoSections(prepareMarkdown(draft.markdown), collections);
-  const html = openLinksInNewTabs(
+  const html = applyLinkTargets(
     (await marked.parse(expanded))
       .replace(/<pre><code class="language-bibtex">/g, '<pre class="citation-block"><code class="language-bibtex">'),
   );
