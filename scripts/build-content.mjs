@@ -54,6 +54,29 @@ function openLinksInNewTabs(html) {
   });
 }
 
+function publicationResources(markdown) {
+  const labels = new Map([
+    ["paper", "Paper"],
+    ["full paper", "Paper"],
+    ["code", "Codebase"],
+    ["codebase", "Codebase"],
+    ["dataset", "Dataset"],
+    ["data", "Dataset"],
+  ]);
+  const resources = [];
+  const seen = new Set();
+
+  for (const match of markdown.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/gi)) {
+    const rawLabel = match[1].replace(/[*_`]/g, "").replace(/^\[/, "").trim().toLowerCase();
+    const label = labels.get(rawLabel);
+    if (!label || seen.has(label)) continue;
+    resources.push({ label, href: match[2] });
+    seen.add(label);
+  }
+
+  return resources;
+}
+
 async function markdownFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   return entries
@@ -130,6 +153,7 @@ async function compileDraft(draft, collections) {
     permalink: draft.permalink,
     date: draft.date,
     metadata: draft.metadata,
+    resources: draft.kind === "publication" ? publicationResources(draft.markdown) : [],
     html,
     source: draft.source,
   };

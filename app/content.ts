@@ -8,6 +8,7 @@ export type ContentRecord = {
   permalink: string | null;
   date: string | null;
   metadata: Record<string, string | string[] | boolean | null>;
+  resources: Array<{ label: string; href: string }>;
   html: string;
   source: string;
 };

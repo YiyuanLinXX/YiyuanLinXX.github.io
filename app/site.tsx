@@ -141,6 +141,13 @@ export function PublicationsPage() {
               <h2><a href={item.permalink ?? "#"} {...newTabLinkProps}>{item.title}</a></h2>
               {item.metadata.authors ? <p className="publication-authors" dangerouslySetInnerHTML={{ __html: String(item.metadata.authors) }} /> : null}
               <p className="publication-venue"><em>{String(item.metadata.publication ?? "")}</em></p>
+              {item.resources.length > 0 ? (
+                <div className="publication-resources" aria-label="Publication resources">
+                  {item.resources.map((resource) => (
+                    <a href={resource.href} key={`${resource.label}-${resource.href}`} {...newTabLinkProps}>{`[${resource.label}]`}</a>
+                  ))}
+                </div>
+              ) : null}
               {item.metadata.highlight ? <p className="publication-highlight" dangerouslySetInnerHTML={{ __html: String(item.metadata.highlight) }} /> : null}
             </div>
           </article>

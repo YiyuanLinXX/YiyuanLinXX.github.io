@@ -7,4 +7,6 @@ publication: "Journal or Conference"
 pub_image: "/images/publications/your-image.png"
 ---
 
-Add the publication description, abstract, links, and citation here.
+[[Paper](https://example.com/paper)] [[Codebase](https://github.com/your-name/project)] [[Dataset](https://example.com/dataset)]
+
+Add the publication description, abstract, and citation here. Remove any resource link above that is not available.

@@ -6,7 +6,7 @@ const content = JSON.parse(await readFile(new URL("../app/generated-content.json
 const site = JSON.parse(await readFile(new URL("../content/site.json", import.meta.url), "utf8"));
 
 function assertLinksOpenInNewTabs(html, label) {
-  const links = html.match(/<a\b[^>]*>/g) ?? [];
+  const links = html.match(/<a(?:\s|>)[^>]*>/g) ?? [];
   assert.ok(links.length > 0, `${label} has no links to check`);
   for (const link of links) {
     assert.match(link, /target="_blank"/, `${label}: ${link}`);
@@ -66,6 +66,21 @@ test("superscript author markers remain plain text", () => {
   assert.match(thermal.html, /Changying Li<sup>2,&#42;<\/sup>, Yu Jiang<sup>3,&#42;<\/sup>/);
 });
 
+test("publication resource links are extracted from Markdown", () => {
+  const thermal = content.collections.publications.find(
+    (publication) => publication.source_file === "2026-sam-clip-thermal-plantphenomics.md",
+  );
+  assert.deepEqual(
+    thermal?.resources.map((resource) => resource.label),
+    ["Paper", "Codebase", "Dataset"],
+  );
+
+  const rice = content.collections.publications.find(
+    (publication) => publication.source_file === "2023-rice-phenology-stage-mapping-drones.md",
+  );
+  assert.equal(rice?.resources[0]?.label, "Paper");
+});
+
 test("links generated from content open in a new tab", () => {
   for (const [section, records] of Object.entries(content.collections)) {
     for (const record of records) {
@@ -120,4 +135,15 @@ test("robot overview places each description below its title", async () => {
     html,
     /class="robot-summary"[\s\S]*?<h2>[\s\S]*?PPB-OTR-UVC[\s\S]*?<p class="robot-description">PhytoPatholoBot running over the row with UV-C treatment<\/p>/,
   );
+});
+
+test("home and publication overview expose selected work and resources", async () => {
+  const home = await (await render("/")).text();
+  assert.match(home, /PPB-OTR-UVC/);
+  assert.match(home, /PPB_OTR_UVC_web\.mp4/);
+
+  const publications = await (await render("/publications")).text();
+  assert.match(publications, /class="publication-resources"/);
+  assert.match(publications, /\[Codebase\]/);
+  assert.match(publications, /\[Dataset\]/);
 });

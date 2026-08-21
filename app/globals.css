@@ -238,6 +238,7 @@ img, video { max-width: 100%; }
   border: 1px solid var(--citation-border);
   background: var(--citation-bg);
   color: var(--citation-text);
+  font-size: 13.5px;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.35);
 }
 .prose code { font-family: var(--font-mono), monospace; font-size: .88em; }
@@ -256,17 +257,17 @@ img, video { max-width: 100%; }
 .notice--info p:last-child { margin-bottom: 0; }
 .prose .education-entry {
   display: grid !important;
-  grid-template-columns: 65px minmax(0, 1fr) !important;
-  gap: 20px !important;
+  grid-template-columns: 74px minmax(0, 1fr) !important;
+  gap: 22px !important;
   align-items: center !important;
   min-height: 0;
   padding: 18px 0 !important;
   border-bottom: 1px solid var(--line-soft);
 }
 .prose .education-logo {
-  width: 65px !important;
-  height: 65px !important;
-  max-width: 65px !important;
+  width: 74px !important;
+  height: 74px !important;
+  max-width: 74px !important;
   margin: 0 !important;
   padding: 0 !important;
   border-radius: 0 !important;
@@ -280,19 +281,19 @@ img, video { max-width: 100%; }
 .prose .education-details .education-degree { margin-top: 1px !important; }
 .robots-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 22px !important;
   margin-top: 22px;
 }
 .robot-card { display: flex; min-width: 0; flex-direction: column; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
-.robot-card img { width: 100% !important; aspect-ratio: 16 / 10; margin: 0 auto !important; border-radius: 8px !important; box-shadow: none !important; object-fit: cover; }
+.robot-card img, .robot-card video { display: block; width: 100% !important; aspect-ratio: 16 / 10; margin: 0 auto !important; border-radius: 8px !important; box-shadow: none !important; object-fit: cover; }
 .robot-name { display: block; padding: 11px 4px 3px; font-family: var(--serif); line-height: 1.35; }
 
 .publication-list { border-top: 1px solid var(--line); }
 .publication-item {
   position: relative;
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
+  grid-template-columns: 210px minmax(0, 1fr);
   gap: 30px;
   padding: 30px 0;
   border-bottom: 1px solid var(--line);
@@ -302,23 +303,26 @@ img, video { max-width: 100%; }
 .publication-thumb {
   align-self: start;
   display: flex;
-  width: 190px;
-  height: 126px;
-  padding: 9px;
-  border: 1px solid var(--line-soft);
+  width: 210px;
+  height: 140px;
+  padding: 0;
+  border: 0;
   border-radius: 9px;
-  background: var(--surface);
+  background: transparent;
   overflow: hidden;
 }
-.publication-thumb img { width: 100%; height: 100%; object-fit: contain; transition: transform .25s ease; }
-.publication-thumb:hover img { transform: scale(1.025); }
+.publication-thumb img { width: 100%; height: 100%; object-fit: contain; transform: scale(1.045); transition: transform .25s ease; }
+.publication-thumb:hover img { transform: scale(1.075); }
 .publication-body { min-width: 0; padding-right: 56px; }
-.publication-year { position: absolute; right: 0; top: 34px; color: #89918d; font: 700 10px/1 var(--font-mono), monospace; }
+.publication-year { position: absolute; right: 0; top: 34px; color: #89918d; font: 700 12px/1 var(--font-mono), monospace; }
 .publication-body h2 { margin: 0; font-family: var(--serif); font-size: 22px; line-height: 1.34; letter-spacing: -.02em; font-weight: 600; }
 .publication-body h2 a:hover { color: var(--green); }
 .publication-authors { margin: 10px 0 6px; color: #4c5752; font-size: 13px; line-height: 1.55; }
 .publication-authors strong { color: var(--ink); }
 .publication-venue { margin: 0; color: var(--muted); font-size: 13px; }
+.publication-resources { display: flex; flex-wrap: wrap; gap: 5px 10px; margin-top: 9px; font-size: 13px; font-weight: 700; }
+.publication-resources a { color: var(--green); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; }
+.publication-resources a:hover { text-decoration-color: currentColor; }
 .publication-highlight { display: inline-block; margin: 11px 0 0; padding: 5px 8px; border-radius: 5px; background: #f5eadd; color: var(--warm); font-size: 11px; font-weight: 700; line-height: 1.35; }
 
 .talk-list { border-top: 1px solid var(--line); }
@@ -422,6 +426,7 @@ html[data-theme="dark"] .profile-links .icon-dark-adapt { filter: invert(1) brig
   .publication-year { position: static; margin-bottom: 7px; }
   .publication-body h2 { font-size: 18px; }
   .publication-authors { font-size: 12px; }
+  .robots-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .talk-item { grid-template-columns: 1fr; gap: 10px; }
   .robot-item { grid-template-columns: 1fr; gap: 18px; }
   .robot-media { width: 100%; }
