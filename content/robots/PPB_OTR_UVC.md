@@ -6,6 +6,8 @@ permalink: /robots/ppb-otr-uvc
 date: 2026-08-04
 ---
 
+> The PPB-OTR-UVC codebase, including navigation modules and UV-C treatment control module is open-source [here](https://github.com/YiyuanLinXX/PPB-OTR-UVC).
+
 <video autoplay loop muted playsinline style="max-width: 100%; height: auto;">
   <source src="/images/portfolio/PPB_OTR_UVC/PPB_OTR_UVC_web.mp4" type="video/mp4">
 </video>
@@ -28,3 +30,7 @@ Through the integration of autonomous navigation, prescription-map-based treatme
 * Site-specific treatment capability for precision disease management
 
 The platform is designed for autonomous outdoor operation and can support precision disease-management workflows in vineyards and other specialty-crop production systems. By combining spatial disease information with automated UV treatment, PPB-OTR-UVC enables **targeted, repeatable, and efficient field-scale disease intervention**.
+
+<img src='/images/portfolio/PPB_OTR_UVC/20260820_000232947_iOS.jpg' width="100%">
+<img src='/images/portfolio/PPB_OTR_UVC/20260820_003327597_iOS.jpg' width="50%">
+<img src='/images/portfolio/PPB_OTR_UVC/20260820_003348672_iOS.jpg' width="50%">
