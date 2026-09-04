@@ -7,6 +7,8 @@ date: 2025-05-01
 ---
 
 > The PPBv2 codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPBv2).
+> The codebase for PPBv2 geo reference and image-to-plant data mapping is open-source [here](https://github.com/YiyuanLinXX/GeoReference).
+
 
 <img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif' width="100%">
 
@@ -30,6 +32,9 @@ All data were collected during daylight hours.
 <img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
 
 <img src='/images/portfolio/PPB_V2/ppbv2_sample_data_reconstructed.png'>
+
+# Geo-Reference and Image-to-Plant Data Mapping
+<img src='/images/portfolio/PPB_V2/geo_reference.png'>
 
 # Modular Design
 <img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260312.png'>
