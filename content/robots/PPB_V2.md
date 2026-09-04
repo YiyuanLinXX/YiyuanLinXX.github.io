@@ -22,7 +22,7 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 **Key Feature:**
 - Active illumination module (strobe-based) with fast shutter camera(s) to reduce background
 - Stereo RGB camera pair for 3D canopy reconstruction
-- RTK-GPS + IMU for autonomous navigation and precise georeferencing of each image frame
+- Dual GNSS for autonomous navigation and precise georeferencing of each image frame
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
