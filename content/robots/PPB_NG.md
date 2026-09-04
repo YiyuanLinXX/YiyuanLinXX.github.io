@@ -6,7 +6,7 @@ permalink: /robots/ppbng
 date: 2025-07-29
 ---
 
-> The PPB-NG codebase, including navigation modules and data acquisition scripts is open-source [here](https://github.com/YiyuanLinXX/PPB-NG) (under construction).
+> The PPB-NG codebase, including synchronized data acquisition scripts for VIS-NIR and SWIR hyperspectral cameras, thermal camera, RGB camera, GNSS coordinates and stabilzation mount (pitch/yaw) is open-source [here](https://github.com/YiyuanLinXX/PPB-NG). Its navigation module shares the same design as [PPBv2](https://yiyuanlinxx.github.io/robots/ppbv2).
 
 <img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>
 
