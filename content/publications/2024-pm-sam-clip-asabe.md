@@ -28,6 +28,9 @@ Yiyuan Lin<sup>1</sup>, Anna Underhill<sup>2</sup>, Lance Cadle-Davison<sup>2,3<
 
 Please find the manuscript published on ASABE 2024 AIM [here](https://elibrary.asabe.org/abstract.asp?aid=54830) and our following work about SAM-CLIP on SSRN [here](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1).
 
+### Codebase
+The codebase for this work is open source and public available at [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP)
+
 ---
 
 <!-- Abstract and Keyword -->

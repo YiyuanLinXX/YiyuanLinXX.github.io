@@ -20,14 +20,14 @@ Tian Qiu<sup>1</sup>, Alan Zoubi<sup>2</sup>, Yiyuan Lin<sup>1</sup>, Ruiming Du
 <sup>5</sup> Horticulture Section, School of Integrative Plant Science, Cornell University, Geneva, USA<br/>
 <sup>&#42;</sup> Corresponding authors.
 
-[[**`Paper`**](https://ieeexplore.ieee.org/document/11359011)] [[**`Codebase`**](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)]
+[[**`Paper`**](https://ieeexplore.ieee.org/document/11359011)] [[**`Codebase`**](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/)]
 
 <!-- Paper URL -->
 ### Publication
 Please find the manuscript published on IEEE Robotics and Automation Letters (RA-L) [here](https://ieeexplore.ieee.org/document/11359011).
 
 ### Codebase
-The codebase for this work is open source and public available at [DATR](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/tree/main)
+The codebase for this work is open source and public available at [DATR](https://github.com/suptimq/DATR_Diffusion_Tree_Reconstruction/)
 
 ---
 

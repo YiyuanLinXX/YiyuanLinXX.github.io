@@ -21,7 +21,7 @@ Yiyuan Lin<sup>1</sup>, Madan Pandey<sup>2</sup>, Lance Cadle-Davidson<sup>3,4</
 <sup>&#42;</sup> Corresponding authors.
 
 
-[[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=55975)] [[**`Codebase`**](https://github.com/YiyuanLinXX/Berry_Seg_Color_QTL/tree/main)]
+[[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=55975)] [[**`Codebase`**](https://github.com/YiyuanLinXX/Berry_Seg_Color_QTL/)]
 
 
 <!-- Paper URL -->
@@ -29,6 +29,8 @@ Yiyuan Lin<sup>1</sup>, Madan Pandey<sup>2</sup>, Lance Cadle-Davidson<sup>3,4</
 
 Please find the manuscript published on ASABE 2026 AIM [here](https://elibrary.asabe.org/abstract.asp?aid=55975).
 
+### Codebase
+The codebase for this work is open source and public available at [Berry_Seg_Color_QTL](https://github.com/YiyuanLinXX/Berry_Seg_Color_QTL/)
 
 <!-- ### Dataset -->
 

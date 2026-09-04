@@ -27,6 +27,14 @@ Yiyuan Lin<sup>1,†</sup>, Chenjiao Tan<sup>2,†</sup>, Changying Li<sup>2,&#4
 
 Please find the manuscript published on Plant Phenomics [here](https://www.sciencedirect.com/science/article/pii/S2643651526001019).
 
+### Codebase
+
+The codebase for this work is open source and public available at [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP).
+
+### Dataset
+
+The data for this work is open source and public available at [Thermal_Datasets_Plant_Phnomics](https://cornell.box.com/s/dh69xf84464yrc1vlws92l1tflx7qa89).
+
 ---
 
 <!-- Abstract and Keyword -->
