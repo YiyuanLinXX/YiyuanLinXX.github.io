@@ -21,7 +21,8 @@ Yiyuan Lin<sup>1</sup>, Madan Pandey<sup>2</sup>, Lance Cadle-Davidson<sup>3,4</
 <sup>&#42;</sup> Corresponding authors.
 
 
-[[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=55975)]
+[[**`Paper`**](https://elibrary.asabe.org/abstract.asp?aid=55975)] [[**`Codebase`**](https://github.com/YiyuanLinXX/Berry_Seg_Color_QTL/tree/main)]
+
 
 <!-- Paper URL -->
 ### Publication
