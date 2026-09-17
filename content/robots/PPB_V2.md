@@ -43,6 +43,9 @@ Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [h
 <img src='/images/portfolio/PPB_V2/nav_system.jpg'>
 
 # Geo-Reference and Image-to-Plant Data Mapping
+
+Geo-Reference and Data Mapping codebase are open-source at [https://github.com/YiyuanLinXX/GeoReference](https://github.com/YiyuanLinXX/GeoReference).
+
 <img src='/images/portfolio/PPB_V2/geo_reference.png'>
 
 # Modular Design
