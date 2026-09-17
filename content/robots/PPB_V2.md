@@ -26,10 +26,7 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
-# Navigation System
-Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation](https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation).
 
-<img src='images/portfolio/PPB_V2/nav_system.png'>
 
 # Collected Sample Data
 
@@ -39,23 +36,29 @@ All data were collected during daylight hours.
 
 <img src='/images/portfolio/PPB_V2/ppbv2_sample_data_reconstructed.png'>
 
+# Navigation System
+
+Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation](https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation).
+
+<img src='/images/portfolio/PPB_V2/nav_system.jpg'>
+
 # Geo-Reference and Image-to-Plant Data Mapping
 <img src='/images/portfolio/PPB_V2/geo_reference.png'>
 
 # Modular Design
 <img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260312.png'>
 
+# PPBv2 2026 Edition
+<img src='/images/portfolio/PPB_V2/ppbv2_2026.png'>
+
 # PPBv2 2025 Edition
 <img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
 
 # PPBv2 2024 Edition
 
-<img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif' width="40%"> <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif' width="40%">
-
-<img src='/images/portfolio/PPB_V2/IMG_0394.jpeg'>
-
-<img src='/images/portfolio/PPB_V2/IMG_0395.jpeg'>
-
-<img src='/images/portfolio/PPB_V2/IMG_0397.jpeg'>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: start;">
+  <img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif' alt='PPBv2 driving through a vineyard row' style='width: 100%; height: auto;'>
+  <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif' alt='PPBv2 turning at the end of a vineyard row' style='width: 100%; height: auto;'>
+</div>
 
 <img src='/images/portfolio/PPB_V2/IMG_0398.jpeg'>
