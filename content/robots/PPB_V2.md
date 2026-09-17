@@ -27,10 +27,9 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
 # Navigation System
+Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation](https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation).
 
-<a href='/images/portfolio/PPB_V2/nav_system.pdf' target='_blank' rel='noopener noreferrer'><img src='/images/portfolio/PPB_V2/nav_system.png' alt='PPBv2 navigation system hardware and control architecture' width='100%'></a>
-
-[View the navigation system diagram as a PDF](/images/portfolio/PPB_V2/nav_system.pdf).
+<img src='images/portfolio/PPB_V2/nav_system.png'>
 
 # Collected Sample Data
 
