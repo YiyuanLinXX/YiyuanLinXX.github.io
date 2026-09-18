@@ -13,9 +13,9 @@
   "navigation": [
     { "label": "Publications", "href": "/publications/" },
     { "label": "Talks", "href": "/talks/" },
+    { "label": "Robots", "href": "/robots/" },
     { "label": "Mentorship", "href": "/mentorship/" },
     { "label": "Teaching", "href": "/teaching/" },
-    { "label": "Robots", "href": "/robots/" },
     { "label": "Blog Posts", "href": "/year-archive/" },
     { "label": "CV", "href": "/cv/" }
   ],
