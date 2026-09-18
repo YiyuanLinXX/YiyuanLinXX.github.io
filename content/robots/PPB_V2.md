@@ -49,7 +49,7 @@ Geo-Reference and Data Mapping codebase are open-source at [https://github.com/Y
 <img src='/images/portfolio/PPB_V2/geo_reference.png'>
 
 # Modular Design
-<img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260312.png'>
+<img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260726_horizontal.png'>
 
 # PPBv2 2026 Edition
 <img src='/images/portfolio/PPB_V2/ppbv2_2026.png'>
