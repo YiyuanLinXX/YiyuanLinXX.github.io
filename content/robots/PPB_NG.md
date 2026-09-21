@@ -21,7 +21,10 @@ PhytoPatholoBot Next Generation (PPB-NG) is a field-deployable multi-modal robot
 The entire system is natively integrated within ROS2 and is engineered for rugged outdoor operation in vineyards. The data collected by PPB-NG enables scalable, objective, and repeatable field phenotyping studies at large spatial and temporal scales.
 
 **We are currently optimizing the PPB-NG and trying to release the upgraded version asap, please stay tuned!**
+# PPBv2 2026 Edition
+<img src='/images/portfolio/PPB_NG/PPBNG_2026.png'>
 
+# PPBv2 2025 Edition
 <img src='/images/portfolio/PPB_NG/PPBNG_Annotation_new.png'>
 
 <img src='/images/portfolio/PPB_NG/ppbng_ver1_2025.jpeg'>
