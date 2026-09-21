@@ -12,8 +12,8 @@
   "email": "yl3663@cornell.edu",
   "navigation": [
     { "label": "Publications", "href": "/publications/" },
-    { "label": "Talks", "href": "/talks/" },
     { "label": "Robots", "href": "/robots/" },
+    { "label": "Talks", "href": "/talks/" },
     { "label": "Mentorship", "href": "/mentorship/" },
     { "label": "Teaching", "href": "/teaching/" },
     { "label": "Blog Posts", "href": "/year-archive/" },
