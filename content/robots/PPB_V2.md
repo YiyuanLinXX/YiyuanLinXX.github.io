@@ -52,7 +52,8 @@ If you find this work useful for your research, please consider citing our work:
       eprint={2609.28933},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2609.28933}, 
+      url={https://arxiv.org/abs/2609.28933},
+      doi={https://doi.org/10.48550/arXiv.2609.28933},
 }
 ```
 
