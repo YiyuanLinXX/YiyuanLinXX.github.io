@@ -41,7 +41,7 @@ All data were collected during daylight hours.
 Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation](https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation).
 
 <!-- Citation -->
-## Citation
+**Citation**
 If you find this work useful for your research, please consider citing our work:
 ```bibtex
 @misc{lin2026fielddeployablegnssbasednavigationstack,
