@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publications/nav
 authors: "<strong>Yiyuan Lin</strong>, Cole Regnier, Yu Jiang"
 publication: "arXiv"
-pub_image: "/images/publications/nav_system.png"
+pub_image: "/images/publications/nav_system.jpg"
 date: 2026-09-24
 ---
 
@@ -38,7 +38,7 @@ Outdoor robots require more than an accurate receiver and a path-tracking law: t
 
 **Index Terms**: Field robotics, outdoor autonomous navigation, path following, dual GNSS, single GNSS, IMU, ROS 2.
 
-<img src='/images/publications/nav_system.png' width="100%">
+<img src='/images/publications/nav_system.jpg' width="100%">
 
 ### Author’s Note
 
