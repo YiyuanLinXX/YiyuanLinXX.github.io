@@ -40,6 +40,21 @@ All data were collected during daylight hours.
 
 Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation](https://github.com/YiyuanLinXX/PPBv2/tree/main/PPBv2_Navigation).
 
+<!-- Citation -->
+## Citation
+If you find this work useful for your research, please consider citing our work:
+```bibtex
+@misc{lin2026fielddeployablegnssbasednavigationstack,
+      title={A Field-Deployable GNSS-based Navigation Stack for Outdoor Mobile Robots}, 
+      author={Yiyuan Lin and Cole Regnier and Yu Jiang},
+      year={2026},
+      eprint={2609.28933},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2609.28933}, 
+}
+```
+
 <img src='/images/portfolio/PPB_V2/nav_system.jpg'>
 
 # Geo-Reference and Image-to-Plant Data Mapping
