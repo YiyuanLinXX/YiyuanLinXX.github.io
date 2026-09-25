@@ -42,6 +42,7 @@ Both Single GNSS+IMU and Dual GNSS based navigation stacks are open-source at [h
 
 <!-- Citation -->
 **Citation**
+
 If you find this work useful for your research, please consider citing our work:
 ```bibtex
 @misc{lin2026fielddeployablegnssbasednavigationstack,
