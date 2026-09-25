@@ -51,10 +51,17 @@ Students who are interested in joining the lab are encouraged to email me with t
 
 </div>
 
+
+- [Apurva Singh](https://github.com/apourva14)
+    - 2026/09 - Present
+    - M.Eng. student at Cornell University
+    - GNSS-Vision hybrid field robot navigation
+
+
 ## Former Mentees
 
 ### Summer 2026
-- [Yukta Karki](https://github.com/okb6)
+- [Yukta Karki](https://www.linkedin.com/in/yukta-karki05/)
     - 2026/06 - 2026/08
     - Undergraduate student at University of Louisiana Monroe
     - Vision-based field robot navigation
