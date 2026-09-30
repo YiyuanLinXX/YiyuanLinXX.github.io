@@ -44,6 +44,28 @@ My unparalleled emotional sponsor: Xunyu Luo.
   
 </div>
 
+<div class="education-section work-experience-section">
+  <h1>Work Experience</h1>
+
+  <div class="education-entry">
+    <img src="/images/logo/IEEE_RAS_logo.png" alt="IEEE Robotics and Automation Society logo" class="education-logo" />
+    <div class="education-details">
+      <h3>IEEE Robotics and Automation Society</h3>
+      <p class="education-dates">March 2026 – Present</p>
+      <p class="education-degree">Student Representative</p>
+    </div>
+  </div>
+
+  <div class="education-entry">
+    <img src="/images/logo/ZJU_Logo.svg" alt="Zhejiang University logo" class="education-logo" />
+    <div class="education-details">
+      <h3>Huzhou Institute of Zhejiang University</h3>
+      <p class="education-dates">April 2022 – April 2023</p>
+      <p class="education-degree">Research Assistant, FAST Lab</p>
+    </div>
+  </div>
+</div>
+
 # News
 - 2026/08 — I passed my PhD A Exam at Cornell ECE.
 - 2026/07 — Our paper, *Robot-enabled field phenotyping of grape Berry cluster color using Multimodal Vision Foundation models for genetic mapping*, received the **1st Place in the 2026 AOCABFE Student Paper Competition**.
