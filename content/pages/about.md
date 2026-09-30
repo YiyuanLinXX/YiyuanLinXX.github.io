@@ -57,7 +57,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   </div>
 
   <div class="education-entry">
-    <img src="/images/logo/Huzhou_Institute_ZJU_logo.png" alt="Huzhou Institute of Zhejiang University logo" class="education-logo" />
+    <img src="/images/logo/Huzhou_Institute_ZJU_logo_square.jpg" alt="Huzhou Institute of Zhejiang University logo" class="education-logo" />
     <div class="education-details">
       <h3>Huzhou Institute of Zhejiang University</h3>
       <p class="education-dates">April 2022 – April 2023</p>

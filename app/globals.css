@@ -282,13 +282,6 @@ html[data-theme="dark"] .prose .education-logo {
 .prose .education-details h3 { margin: 0 0 4px !important; font-size: 19px; line-height: 1.3; }
 .prose .education-details p { margin: 0 !important; font-size: 14px; line-height: 1.55; }
 .prose .education-details .education-degree { margin-top: 1px !important; }
-.prose .work-experience-section .education-entry {
-  grid-template-columns: 132px minmax(0, 1fr) !important;
-}
-.prose .work-experience-section .education-logo {
-  width: 132px !important;
-  max-width: 132px !important;
-}
 .robots-grid {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -452,8 +445,6 @@ html[data-theme="dark"] .profile-links .icon-dark-adapt { filter: invert(1) brig
   .publication-item { grid-template-columns: 1fr; }
   .publication-thumb { width: 100%; height: 190px; }
   .robots-grid { grid-template-columns: 1fr !important; }
-  .prose .work-experience-section .education-entry { grid-template-columns: 100px minmax(0, 1fr) !important; gap: 16px !important; }
-  .prose .work-experience-section .education-logo { width: 100px !important; max-width: 100px !important; }
 }
 
 @media (prefers-reduced-motion: reduce) {
