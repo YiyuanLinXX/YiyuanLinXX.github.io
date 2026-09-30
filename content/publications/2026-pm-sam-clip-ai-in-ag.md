@@ -4,8 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publications/sam-clip
 authors: "<strong>Yiyuan Lin</strong>, Zachary Dashner, Ana Jimenez, Dustin Wilkerson, Lance Cadle-Davidson, Summaira Riaz, Yu Jiang"
-publication: "Artificial Intelligence in Agriculture (under review)"
-pub_image: "/images/publications/sam_clip_gigascience.png"
+publication: "Artificial Intelligence in Agriculture"
+pub_image: "/images/publications/sam_clip_aia.png"
 date: 2026-01-08
 ---
 
@@ -76,9 +76,4 @@ Overall, this work demonstrates that large multi-modal models adapted through vi
   keywords = {CLIP,Computer Vision,Powdery Mildew,SAM,Semantic Segmentation,Vineyard Management.}
 }
 
-```
-
-Suggested Citation:
-```
-Lin, Yiyuan and Dashner, Zachary and Jimenez, Ana and Wilkerson, Dustin and Cadle-Davidson, Lance E. and Riaz, Summaira and Jiang, Yu, Integrating Large Multi-Modal Models for Automated Powdery Mildew Phenotyping in Grapevines. Available at SSRN: https://ssrn.com/abstract=6170008 or http://dx.doi.org/10.2139/ssrn.6170008
 ```
