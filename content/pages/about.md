@@ -48,7 +48,7 @@ My unparalleled emotional sponsor: Xunyu Luo.
   <h1>Work Experience</h1>
 
   <div class="education-entry">
-    <img src="/images/logo/IEEE_RAS_logo.png" alt="IEEE Robotics and Automation Society logo" class="education-logo" />
+    <img src="/images/logo/IEEE_RAS_logo.svg" alt="IEEE Robotics and Automation Society logo" class="education-logo" />
     <div class="education-details">
       <h3>IEEE Robotics and Automation Society</h3>
       <p class="education-dates">March 2026 – Present</p>
