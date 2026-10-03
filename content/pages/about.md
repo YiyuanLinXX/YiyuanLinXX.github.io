@@ -61,23 +61,23 @@ My unparalleled emotional sponsor: Xunyu Luo.
     <div class="education-details">
       <h3>Huzhou Institute of Zhejiang University</h3>
       <p class="education-dates">April 2022 – April 2023</p>
-      <p class="education-degree">Research Assistant, FAST Lab</p>
+      <p class="education-degree">Research Assistant @ FAST Lab</p>
     </div>
   </div>
 </div>
 
 # News
+- 2026/10 — I was selected as the inaugural CoPAIR Fellow for Communities of Practice for AI-enabled Research (CoPAIRs) at Cornell University
 - 2026/08 — I passed my PhD A Exam at Cornell ECE.
-- 2026/07 — Our paper, *Robot-enabled field phenotyping of grape Berry cluster color using Multimodal Vision Foundation models for genetic mapping*, received the **1st Place in the 2026 AOCABFE Student Paper Competition**.
+- 2026/07 — Our paper, *Robot-enabled field phenotyping of grape Berry cluster color using Multimodal Vision Foundation models for genetic mapping*, received the **1st Place in the 2026 AOCABFE Student Paper Competition** and **2nd Place in the 2026 AOCABFE Student Research Presentation Competition**
 - 2026/06 — Our paper, *Beyond Seasonality: A High-Fidelity Apple Orchard Digital Twin*, received the **ITSC Paper Award** at ASABE 2026 AIM.
 - 2026/03 — Appointed as a Student Representative for an IEEE Robotics and Automation Society Technical Committee for the 2026 to 2027 term. Looking forward to contributing to the community.
-- 2025/10 — Two [PPBv2](https://yiyuanlinxx.github.io/robots/ppbv2) robots were successfully deployed in more than 15 vineyards across the Finger Lakes region from May through Oct 2025. The same imaging systems on them were also mounted on ATVs and deployed at Cornell AgriTech, UMN, SDSU, USDA-ARS (Parlier CA) and USDA-AFRS (Kearneysville WV). In each vineyard, the robots/imaging systems operated weekly in the field, collecting over 7TB of imagery data for downstream research. [[news 1](https://news.cornell.edu/stories/2025/09/robot-matches-humans-scouting-vineyard-diseases)] [[news 2](https://vitisgen3.umn.edu/phytopatholobots-deployed-two-vitisgen3-sites)] [[news 3](https://www.instagram.com/reel/C9ftnvhS8cI/?igsh=MXV0NjgzeWFoY3RrOQ%3D%3D)]
-- 2025/07 — The [PPB-NG](https://yiyuanlinxx.github.io/robots/ppbng) prototype robot was deployed in the field at Cornell AgriTech to perform synchronized data collection with NASA JPL's [AVIRIS](https://aviris.jpl.nasa.gov/) mission. [[news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp)] [[news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/)] [[news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#)] [[news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)]
-
 
 <details>
   <summary><strong>Past News</strong></summary>
   <ul>
+    <li>2025/07 — Two [PPBv2](https://yiyuanlinxx.github.io/robots/ppbv2) robots were successfully deployed in more than 15 vineyards across the Finger Lakes region from May through Oct 2025. The same imaging systems on them were also mounted on ATVs and deployed at Cornell AgriTech, UMN, SDSU, USDA-ARS (Parlier CA) and USDA-AFRS (Kearneysville WV). In each vineyard, the robots/imaging systems operated weekly in the field, collecting over 7TB of imagery data for downstream research. [[news 1](https://news.cornell.edu/stories/2025/09/robot-matches-humans-scouting-vineyard-diseases)] [[news 2](https://vitisgen3.umn.edu/phytopatholobots-deployed-two-vitisgen3-sites)] [[news 3](https://www.instagram.com/reel/C9ftnvhS8cI/?igsh=MXV0NjgzeWFoY3RrOQ%3D%3D)]</li>
+    <li>2025/07 — The [PPB-NG](https://yiyuanlinxx.github.io/robots/ppbng) prototype robot was deployed in the field at Cornell AgriTech to perform synchronized data collection with NASA JPL's [AVIRIS](https://aviris.jpl.nasa.gov/) mission. [[news 1](https://www.instagram.com/reel/DNESxjlKwJC/?igsh=bXp0d2twYnM0ZDBp)] [[news 2](https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/)] [[news 3](https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467&mibextid=wwXIfr&rdid=wAPXvbyYI0goWUv8#)] [[news 4](https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/)]</li>
     <li>2025/04 — I passed my PhD Qualification Exam at Cornell ECE.</li>
     <li>2024/08 — We hosted the NASA Acres leadership visiting group and demostrated our robots. [<a href="https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers">news</a>]</li>
     <li>2024/05 — Our paper, <em>Effective integration of vision foundational models for semantic segmentation to quantify grape foliage powdery mildew infection</em>, received the <strong>ITSC Best Paper Award</strong> at ASABE 2024 AIM. [<a href="https://www.asabe.org/Awards-Competitions/Paper-Awards/ITSC-Paper-Awards">news</a>]</li>
@@ -109,7 +109,6 @@ My unparalleled emotional sponsor: Xunyu Luo.
     </div>
   </div>
 </div>
-
 
 <br/>
 
