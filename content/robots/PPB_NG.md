@@ -31,7 +31,7 @@ The entire system is natively integrated within ROS2 and is engineered for rugge
 <img src='/images/portfolio/PPB_NG/ppbng_sample_data.webp'>
 
 # Modular Design
-<img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20261003_vertical.webp'>
+<img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20261003_vertical.webp' width="100%">
 
 # Power Design
 <img src='/images/portfolio/PPB_NG/PPB_NG_Power_System_20261003.webp'>
