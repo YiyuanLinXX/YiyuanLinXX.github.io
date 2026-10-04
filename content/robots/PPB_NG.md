@@ -24,15 +24,15 @@ The entire system is natively integrated within ROS2 and is engineered for rugge
 # PPBNG 2026 Edition
 <img src='/images/portfolio/PPB_NG/PPBNG_2026.png'>
 
+# Collected Sample Data
+<img src='/images/portfolio/PPB_NG/ppbng_sample_data.webp'>
+
 # PPBNG 2025 Edition
 <img src='/images/portfolio/PPB_NG/PPBNG_Annotation_new.png'>
 
 <img src='/images/portfolio/PPB_NG/ppbng_ver1_2025.jpeg'>
 
 <img src='/images/portfolio/PPB_NG/ppbng_ver1_2025_2.jpeg'>
-
-# Collected Sample Data
-<img src='/images/portfolio/PPB_NG/ppbng_sample_data.png'>
 
 # Modular Design
 <img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20260313_vertical.png'>
