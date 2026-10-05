@@ -332,6 +332,17 @@ html[data-theme="dark"] .prose .education-logo {
 .talk-item { display: grid; grid-template-columns: 138px minmax(0, 1fr); gap: 30px; padding: 30px 0 32px; border-bottom: 1px solid var(--line); }
 .talk-item time { padding-top: 4px; color: #78827d; font: 700 12px/1.5 var(--font-mono), monospace; text-transform: uppercase; }
 .item-type { color: var(--green); font: 700 12px/1.35 var(--font-mono), monospace; letter-spacing: .065em; text-transform: uppercase; }
+.talk-item .item-type {
+  display: inline-block;
+  padding: 5px 10px 6px;
+  border-radius: 5px;
+  background: var(--green-soft);
+  color: var(--green);
+  box-shadow: inset 0 0 0 1px rgba(36, 91, 71, .14);
+  font: 700 12px/1.2 var(--font-inter);
+  letter-spacing: .015em;
+  text-transform: none;
+}
 .talk-item h2, .archive-item h2, .robot-item h2 { margin: 8px 0 10px; font-family: var(--serif); font-size: 24px; line-height: 1.32; letter-spacing: -.02em; font-weight: 600; }
 .talk-item p, .archive-item > p:last-child { margin: 0; color: var(--muted); font-size: 13px; }
 
@@ -393,6 +404,7 @@ html[data-theme="dark"] .prose th { background: #252c28; color: #dce2de; }
 html[data-theme="dark"] .prose pre.citation-block { box-shadow: inset 0 1px 0 rgba(255,255,255,.035); }
 html[data-theme="dark"] .publication-authors { color: #c2cac5; }
 html[data-theme="dark"] .publication-highlight { background: #3a2b20; }
+html[data-theme="dark"] .talk-item .item-type { box-shadow: inset 0 0 0 1px rgba(156, 193, 173, .24); }
 html[data-theme="dark"] .profile-photo,
 html[data-theme="dark"] .theme-toggle { box-shadow: 0 12px 36px rgba(0, 0, 0, .28); }
 html[data-theme="dark"] .profile-links .icon-dark-adapt { filter: invert(1) brightness(.9); }
