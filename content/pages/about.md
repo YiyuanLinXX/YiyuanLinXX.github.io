@@ -50,9 +50,9 @@ My unparalleled emotional sponsor: Xunyu Luo.
   <div class="education-entry">
     <img src="/images/logo/Cornell_logo.svg" alt="Cornell University logo" class="education-logo" />
     <div class="education-details">
-      <h3>Communities of Practice for AI-enabled Research (CoPAIRs), Cornell University</h3>
+      <h3>Communities of Practice for AI-enabled Research, Cornell University</h3>
       <p class="education-dates">Oct 2026 – Present</p>
-      <p class="education-degree">CoPAIR Fellow</p>
+      <p class="education-degree">Cornell CoPAIR Fellow</p>
     </div>
   </div>
 
