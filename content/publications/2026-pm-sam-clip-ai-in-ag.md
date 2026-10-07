@@ -54,13 +54,15 @@ Overall, this work demonstrates that large multi-modal models adapted through vi
 <!-- Citation -->
 ### Citation
 ```bibtex
-@article{Lin2026,
-  title = {Integrating Large Multi-Modal Models for Automated Powdery Mildew Phenotyping in Grapevines},
-  url = {http://dx.doi.org/10.2139/ssrn.6170008},
-  DOI = {10.2139/ssrn.6170008},
-  publisher = {Elsevier BV},
-  author = {Lin,  Yiyuan and Dashner,  Zachary and Jimenez,  Ana and Wilkerson,  Dustin and Cadle-Davidson,  Lance  E. and Riaz,  Summaira and Jiang,  Yu},
-  year = {2026}
+@article{LIN2026,
+  title = {Integrating large multi-modal models for automated powdery mildew phenotyping in grapevines},
+  journal = {Artificial Intelligence in Agriculture},
+  year = {2026},
+  issn = {2589-7217},
+  doi = {https://doi.org/10.1016/j.aiia.2026.09.006},
+  url = {https://www.sciencedirect.com/science/article/pii/S2589721726001157},
+  author = {Yiyuan Lin and Zachary Dashner and Ana Jimenez and Dustin Wilkerson and Lance Cadle-Davidson and Summaira Riaz and Yu Jiang},
+  keywords = {Large multi-modal model, Foundation model, Grape powdery mildew, High-throughput phenotyping, Semantic segmentation, SAM, CLIP, QTL analysis, Precision viticulture, Vineyard management}
 }
 
 @inproceedings{linEffectiveIntegrationVision2024,
