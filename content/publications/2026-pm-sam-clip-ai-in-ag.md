@@ -21,12 +21,12 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 <sup>&#42;</sup> Corresponding authors.
 
 
-[[**`Paper`**](https://dx.doi.org/10.2139/ssrn.6170008)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
+[[**`Paper`**](https://doi.org/10.1016/j.aiia.2026.09.006)] [[**`Codebase`**](https://github.com/YiyuanLinXX/SAM-CLIP)] [[**`Dataset`**](https://cornell.box.com/s/qkofzu5b24hqkev6y9raga9t9ihoc5l1)]
 
 <!-- Paper URL -->
 ### Publication
 
-Please find the preprint on SSRN [here](https://dx.doi.org/10.2139/ssrn.6170008).
+Please find the preprint on SSRN [here](https://doi.org/10.1016/j.aiia.2026.09.006).
 
 ### Codebase
 
