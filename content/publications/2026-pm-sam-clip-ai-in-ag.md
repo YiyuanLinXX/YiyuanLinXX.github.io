@@ -26,7 +26,7 @@ Yiyuan Lin<sup>1</sup>, Zachary Dashner<sup>2</sup>, Ana Jimenez<sup>2</sup>, Du
 <!-- Paper URL -->
 ### Publication
 
-Please find the preprint on SSRN [here](https://doi.org/10.1016/j.aiia.2026.09.006).
+Please find the preprint on Artificial Intelligence in Agriculture [here](https://doi.org/10.1016/j.aiia.2026.09.006).
 
 ### Codebase
 
