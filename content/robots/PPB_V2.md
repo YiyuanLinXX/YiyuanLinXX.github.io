@@ -32,7 +32,7 @@ The platform is fully ROS2-integrated and designed for rugged outdoor operation 
 
 All data were collected during daylight hours.
 
-## Vineyard RGB and Disease Annotations
+## 3D Reconstructed Vineyard and Disease Map
 
 The upper panel shows RGB imagery, while the lower panel shows the corresponding disease annotations.
 
