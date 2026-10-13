@@ -32,19 +32,19 @@ The platform is fully ROS2-integrated and designed for rugged outdoor operation 
 
 All data were collected during daylight hours.
 
+<img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
+
+<img src='/images/portfolio/PPB_V2/ppbv2_sample_data_reconstructed.png'>
+
 ## 3D Reconstructed Vineyard and Disease Map
 
-The upper panel shows RGB imagery, while the lower panel shows the corresponding disease annotations.
+The upper panel shows 3D point clouds reconstructed from stereo RGB images, while the lower panel shows the corresponding disease infection on the canopy.
 
-<video autoplay loop muted playsinline controls preload="auto" poster="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_poster.jpg" width="1280" height="1440" style="display: block; width: 100%; max-width: 900px; height: auto; margin-inline: auto;" aria-label="Vineyard RGB imagery and disease annotations, shown vertically">
+<video autoplay loop muted playsinline controls preload="auto" poster="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_poster.jpg" width="1280" height="1440" style="display: block; width: 100%; max-width: 900px; height: auto; margin-inline: auto;" aria-label="3D vineyard point clouds and corresponding canopy disease infection map, shown vertically">
   <source src="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.webm" type="video/webm">
   <source src="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.mp4" type="video/mp4">
   <a href="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.mp4">Download video</a>
 </video>
-
-<img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
-
-<img src='/images/portfolio/PPB_V2/ppbv2_sample_data_reconstructed.png'>
 
 # Navigation System
 
