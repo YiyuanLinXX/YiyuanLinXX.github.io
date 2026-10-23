@@ -77,14 +77,16 @@ Figure 7. Visualization of annotation disagreement on the UGA global test datase
 ### Citation
 ```bibtex
 @article{LIN2026100264,
-title = {SAM-CLIP-Thermal: Leveraging Large Multimodal Models for Reliable and Scalable Annotation in Thermal Image Segmentation for Field Plant Phenotyping},
+title = {SAM-CLIP-Thermal: Leveraging large multimodal models for reliable and scalable annotation in thermal image segmentation for field plant phenotyping},
 journal = {Plant Phenomics},
+volume = {8},
+number = {4},
 pages = {100264},
 year = {2026},
 issn = {2643-6515},
 doi = {https://doi.org/10.1016/j.plaphe.2026.100264},
 url = {https://www.sciencedirect.com/science/article/pii/S2643651526001019},
 author = {Yiyuan Lin and Chenjiao Tan and Changying Li and Yu Jiang},
-keywords = {thermal image segmentation, large multimodal models, SAM, CLIP, active learning, transfer learning, dataset},
+keywords = {Thermal image segmentation, Large multimodal models, SAM, CLIP, Active learning, Transfer learning, Dataset},
 }
 ```
