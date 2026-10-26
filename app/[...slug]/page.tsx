@@ -90,7 +90,7 @@ export default async function CatchAllPage({ params }: RouteProps) {
   }
 
   return (
-    <SiteFrame title={record.title ?? "Untitled"} variant={record.kind === "publication" ? "publication-detail" : undefined}>
+    <SiteFrame title={record.title ?? "Untitled"} variant={record.kind === "publication" || record.kind === "talk" ? "publication-detail" : undefined}>
       {record.kind === "talk" ? <TalkDetail record={record} /> : <RichContent html={record.html} />}
     </SiteFrame>
   );
