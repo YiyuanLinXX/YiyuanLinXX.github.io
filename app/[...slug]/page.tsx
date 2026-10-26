@@ -10,6 +10,7 @@ import {
   SiteFrame,
   siteConfig,
   siteData,
+  TalkDetail,
   TalksPage,
   TeachingPage,
 } from "../site";
@@ -90,7 +91,7 @@ export default async function CatchAllPage({ params }: RouteProps) {
 
   return (
     <SiteFrame title={record.title ?? "Untitled"} variant={record.kind === "publication" ? "publication-detail" : undefined}>
-      <RichContent html={record.html} />
+      {record.kind === "talk" ? <TalkDetail record={record} /> : <RichContent html={record.html} />}
     </SiteFrame>
   );
 }

@@ -344,7 +344,15 @@ html[data-theme="dark"] .prose .education-logo {
   text-transform: none;
 }
 .talk-item h2, .archive-item h2, .robot-item h2 { margin: 8px 0 10px; font-family: var(--serif); font-size: 24px; line-height: 1.32; letter-spacing: -.02em; font-weight: 600; }
+.talk-item h2 a:hover { color: var(--green); }
 .talk-item p, .archive-item > p:last-child { margin: 0; color: var(--muted); font-size: 13px; }
+
+.talk-detail-meta { margin: -8px 0 38px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); }
+.talk-detail-meta .item-type { display: inline-block; margin-bottom: 18px; padding: 5px 10px 6px; border-radius: 5px; background: var(--green-soft); font: 700 12px/1.2 var(--font-inter); letter-spacing: .015em; text-transform: none; }
+.talk-detail-meta dl { display: grid; gap: 12px; margin: 0; }
+.talk-detail-meta dl > div { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 14px; }
+.talk-detail-meta dt { color: #78827d; font: 700 11px/1.55 var(--font-mono), monospace; letter-spacing: .045em; text-transform: uppercase; }
+.talk-detail-meta dd { margin: 0; color: var(--ink); font-size: 14px; line-height: 1.55; }
 
 .archive-list, .robot-list { border-top: 1px solid var(--line); }
 .archive-item { padding: 30px 0; border-bottom: 1px solid var(--line); }

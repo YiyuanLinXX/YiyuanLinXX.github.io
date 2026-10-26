@@ -136,6 +136,22 @@ export function RichContent({ html }: { html: string }) {
   return <article className="prose" dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
+export function TalkDetail({ record }: { record: ContentRecord }) {
+  return (
+    <>
+      <section className="talk-detail-meta" aria-label="Talk details">
+        <span className="item-type">{String(record.metadata.type ?? "Talk")}</span>
+        <dl>
+          <div><dt>Date</dt><dd>{displayDate(record.date)}</dd></div>
+          <div><dt>Venue</dt><dd>{String(record.metadata.venue ?? "")}</dd></div>
+          {record.metadata.location ? <div><dt>Location</dt><dd>{String(record.metadata.location)}</dd></div> : null}
+        </dl>
+      </section>
+      {record.html.trim() ? <RichContent html={record.html} /> : null}
+    </>
+  );
+}
+
 export function PublicationsPage() {
   const items = sorted(siteData.collections.publications);
   return (
@@ -178,7 +194,7 @@ export function TalksPage() {
             <time>{displayDate(item.date)}</time>
             <div>
               <span className="item-type">{String(item.metadata.type ?? "Talk")}</span>
-              <h2>{item.title}</h2>
+              <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
               <p><strong>{String(item.metadata.venue ?? "")}</strong>{item.metadata.location ? ` · ${String(item.metadata.location)}` : ""}</p>
             </div>
           </article>
