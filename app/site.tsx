@@ -143,10 +143,12 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
   const slidesPreviewHref = explicitPreviewHref
     ?? (slidesHref?.startsWith("/") && /\.pdf(?:[?#]|$)/i.test(slidesHref) ? slidesHref : null);
   const slidesPreviewSize = typeof record.metadata.slides_preview_size === "string" ? record.metadata.slides_preview_size : null;
+  const slidesFileExtension = slidesHref?.match(/(\.[a-z0-9]+)(?:[?#]|$)/i)?.[1]?.toLowerCase() ?? null;
+  const slidesLabel = String(record.metadata.slides_label ?? (explicitPreviewHref ? "Download original slides" : "View slides"));
   const posterPreviewHref = typeof record.metadata.poster_preview === "string" ? record.metadata.poster_preview : null;
   const posterPreviewSize = typeof record.metadata.poster_preview_size === "string" ? record.metadata.poster_preview_size : null;
   const materialLinks = [
-    { href: record.metadata.slides, label: record.metadata.slides_label ?? (explicitPreviewHref ? "Download original slides" : "View slides"), size: record.metadata.slides_size },
+    { href: record.metadata.slides, label: slidesFileExtension && !slidesLabel.toLowerCase().includes(slidesFileExtension) ? `${slidesLabel} (${slidesFileExtension})` : slidesLabel, size: record.metadata.slides_size },
     { href: record.metadata.poster, label: record.metadata.poster_label ?? (posterPreviewHref ? "Download original poster" : "Download poster"), size: record.metadata.poster_size },
     { href: record.metadata.original_file, label: record.metadata.original_file_label ?? "Download original file", size: record.metadata.original_file_size },
   ].filter((resource): resource is { href: string; label: string; size: string | null } => typeof resource.href === "string" && Boolean(resource.href));
@@ -201,7 +203,7 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
             </div>
           </div>
           <PdfSlideViewer src={slidesPreviewHref} title={`${record.title} slides`} />
-          <p className="talk-slides-note">Use the controls above to move between pages. On phones, opening the slides full screen usually gives the best reading experience.</p>
+          <p className="talk-slides-note">Use the controls above to move between pages. On phones, opening the slides full screen usually gives the best reading experience. PDF previews cannot play animations or embedded videos; download the original PowerPoint file above to view the complete presentation.</p>
         </section>
       ) : null}
     </>
