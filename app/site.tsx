@@ -1,4 +1,5 @@
 import { ContentRecord, siteConfig, siteData } from "./content";
+import { PdfSlideViewer } from "./pdf-slide-viewer";
 import { ThemeToggle } from "./theme-toggle";
 
 export { siteConfig, siteData } from "./content";
@@ -137,8 +138,10 @@ export function RichContent({ html }: { html: string }) {
 }
 
 export function TalkDetail({ record }: { record: ContentRecord }) {
+  const slidesHref = typeof record.metadata.slides === "string" ? record.metadata.slides : null;
+  const embeddedSlidesHref = slidesHref?.startsWith("/") && /\.pdf(?:[?#]|$)/i.test(slidesHref) ? slidesHref : null;
   const materialLinks = [
-    { href: record.metadata.slides, label: "View slides", size: record.metadata.slides_size },
+    { href: record.metadata.slides, label: embeddedSlidesHref ? "Open slides full screen" : "View slides", size: record.metadata.slides_size },
     { href: record.metadata.poster, label: "Download poster", size: record.metadata.poster_size },
     { href: record.metadata.original_file, label: record.metadata.original_file_label ?? "Download original file", size: record.metadata.original_file_size },
   ].filter((resource): resource is { href: string; label: string; size: string | null } => typeof resource.href === "string" && Boolean(resource.href));
@@ -163,6 +166,22 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
         ) : null}
       </section>
       {record.html.trim() ? <RichContent html={record.html} /> : null}
+      {embeddedSlidesHref ? (
+        <section className="talk-slides" aria-labelledby="talk-slides-heading">
+          <div className="talk-slides-header">
+            <div>
+              <p>Presentation</p>
+              <h2 id="talk-slides-heading">Slides</h2>
+            </div>
+            <div className="talk-slides-actions">
+              <a href={embeddedSlidesHref} {...newTabLinkProps}>Open full screen ↗</a>
+              <a href={embeddedSlidesHref} download>Download PDF ↓</a>
+            </div>
+          </div>
+          <PdfSlideViewer src={embeddedSlidesHref} title={`${record.title} slides`} />
+          <p className="talk-slides-note">Use the controls above to move between pages. On phones, opening the slides full screen usually gives the best reading experience.</p>
+        </section>
+      ) : null}
     </>
   );
 }

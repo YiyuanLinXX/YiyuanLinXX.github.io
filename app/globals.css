@@ -357,6 +357,23 @@ html[data-theme="dark"] .prose .education-logo {
 .talk-detail-resources a { display: inline-flex; align-items: center; gap: 8px; padding: 9px 12px; border-radius: 6px; background: #245b47; color: #fff; font-size: 13px; font-weight: 700; line-height: 1.25; }
 .talk-detail-resources a:hover { background: #1b4938; }
 .talk-detail-resources a span { font-size: 15px; line-height: 1; }
+.talk-slides { margin-top: 44px; }
+.talk-slides-header { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 16px; }
+.talk-slides-header p { margin: 0 0 4px; color: var(--green); font: 700 10px/1.3 var(--font-mono), monospace; letter-spacing: .1em; text-transform: uppercase; }
+.talk-slides-header h2 { margin: 0; font-family: var(--serif); font-size: 30px; font-weight: 600; line-height: 1.2; letter-spacing: -.025em; }
+.talk-slides-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; font-size: 13px; font-weight: 700; }
+.talk-slides-actions a { color: var(--green); text-decoration: underline; text-decoration-color: rgba(36, 91, 71, .3); text-underline-offset: 3px; }
+.talk-slides-actions a:hover { text-decoration-color: currentColor; }
+.pdf-slide-viewer { overflow: hidden; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); }
+.pdf-slide-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 12px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.pdf-slide-pagination, .pdf-slide-zoom { display: flex; align-items: center; gap: 8px; color: var(--muted); font: 700 12px/1.2 var(--font-inter); }
+.pdf-slide-toolbar button { display: grid; width: 32px; height: 32px; padding: 0; place-items: center; border: 1px solid var(--line); border-radius: 5px; background: var(--bg); color: var(--ink); font: 700 17px/1 var(--font-inter); cursor: pointer; }
+.pdf-slide-toolbar button:hover:not(:disabled) { border-color: var(--green); color: var(--green); }
+.pdf-slide-toolbar button:disabled { opacity: .38; cursor: default; }
+.pdf-slide-stage { position: relative; min-height: 300px; max-height: min(76vh, 720px); padding: 16px; overflow: auto; background: #292929; }
+.pdf-slide-stage canvas { display: block; margin: 0 auto; background: #fff; box-shadow: 0 7px 28px rgba(0, 0, 0, .24); }
+.pdf-slide-status { position: absolute; inset: 0; display: grid; margin: 0; padding: 30px; place-items: center; color: #e8e8e8; font-size: 13px; text-align: center; }
+.talk-slides-note { margin: 12px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
 
 .archive-list, .robot-list { border-top: 1px solid var(--line); }
 .archive-item { padding: 30px 0; border-bottom: 1px solid var(--line); }
@@ -455,6 +472,10 @@ html[data-theme="dark"] .profile-links .icon-dark-adapt { filter: invert(1) brig
   .publication-authors { font-size: 12px; }
   .robots-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .talk-item { grid-template-columns: 1fr; gap: 10px; }
+  .talk-slides-header { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .talk-slides-actions { justify-content: flex-start; }
+  .pdf-slide-toolbar { align-items: stretch; }
+  .pdf-slide-stage { max-height: 68vh; padding: 10px; }
   .robot-item { grid-template-columns: 1fr; gap: 18px; }
   .robot-media { width: 100%; }
   .robot-media img, .robot-media video { width: 100%; height: auto; max-height: 330px; }
