@@ -1,14 +1,14 @@
 ---
 title: "PhytoPatholoBot Next Gen - PPB-NG"
-excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>"
-collection: robot
+excerpt: "Multi-modal high-throughput phenotyping robot<br/><img src='/images/robots/PPB_NG/ppbng_in_the_field.gif'>"
+collection: robots
 permalink: /robots/ppbng
 date: 2025-07-29
 ---
 
 > The PPB-NG codebase, including synchronized data acquisition for VIS-NIR and SWIR hyperspectral cameras, thermal camera, RGB camera, GNSS coordinates, stabilzation mount (pitch/yaw) and robot navigation is open-source [here](https://github.com/YiyuanLinXX/PPB-NG).
 
-<img src='/images/portfolio/PPB_NG/ppbng_in_the_field.gif'>
+<img src='/images/robots/PPB_NG/ppbng_in_the_field.gif'>
 
 # Overview
 
@@ -25,20 +25,20 @@ PPB-NG combines image acquisition with GNSS positioning, heading, attitude, and 
 The entire system is natively integrated within ROS2 and is engineered for rugged outdoor operation in vineyards. By bringing complementary imaging modalities into a common mobile acquisition workflow, PPB-NG supports repeated field surveys and quantitative investigation of spatial and temporal variation in crop condition.
 
 # PPBNG 2026 Edition
-<img src='/images/portfolio/PPB_NG/PPBNG_2026.png'>
+<img src='/images/robots/PPB_NG/PPBNG_2026.png'>
 
 # Collected Sample Data
-<img src='/images/portfolio/PPB_NG/ppbng_sample_data.webp'>
+<img src='/images/robots/PPB_NG/ppbng_sample_data.webp'>
 
 # Modular Design
-<img src='/images/portfolio/PPB_NG/PPBNG_System_Modular_Design_20261003_vertical.webp' width="100%">
+<img src='/images/robots/PPB_NG/PPBNG_System_Modular_Design_20261003_vertical.webp' width="100%">
 
 # Power Design
-<img src='/images/portfolio/PPB_NG/PPB_NG_Power_System_20261003.webp'>
+<img src='/images/robots/PPB_NG/PPB_NG_Power_System_20261003.webp'>
 
 # PPBNG 2025 Edition
-<img src='/images/portfolio/PPB_NG/PPBNG_2025_annotation.png'>
+<img src='/images/robots/PPB_NG/PPBNG_2025_annotation.png'>
 
-<img src='/images/portfolio/PPB_NG/ppbng_ver1_2025.jpeg'>
+<img src='/images/robots/PPB_NG/ppbng_ver1_2025.jpeg'>
 
-<img src='/images/portfolio/PPB_NG/ppbng_ver1_2025_2.jpeg'>
+<img src='/images/robots/PPB_NG/ppbng_ver1_2025_2.jpeg'>

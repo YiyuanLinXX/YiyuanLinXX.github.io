@@ -57,6 +57,13 @@ test("every collection entry has a title and permalink", () => {
   }
 });
 
+test("robot content uses the robots collection and asset paths", () => {
+  for (const robot of content.collections.robots) {
+    assert.equal(robot.metadata.collection, "robots", robot.source_file);
+  }
+  assert.doesNotMatch(JSON.stringify(content), /\/(?:images|files)\/portfolio\//);
+});
+
 test("every publication preview image exists", async () => {
   for (const publication of content.collections.publications) {
     const image = publication.metadata.pub_image;

@@ -103,16 +103,16 @@ My unparalleled emotional sponsor: Xunyu Luo.
 
   <div class="robots-grid">
     <div class="robot-card">
-      <img src="/images/portfolio/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" />
+      <img src="/images/robots/PPB_NG/ppbng_in_the_field.gif" alt="PPB-NG robot" />
       <a class="robot-name" href="/robots/ppbng">PhytoPatholoBot Next Generation (PPB-NG)</a>
     </div>
     <div class="robot-card">
-      <img src="/images/portfolio/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" />
+      <img src="/images/robots/PPB_V2/ppbv2_in_field.gif" alt="PPBv2 robot" />
       <a class="robot-name" href="/robots/ppbv2">PhytoPatholoBot v2 (PPBv2)</a>
     </div>
     <div class="robot-card">
       <video autoplay loop muted playsinline preload="metadata" aria-label="PPB-OTR-UVC robot in the field">
-        <source src="/images/portfolio/PPB_OTR_UVC/PPB_OTR_UVC_web.mp4" type="video/mp4">
+        <source src="/images/robots/PPB_OTR_UVC/PPB_OTR_UVC_web.mp4" type="video/mp4">
       </video>
       <a class="robot-name" href="/robots/ppb-otr-uvc">PPB-OTR-UVC</a>
     </div>

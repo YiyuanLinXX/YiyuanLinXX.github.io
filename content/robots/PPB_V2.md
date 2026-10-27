@@ -1,7 +1,7 @@
 ---
 title: "PhytoPatholoBot V2 - PPBv2"
-excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif'>"
-collection: robot
+excerpt: "Dual side phenotyping robot with active illumination<br/><img src='/images/robots/PPB_V2/ppbv2_in_field.gif'>"
+collection: robots
 permalink: /robots/ppbv2
 date: 2025-05-01
 ---
@@ -11,7 +11,7 @@ date: 2025-05-01
 > The codebase for PPBv2 geo reference and image-to-plant data mapping is open-source [here](https://github.com/YiyuanLinXX/GeoReference).
 
 
-<img src='/images/portfolio/PPB_V2/ppbv2_in_field.gif' width="100%">
+<img src='/images/robots/PPB_V2/ppbv2_in_field.gif' width="100%">
 
 # Overview
 
@@ -26,24 +26,24 @@ The imaging system is optimized for powdery mildew detection and canopy analysis
 
 The platform is fully ROS2-integrated and designed for rugged outdoor operation in vineyards. Data collected by PPBv2 fuels downstream disease segmentation models and multi-modal phenotyping studies, enabling scalable, objective, and repeatable measurement of grapevine disease severity.
 
-<img src='/images/portfolio/PPB_V2/ppbv2.png'>
+<img src='/images/robots/PPB_V2/ppbv2.png'>
 
 # Collected Sample Data
 
 All data were collected during daylight hours.
 
-<img src='/images/portfolio/PPB_V2/ppbv2_sample_data.png'>
+<img src='/images/robots/PPB_V2/ppbv2_sample_data.png'>
 
-<img src='/images/portfolio/PPB_V2/ppbv2_sample_data_reconstructed.png'>
+<img src='/images/robots/PPB_V2/ppbv2_sample_data_reconstructed.png'>
 
 ## 3D Reconstructed Vineyard and Disease Map
 
 The upper panel shows 3D point clouds reconstructed from stereo RGB images, while the lower panel shows the corresponding disease infection on the canopy predicted by [SAM-CLIP](https://github.com/YiyuanLinXX/SAM-CLIP).
 
-<video autoplay loop muted playsinline controls preload="auto" poster="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_poster.jpg" width="1280" height="1440" style="display: block; width: 100%; max-width: 900px; height: auto; margin-inline: auto;" aria-label="Vineyard RGB imagery and disease annotations, shown vertically">
-  <source src="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.webm" type="video/webm">
-  <source src="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.mp4" type="video/mp4">
-  <a href="/images/portfolio/PPB_V2/vineyard/vineyard_vertical_web.mp4">Download video</a>
+<video autoplay loop muted playsinline controls preload="auto" poster="/images/robots/PPB_V2/vineyard/vineyard_vertical_poster.jpg" width="1280" height="1440" style="display: block; width: 100%; max-width: 900px; height: auto; margin-inline: auto;" aria-label="Vineyard RGB imagery and disease annotations, shown vertically">
+  <source src="/images/robots/PPB_V2/vineyard/vineyard_vertical_web.webm" type="video/webm">
+  <source src="/images/robots/PPB_V2/vineyard/vineyard_vertical_web.mp4" type="video/mp4">
+  <a href="/images/robots/PPB_V2/vineyard/vineyard_vertical_web.mp4">Download video</a>
 </video>
 
 # Navigation System
@@ -67,28 +67,28 @@ If you find this work useful for your research, please consider citing our work:
 }
 ```
 
-<img src='/images/portfolio/PPB_V2/nav_system.jpg'>
+<img src='/images/robots/PPB_V2/nav_system.jpg'>
 
 # Geo-Reference and Image-to-Plant Data Mapping
 
 Geo-Reference and Data Mapping codebase are open-source at [https://github.com/YiyuanLinXX/GeoReference](https://github.com/YiyuanLinXX/GeoReference).
 
-<img src='/images/portfolio/PPB_V2/geo_reference.png'>
+<img src='/images/robots/PPB_V2/geo_reference.png'>
 
 # Modular Design
-<img src='/images/portfolio/PPB_V2/PPBv2_System_Modular_Design_20260726_horizontal.png'>
+<img src='/images/robots/PPB_V2/PPBv2_System_Modular_Design_20260726_horizontal.png'>
 
 # PPBv2 2026 Edition
-<img src='/images/portfolio/PPB_V2/ppbv2_2026.png'>
+<img src='/images/robots/PPB_V2/ppbv2_2026.png'>
 
 # PPBv2 2025 Edition
-<img src='/images/portfolio/PPB_V2/ppbv2_2025.jpeg'>
+<img src='/images/robots/PPB_V2/ppbv2_2025.jpeg'>
 
 # PPBv2 2024 Edition
 
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: start;">
-  <img src='/images/portfolio/PPB_V2/PPB_Amiga_1.gif' alt='PPBv2 driving through a vineyard row' style='width: 100%; height: auto;'>
-  <img src='/images/portfolio/PPB_V2/PPB_Amiga_turn.gif' alt='PPBv2 turning at the end of a vineyard row' style='width: 100%; height: auto;'>
+  <img src='/images/robots/PPB_V2/PPB_Amiga_1.gif' alt='PPBv2 driving through a vineyard row' style='width: 100%; height: auto;'>
+  <img src='/images/robots/PPB_V2/PPB_Amiga_turn.gif' alt='PPBv2 turning at the end of a vineyard row' style='width: 100%; height: auto;'>
 </div>
 
-<img src='/images/portfolio/PPB_V2/IMG_0398.jpeg'>
+<img src='/images/robots/PPB_V2/IMG_0398.jpeg'>
