@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import test from "node:test";
 
 const content = JSON.parse(await readFile(new URL("../app/generated-content.json", import.meta.url), "utf8"));
@@ -38,15 +38,14 @@ test("site configuration contains the editable profile fields", () => {
   assert.ok(site.social_links.some((link) => link.id === "googlescholar"));
 });
 
-test("all expected content sections are generated", () => {
+test("all expected content sections are generated", async () => {
   assert.ok(content.pages.about);
   assert.ok(content.pages.mentorship);
   assert.ok(content.pages.cv);
-  assert.equal(content.collections.publications.length, 7);
-  assert.equal(content.collections.talks.length, 4);
-  assert.equal(content.collections.teaching.length, 1);
-  assert.equal(content.collections.robots.length, 6);
-  assert.equal(content.collections.posts.length, 8);
+  for (const name of ["publications", "talks", "teaching", "robots", "posts"]) {
+    const files = await readdir(new URL(`../content/${name}/`, import.meta.url));
+    assert.equal(content.collections[name].length, files.filter((file) => file.endsWith(".md")).length, name);
+  }
 });
 
 test("every collection entry has a title and permalink", () => {
@@ -128,13 +127,8 @@ test("CV collection lists are generated from collection metadata", () => {
 });
 
 async function render(pathname) {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  const { default: worker } = await import(workerUrl.href);
-  return worker.fetch(
-    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
-    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
-    { waitUntil() {}, passThroughOnException() {} },
-  );
+  const output = pathname === "/" ? "index.html" : `${pathname.replace(/^\/+|\/+$/g, "")}.html`;
+  return readFile(new URL(`../dist/client/${output}`, import.meta.url), "utf8");
 }
 
 test("key routes render from generated Markdown content", async () => {
@@ -149,17 +143,14 @@ test("key routes render from generated Markdown content", async () => {
   ];
 
   for (const [pathname, expected] of checks) {
-    const response = await render(pathname);
-    assert.equal(response.status, 200, pathname);
-    const html = await response.text();
+    const html = await render(pathname);
     assert.match(html, new RegExp(expected, "i"), pathname);
     assertLinkTargets(html, pathname);
   }
 });
 
 test("robot overview places each description below its title", async () => {
-  const response = await render("/robots");
-  const html = await response.text();
+  const html = await render("/robots");
   assert.match(
     html,
     /class="robot-summary"[\s\S]*?<h2>[\s\S]*?PPB-OTR-UVC[\s\S]*?<p class="robot-description">PhytoPatholoBot running over the row with UV-C treatment<\/p>/,
@@ -167,11 +158,11 @@ test("robot overview places each description below its title", async () => {
 });
 
 test("home and publication overview expose selected work and resources", async () => {
-  const home = await (await render("/")).text();
+  const home = await render("/");
   assert.match(home, /PPB-OTR-UVC/);
   assert.match(home, /PPB_OTR_UVC_web\.mp4/);
 
-  const publications = await (await render("/publications")).text();
+  const publications = await render("/publications");
   assert.match(publications, /class="publication-resources"/);
   assert.match(publications, /\[Codebase\]/);
   assert.match(publications, /\[Dataset\]/);

@@ -39,5 +39,6 @@ yarn-error.log*
 
 /dist/
 /.wrangler/
+/app/generated-content.json
 /outputs/
 /work/
