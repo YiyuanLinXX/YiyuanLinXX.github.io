@@ -137,6 +137,12 @@ export function RichContent({ html }: { html: string }) {
 }
 
 export function TalkDetail({ record }: { record: ContentRecord }) {
+  const materialLinks = [
+    { href: record.metadata.slides, label: "View slides", size: record.metadata.slides_size },
+    { href: record.metadata.poster, label: "Download poster", size: record.metadata.poster_size },
+    { href: record.metadata.original_file, label: record.metadata.original_file_label ?? "Download original file", size: record.metadata.original_file_size },
+  ].filter((resource): resource is { href: string; label: string; size: string | null } => typeof resource.href === "string" && Boolean(resource.href));
+
   return (
     <>
       <section className="talk-detail-meta" aria-label="Talk details">
@@ -146,6 +152,15 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
           <div><dt>Venue</dt><dd>{String(record.metadata.venue ?? "")}</dd></div>
           {record.metadata.location ? <div><dt>Location</dt><dd>{String(record.metadata.location)}</dd></div> : null}
         </dl>
+        {materialLinks.length > 0 ? (
+          <div className="talk-detail-resources" aria-label="Talk materials">
+            {materialLinks.map((resource) => (
+              <a href={resource.href} key={resource.href} {...newTabLinkProps}>
+                {resource.label}{resource.size ? ` · ${String(resource.size)}` : ""}<span aria-hidden="true">↓</span>
+              </a>
+            ))}
+          </div>
+        ) : null}
       </section>
       {record.html.trim() ? <RichContent html={record.html} /> : null}
     </>
