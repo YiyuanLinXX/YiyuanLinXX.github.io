@@ -143,9 +143,11 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
   const slidesPreviewHref = explicitPreviewHref
     ?? (slidesHref?.startsWith("/") && /\.pdf(?:[?#]|$)/i.test(slidesHref) ? slidesHref : null);
   const slidesPreviewSize = typeof record.metadata.slides_preview_size === "string" ? record.metadata.slides_preview_size : null;
+  const posterPreviewHref = typeof record.metadata.poster_preview === "string" ? record.metadata.poster_preview : null;
+  const posterPreviewSize = typeof record.metadata.poster_preview_size === "string" ? record.metadata.poster_preview_size : null;
   const materialLinks = [
     { href: record.metadata.slides, label: record.metadata.slides_label ?? (explicitPreviewHref ? "Download original slides" : "View slides"), size: record.metadata.slides_size },
-    { href: record.metadata.poster, label: "Download poster", size: record.metadata.poster_size },
+    { href: record.metadata.poster, label: record.metadata.poster_label ?? (posterPreviewHref ? "Download original poster" : "Download poster"), size: record.metadata.poster_size },
     { href: record.metadata.original_file, label: record.metadata.original_file_label ?? "Download original file", size: record.metadata.original_file_size },
   ].filter((resource): resource is { href: string; label: string; size: string | null } => typeof resource.href === "string" && Boolean(resource.href));
 
@@ -169,6 +171,23 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
         ) : null}
       </section>
       {record.html.trim() ? <RichContent html={record.html} /> : null}
+      {posterPreviewHref ? (
+        <section className="talk-slides talk-poster" aria-labelledby="talk-poster-heading">
+          <div className="talk-slides-header">
+            <div>
+              <p>Presentation</p>
+              <h2 id="talk-poster-heading">Poster</h2>
+            </div>
+            <div className="talk-slides-actions">
+              <a href={posterPreviewHref} {...newTabLinkProps}>Open preview full size ↗</a>
+              <a href={posterPreviewHref} download>Download preview image{posterPreviewSize ? ` · ${posterPreviewSize}` : ""} ↓</a>
+            </div>
+          </div>
+          <a className="talk-poster-preview" href={posterPreviewHref} {...newTabLinkProps} aria-label={`Open ${record.title} poster preview full size`}>
+            <img src={posterPreviewHref} alt={`${record.title} poster preview`} loading="lazy" />
+          </a>
+        </section>
+      ) : null}
       {slidesPreviewHref ? (
         <section className="talk-slides" aria-labelledby="talk-slides-heading">
           <div className="talk-slides-header">
