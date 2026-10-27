@@ -373,8 +373,8 @@ html[data-theme="dark"] .prose .education-logo {
 .pdf-slide-stage { position: relative; min-height: 300px; max-height: min(76vh, 720px); padding: 16px; overflow: auto; background: #292929; }
 .pdf-slide-stage canvas { display: block; margin: 0 auto; background: #fff; box-shadow: 0 7px 28px rgba(0, 0, 0, .24); }
 .pdf-slide-status { position: absolute; inset: 0; display: grid; margin: 0; padding: 30px; place-items: center; color: #e8e8e8; font-size: 13px; text-align: center; }
-.talk-poster-preview { display: flex; max-height: min(76vh, 720px); padding: 16px; align-items: center; justify-content: center; overflow: hidden; border: 1px solid var(--line); border-radius: 9px; background: #292929; }
-.talk-poster-preview img { display: block; width: auto; max-width: 100%; height: auto; max-height: calc(min(76vh, 720px) - 32px); object-fit: contain; box-shadow: 0 7px 28px rgba(0, 0, 0, .24); }
+.talk-poster-preview { display: block; padding: 0; border: 0; border-radius: 10px; background: transparent; }
+.talk-poster-preview img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: 10px; background: var(--surface); box-shadow: 0 8px 28px rgba(27, 36, 33, .08); }
 .talk-slides-note { margin: 12px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
 
 .archive-list, .robot-list { border-top: 1px solid var(--line); }
