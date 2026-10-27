@@ -18,6 +18,10 @@ function linkTargetProps(href: string) {
   return newTabLinkProps;
 }
 
+function fileExtension(href: string | null) {
+  return href?.match(/(\.[a-z0-9]+)(?:[?#]|$)/i)?.[1]?.toLowerCase() ?? null;
+}
+
 export function sorted(items: ContentRecord[]) {
   return [...items].sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")));
 }
@@ -143,10 +147,10 @@ export function TalkDetail({ record }: { record: ContentRecord }) {
   const slidesPreviewHref = explicitPreviewHref
     ?? (slidesHref?.startsWith("/") && /\.pdf(?:[?#]|$)/i.test(slidesHref) ? slidesHref : null);
   const slidesPreviewSize = typeof record.metadata.slides_preview_size === "string" ? record.metadata.slides_preview_size : null;
-  const slidesFileExtension = slidesHref?.match(/(\.[a-z0-9]+)(?:[?#]|$)/i)?.[1]?.toLowerCase() ?? null;
+  const slidesFileExtension = fileExtension(slidesHref);
   const slidesLabel = String(record.metadata.slides_label ?? (explicitPreviewHref ? "Download original slides" : "View slides"));
   const posterHref = typeof record.metadata.poster === "string" ? record.metadata.poster : null;
-  const posterFileExtension = posterHref?.match(/(\.[a-z0-9]+)(?:[?#]|$)/i)?.[1]?.toLowerCase() ?? null;
+  const posterFileExtension = fileExtension(posterHref);
   const posterPreviewHref = typeof record.metadata.poster_preview === "string" ? record.metadata.poster_preview : null;
   const posterPreviewSize = typeof record.metadata.poster_preview_size === "string" ? record.metadata.poster_preview_size : null;
   const posterLabel = String(record.metadata.poster_label ?? (posterPreviewHref ? "Download original poster" : "Download poster"));
@@ -249,17 +253,41 @@ export function TalksPage() {
   const items = sorted(siteData.collections.talks);
   return (
     <SiteFrame title="Talks and Presentations">
+      <p className="page-intro">Open a talk to view its details and browse any available posters or slides.</p>
       <div className="talk-list">
-        {items.map((item) => (
-          <article className="talk-item" key={item.permalink}>
-            <time>{displayDate(item.date)}</time>
-            <div>
-              <span className="item-type">{String(item.metadata.type ?? "Talk")}</span>
-              <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
-              <p><strong>{String(item.metadata.venue ?? "")}</strong>{item.metadata.location ? ` · ${String(item.metadata.location)}` : ""}</p>
-            </div>
-          </article>
-        ))}
+        {items.map((item) => {
+          const downloads = [
+            { href: item.metadata.slides, name: "slides", size: item.metadata.slides_size },
+            { href: item.metadata.poster, name: "poster", size: item.metadata.poster_size },
+            { href: item.metadata.original_file, name: "original file", size: item.metadata.original_file_size },
+          ].filter((resource): resource is { href: string; name: string; size: string | null } => typeof resource.href === "string" && Boolean(resource.href));
+          const eventHref = typeof item.metadata.event_url === "string" ? item.metadata.event_url : null;
+          const eventLabel = String(item.metadata.event_label ?? "Event page");
+
+          return (
+            <article className="talk-item" key={item.permalink}>
+              <time>{displayDate(item.date)}</time>
+              <div>
+                <span className="item-type">{String(item.metadata.type ?? "Talk")}</span>
+                <h2><a href={item.permalink ?? "#"} {...linkTargetProps(item.permalink ?? "#")}>{item.title}</a></h2>
+                <p><strong>{String(item.metadata.venue ?? "")}</strong>{item.metadata.location ? ` · ${String(item.metadata.location)}` : ""}</p>
+                {downloads.length > 0 || eventHref ? (
+                  <div className="talk-item-resources" aria-label="Talk resources">
+                    {downloads.map((resource) => {
+                      const extension = fileExtension(resource.href);
+                      return (
+                        <a href={resource.href} key={resource.href} {...linkTargetProps(resource.href)}>
+                          {`[Download ${resource.name}${extension ? ` (${extension})` : ""}${resource.size ? ` · ${resource.size}` : ""}]`}
+                        </a>
+                      );
+                    })}
+                    {eventHref ? <a href={eventHref} {...linkTargetProps(eventHref)}>{`[${eventLabel} ↗]`}</a> : null}
+                  </div>
+                ) : null}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </SiteFrame>
   );
