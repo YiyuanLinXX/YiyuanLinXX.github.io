@@ -17,6 +17,10 @@ function isInternalHref(href) {
   }
 }
 
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function assertLinkTargets(html, label) {
   const links = html.match(/<a(?:\s|>)[^>]*>/g) ?? [];
   assert.ok(links.length > 0, `${label} has no links to check`);
@@ -131,6 +135,13 @@ test("CV collection lists are generated from collection metadata", () => {
   assert.match(content.pages.cv.html, /SAM-CLIP-Thermal/);
   assert.match(content.pages.cv.html, /PhytoPatholoBot Imaging System/);
   assert.doesNotMatch(content.pages.cv.html, /\{%|AUTO:PUBLICATIONS/);
+
+  const talksSection = content.pages.cv.html.match(/<h2>Talks<\/h2>([\s\S]*?)<h2>Teaching<\/h2>/)?.[1];
+  assert.ok(talksSection);
+  assert.equal(talksSection.match(/<li><strong>/g)?.length, content.collections.talks.length);
+  for (const talk of content.collections.talks) {
+    assert.match(talksSection, new RegExp(`<strong>${escapeRegExp(talk.metadata.type)}:</strong>`), talk.source_file);
+  }
 });
 
 async function render(pathname) {

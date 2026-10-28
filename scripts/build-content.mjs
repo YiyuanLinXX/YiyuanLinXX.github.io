@@ -142,7 +142,7 @@ function expandAutoSections(markdown, collections) {
     `- [${markdownLinkTitle(record.title)}](${record.permalink}) — *${record.metadata.publication ?? ""}*, ${year(record)}`,
   );
   const talks = autoList(collections.talks, (record) =>
-    `- ${markdownLinkTitle(record.title)} — ${record.metadata.venue ?? ""}, ${year(record)}`,
+    `- **${markdownLinkTitle(record.metadata.type ?? "Talk")}:** ${markdownLinkTitle(record.title)} — ${record.metadata.venue ?? ""}, ${year(record)}`,
   );
   const teaching = autoList(collections.teaching, (record) =>
     `- [${markdownLinkTitle(record.title)}](${record.permalink}) — ${year(record)}`,
