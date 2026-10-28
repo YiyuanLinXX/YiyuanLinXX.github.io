@@ -130,6 +130,12 @@ function year(record) {
   return record.date?.slice(0, 4) ?? "";
 }
 
+function monthYear(record) {
+  if (!record.date) return "";
+  return new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric", timeZone: "UTC" })
+    .format(new Date(`${record.date}T00:00:00Z`));
+}
+
 function autoList(records, formatter) {
   return [...records]
     .sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")))
@@ -138,15 +144,29 @@ function autoList(records, formatter) {
 }
 
 function expandAutoSections(markdown, collections) {
-  const publications = autoList(collections.publications, (record) =>
-    `- [${markdownLinkTitle(record.title)}](${record.permalink}) — *${record.metadata.publication ?? ""}*, ${year(record)}`,
-  );
+  const publicationItem = (record) => {
+    const highlight = record.metadata.highlight
+      ? ` <span class="cv-highlight">${record.metadata.highlight}</span>`
+      : "";
+    return `- ${record.metadata.authors ?? ""}. “[${markdownLinkTitle(record.title)}](${record.permalink})”. *${record.metadata.publication ?? ""}*, ${year(record)}.${highlight}`;
+  };
+  const publicationGroups = [
+    ["Journal Articles & Preprints", collections.publications.filter((record) => record.metadata.category !== "conferences")],
+    ["Conference Papers", collections.publications.filter((record) => record.metadata.category === "conferences")],
+  ];
+  const publications = publicationGroups
+    .filter(([, records]) => records.length > 0)
+    .map(([title, records]) => `### ${title}\n\n${autoList(records, publicationItem)}`)
+    .join("\n\n");
   const talks = autoList(collections.talks, (record) =>
-    `- **${markdownLinkTitle(record.metadata.type ?? "Talk")}:** ${markdownLinkTitle(record.title)} — ${record.metadata.venue ?? ""}, ${year(record)}`,
+    `- **${markdownLinkTitle(record.metadata.type ?? "Talk")}** — [${markdownLinkTitle(record.title)}](${record.permalink}) · *${record.metadata.venue ?? ""}* · ${monthYear(record)}`,
   );
-  const teaching = autoList(collections.teaching, (record) =>
-    `- [${markdownLinkTitle(record.title)}](${record.permalink}) — ${year(record)}`,
-  );
+  const teaching = autoList(collections.teaching, (record) => {
+    const instructor = record.metadata.instructor
+      ? ` Instructor: ${record.metadata.instructor_url ? `[${record.metadata.instructor}](${record.metadata.instructor_url})` : record.metadata.instructor}.`
+      : "";
+    return `- **${record.metadata.role ?? "Teaching Assistant"}** — [${markdownLinkTitle(record.title)}](${record.permalink}) · ${record.metadata.venue ?? ""} · ${record.metadata.term ?? year(record)}.${instructor}`;
+  });
 
   return markdown
     .replace("<!-- AUTO:PUBLICATIONS -->", publications)

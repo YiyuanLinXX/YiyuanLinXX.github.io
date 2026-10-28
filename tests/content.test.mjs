@@ -134,13 +134,17 @@ test("generated links keep site links in place and open external links in a new 
 test("CV collection lists are generated from collection metadata", () => {
   assert.match(content.pages.cv.html, /SAM-CLIP-Thermal/);
   assert.match(content.pages.cv.html, /PhytoPatholoBot Imaging System/);
+  assert.match(content.pages.cv.html, /Journal Articles &amp; Preprints/);
+  assert.match(content.pages.cv.html, /Conference Papers/);
+  assert.match(content.pages.cv.html, /Teaching Assistant/);
+  assert.match(content.pages.cv.html, /Inaugural CoPAIR Fellow/);
   assert.doesNotMatch(content.pages.cv.html, /\{%|AUTO:PUBLICATIONS/);
 
-  const talksSection = content.pages.cv.html.match(/<h2>Talks<\/h2>([\s\S]*?)<h2>Teaching<\/h2>/)?.[1];
+  const talksSection = content.pages.cv.html.match(/<h2>Talks &amp; Presentations<\/h2>([\s\S]*?)<h2>Teaching Experience<\/h2>/)?.[1];
   assert.ok(talksSection);
   assert.equal(talksSection.match(/<li><strong>/g)?.length, content.collections.talks.length);
   for (const talk of content.collections.talks) {
-    assert.match(talksSection, new RegExp(`<strong>${escapeRegExp(talk.metadata.type)}:</strong>`), talk.source_file);
+    assert.match(talksSection, new RegExp(`<strong>${escapeRegExp(talk.metadata.type)}</strong> —`), talk.source_file);
   }
 });
 

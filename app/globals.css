@@ -399,10 +399,27 @@ html[data-theme="dark"] .prose .education-logo {
 .post-item h3 a:hover { color: var(--green); }
 .post-item p { grid-column: 2; margin: -7px 0 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
 
-.cv-content > h2 { margin-top: 2.4em; }
-.cv-content > h3 { margin-bottom: .35em; }
-.cv-content > h3 + p { padding: 0 0 22px; border-bottom: 1px solid var(--line-soft); }
-.cv-records li { margin-bottom: 10px; }
+.cv-content { font-size: 15px; line-height: 1.68; }
+.cv-header { margin-bottom: 42px; padding: 24px 26px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); }
+.cv-header p { margin: 0 0 6px; }
+.cv-header .cv-lead { color: var(--ink); font-family: var(--serif); font-size: 21px; font-weight: 600; line-height: 1.35; }
+.cv-header .cv-contact { display: flex; flex-wrap: wrap; gap: 2px 9px; margin-top: 12px; font-size: 13px; font-weight: 700; }
+.cv-header .cv-contact span { color: var(--muted); }
+.cv-header .cv-interests { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line-soft); color: var(--muted); }
+.cv-header .cv-interests strong { margin-right: 7px; color: var(--ink); }
+.cv-content > h2 { margin: 2.25em 0 .8em; padding-bottom: .38em; border-bottom: 1px solid var(--line); font-size: 26px; }
+.cv-content > h3 { margin: 1.7em 0 .55em; font-size: 18px; }
+.cv-entry { padding: 3px 0 20px; border-bottom: 1px solid var(--line-soft); }
+.cv-entry + .cv-entry { padding-top: 20px; }
+.cv-entry-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; }
+.cv-entry-heading h3 { margin: 0; font-family: var(--serif); font-size: 19px; font-weight: 600; line-height: 1.35; }
+.cv-entry-heading span { flex: 0 0 auto; color: var(--muted); font: 700 11px/1.4 var(--font-mono), monospace; letter-spacing: .025em; }
+.cv-entry p { margin: 4px 0 0; }
+.cv-entry .cv-entry-title { color: var(--ink); font-weight: 700; }
+.cv-content ul { padding-left: 1.2em; }
+.cv-content li { margin: .62em 0; }
+.cv-content li > strong:first-child { color: var(--ink); }
+.cv-highlight { display: block; margin-top: 3px; color: var(--warm); font-weight: 700; }
 
 .site-footer {
   width: min(1160px, calc(100% - 48px));
@@ -486,6 +503,7 @@ html[data-theme="dark"] .profile-links .icon-dark-adapt { filter: invert(1) brig
   .robot-media img, .robot-media video { width: 100%; height: auto; max-height: 330px; }
   .post-item { grid-template-columns: 1fr; gap: 8px; }
   .post-item p { grid-column: auto; margin: 0; }
+  .cv-entry-heading { align-items: flex-start; flex-direction: column; gap: 3px; }
   .site-footer { flex-direction: column; }
   .site-footer div { flex-direction: column; gap: 5px; }
 }

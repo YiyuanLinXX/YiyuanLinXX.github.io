@@ -137,8 +137,8 @@ export function SiteFrame({ title, children, variant }: { title: string; childre
   );
 }
 
-export function RichContent({ html }: { html: string }) {
-  return <article className="prose" dangerouslySetInnerHTML={{ __html: html }} />;
+export function RichContent({ html, className }: { html: string; className?: string }) {
+  return <article className={`prose${className ? ` ${className}` : ""}`} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
 export function TalkDetail({ record }: { record: ContentRecord }) {
@@ -356,7 +356,7 @@ export function PostsPage() {
 export function CVPage() {
   return (
     <SiteFrame title={siteData.pages.cv.title ?? "Curriculum Vitae"}>
-      <RichContent html={siteData.pages.cv.html} />
+      <RichContent html={siteData.pages.cv.html} className="cv-content" />
     </SiteFrame>
   );
 }

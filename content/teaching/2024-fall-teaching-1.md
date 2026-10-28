@@ -2,6 +2,10 @@
 title: "ECE 4110/5110 - Random Signals in Communications and Signal Processing"
 collection: teaching
 type: "Undergrad & grad course"
+role: "Teaching Assistant"
+term: "Fall 2024"
+instructor: "Qing Zhao"
+instructor_url: "https://www.ece.cornell.edu/faculty-directory/qing-zhao"
 permalink: /teaching/ece5110
 venue: "Cornell University, School of Electrical and Computer Engineering"
 date: 2024-09-01
