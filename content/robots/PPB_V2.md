@@ -78,6 +78,19 @@ Geo-Reference and Data Mapping codebase are open-source at [https://github.com/Y
 # Modular Design
 <img src='/images/robots/PPB_V2/PPBv2_System_Modular_Design_20260726_horizontal.png'>
 
+# Power Design
+<img src='/images/robots/PPB_V2/PPBv2_Power_System_20261101.webp'>
+
+# ATV-Based Data Acquisition System
+
+We also adapted the PPBv2 data acquisition module, including the imaging system and power supply, for use on ATVs and utility vehicles such as the John Deere Gator.
+
+This setup enables rapid deployment across different field sites and provides a flexible solution for data collection without requiring a dedicated robotic platform. It also helps reduce system maintenance and deployment effort for growers and researchers.
+
+<img src='/images/robots/PPB_V2/atv_system.jpg'>
+
+<img src='/images/robots/PPB_V2/ATV_DAQ_Power_System_20261101.webp'>
+
 # PPBv2 2026 Edition
 <img src='/images/robots/PPB_V2/ppbv2_2026.png'>
 
