@@ -9,7 +9,7 @@
     "organization": "Cornell University",
     "location": "Cornell AgriTech · Geneva, New York",
     "summary": "Provost Kavita Bala field-tested the PhytoPatholoBot during a visit with CALS Dean Benjamin Z. Houlton and Cornell AgriTech Director Christine Smart.",
-    "image": "/images/demos/kb.jpeg",
+    "image": "/images/demos/cornell-leadership-visit.webp",
     "image_alt": "Cornell leaders visiting Cornell AgriTech",
     "image_credit": "Kavita Bala / LinkedIn",
     "sources": [
@@ -28,7 +28,7 @@
     "organization": "American Phytopathological Society",
     "location": "Plant Health 2026",
     "summary": "The hands-on workshop guided participants through AI-based image analysis workflows, from data annotation to phenotypic trait extraction.",
-    "image": "/images/demos/aps.jpg",
+    "image": "/images/demos/plant-health-workshop.webp",
     "image_alt": "Plant Health 2026 conference welcome sign",
     "image_credit": "Joshua Omotosho / LinkedIn",
     "sources": [
@@ -165,7 +165,7 @@
     "organization": "VitisGen3 · University of Minnesota",
     "location": "Minnesota",
     "summary": "An additional imaging system was deployed at a VitisGen3 vineyard site to support field data collection and crop monitoring.",
-    "image": "/images/demos/atv_system.jpg",
+    "image": "/images/demos/vitisgen3-deployment.webp",
     "image_alt": "PhytoPatholoBot imaging platform",
     "image_credit": "Yiyuan Lin · project image",
     "sources": [
@@ -182,7 +182,7 @@
     "organization": "CCE Finger Lakes Grape Program",
     "location": "Finger Lakes, New York",
     "summary": "The field meeting included a dedicated “Meet PPB” session alongside demonstrations and discussions on robotics, disease mapping, and precision crop management.",
-    "image": "/images/demos/IMG_3160.JPG",
+    "image": "/images/demos/novel-technologies-field-meeting.webp",
     "image_alt": "Agricultural robot displayed during a novel technologies field meeting",
     "image_credit": "CCE Finger Lakes Grape Program",
     "sources": [
@@ -216,7 +216,7 @@
     "organization": "Food and Agriculture Organization of the United Nations",
     "location": "Cornell AgriTech · Geneva, New York",
     "summary": "FAO Director-General QU Dongyu observed autonomous robots in the research fields and learned how remote sensing, AI, and digital technologies can support plant disease detection.",
-    "image": "/images/demos/FAO.jpg",
+    "image": "/images/demos/fao-director-general-visit.webp",
     "image_alt": "FAO Director-General QU Dongyu visiting Cornell AgriTech",
     "image_credit": "FAO",
     "sources": [
