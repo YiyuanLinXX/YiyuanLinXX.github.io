@@ -354,9 +354,46 @@ export function PostsPage() {
 }
 
 export function CVPage() {
+  const cvHref = "/files/cv/main.pdf";
+
   return (
-    <SiteFrame title={siteData.pages.cv.title ?? "Curriculum Vitae"}>
-      <RichContent html={siteData.pages.cv.html} className="cv-content" />
+    <SiteFrame title={siteData.pages.cv.title ?? "Curriculum Vitae"} variant="publication-detail">
+      <section className="talk-detail-meta" aria-label="Curriculum vitae details">
+        <span className="item-type">Curriculum Vitae</span>
+        <dl>
+          <div><dt>Format</dt><dd>PDF document · 4 pages</dd></div>
+        </dl>
+        <div className="talk-detail-resources" aria-label="Curriculum vitae download">
+          <a href={cvHref} download="Yiyuan_Lin_CV.pdf">
+            Download CV (.pdf)<span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <section className="talk-slides" aria-labelledby="cv-preview-heading">
+        <div className="talk-slides-header">
+          <div>
+            <p>Curriculum Vitae</p>
+            <h2 id="cv-preview-heading">PDF Preview</h2>
+          </div>
+          <div className="talk-slides-actions">
+            <a href={cvHref}>Open PDF full screen ↗</a>
+            <a href={cvHref} download="Yiyuan_Lin_CV.pdf">Download CV (.pdf) ↓</a>
+          </div>
+        </div>
+        <PdfSlideViewer src={cvHref} title="Yiyuan Lin curriculum vitae" />
+        <p className="talk-slides-note">Use the controls above to move between pages. On phones, opening the PDF full screen usually gives the best reading experience.</p>
+      </section>
+
+      <section className="talk-slides cv-web-version" aria-labelledby="cv-web-heading">
+        <div className="talk-slides-header">
+          <div>
+            <p>Web Version</p>
+            <h2 id="cv-web-heading">Curriculum Vitae</h2>
+          </div>
+        </div>
+        <RichContent html={siteData.pages.cv.html} className="cv-content" />
+      </section>
     </SiteFrame>
   );
 }

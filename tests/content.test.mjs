@@ -187,6 +187,16 @@ test("key routes render from generated Markdown content", async () => {
   }
 });
 
+test("CV page provides a downloadable, browsable PDF", async () => {
+  await access(new URL("../public/files/cv/main.pdf", import.meta.url));
+  const cv = await render("/cv");
+  assert.match(cv, /Download CV \(\.pdf\)/);
+  assert.match(cv, /PDF Preview/);
+  assert.match(cv, /\/files\/cv\/main\.pdf/);
+  assert.match(cv, /Web Version/);
+  assert.match(cv, /Research Interests/);
+});
+
 test("robot overview places each description below its title", async () => {
   const html = await render("/robots");
   assert.match(

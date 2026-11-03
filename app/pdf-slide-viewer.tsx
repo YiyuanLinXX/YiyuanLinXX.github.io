@@ -12,7 +12,7 @@ export function PdfSlideViewer({ src, title }: { src: string; title: string }) {
   const [pageCount, setPageCount] = useState(0);
   const [stageWidth, setStageWidth] = useState(0);
   const [zoom, setZoom] = useState(1);
-  const [status, setStatus] = useState("Loading slides…");
+  const [status, setStatus] = useState("Loading PDF…");
 
   useEffect(() => {
     const stage = stageRef.current;
@@ -37,7 +37,7 @@ export function PdfSlideViewer({ src, title }: { src: string; title: string }) {
         setPageCount(loadedDocument.numPages);
         setStatus("");
       } catch {
-        if (active) setStatus("The slide preview could not be loaded. Please open the PDF full screen instead.");
+        if (active) setStatus("The PDF preview could not be loaded. Please open the PDF full screen instead.");
       }
     }
 
@@ -87,11 +87,11 @@ export function PdfSlideViewer({ src, title }: { src: string; title: string }) {
 
   return (
     <div className="pdf-slide-viewer">
-      <div className="pdf-slide-toolbar" aria-label="Slide controls">
+      <div className="pdf-slide-toolbar" aria-label="PDF page controls">
         <div className="pdf-slide-pagination">
-          <button type="button" onClick={() => setPageNumber((page) => Math.max(1, page - 1))} disabled={pageNumber <= 1} aria-label="Previous slide">←</button>
+          <button type="button" onClick={() => setPageNumber((page) => Math.max(1, page - 1))} disabled={pageNumber <= 1} aria-label="Previous page">←</button>
           <span aria-live="polite">Page {pageNumber}{pageCount ? ` of ${pageCount}` : ""}</span>
-          <button type="button" onClick={() => setPageNumber((page) => Math.min(pageCount, page + 1))} disabled={!pageCount || pageNumber >= pageCount} aria-label="Next slide">→</button>
+          <button type="button" onClick={() => setPageNumber((page) => Math.min(pageCount, page + 1))} disabled={!pageCount || pageNumber >= pageCount} aria-label="Next page">→</button>
         </div>
         <div className="pdf-slide-zoom">
           <button type="button" onClick={() => setZoom((value) => Math.max(.75, value - .25))} disabled={zoom <= .75} aria-label="Zoom out">−</button>
