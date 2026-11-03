@@ -15,7 +15,6 @@ export type RobotDemo = {
   image: string;
   image_alt: string;
   image_credit: string;
-  robots: string[];
   sources: Array<{ label: string; url: string }>;
 };
 
@@ -75,8 +74,8 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
       <div className="demo-showcase-heading">
         <div>
           <p className="section-kicker">Robotics in the Field</p>
-          <h2 id="demo-showcase-title">Robot Demonstrations &amp; Visits</h2>
-          <p>Field demonstrations, institutional visits, deployments, and selected media coverage.</p>
+          <h2 id="demo-showcase-title">Outreach, Extension &amp; Robot Demos</h2>
+          <p>Field demonstrations, extension activities, institutional visits, and selected media coverage.</p>
         </div>
         <div className="demo-carousel-controls" aria-label="Demonstration carousel controls">
           <button type="button" onClick={() => select(index - 1)} aria-label="Show previous demonstration">←</button>
@@ -87,11 +86,7 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
 
       <div className="demo-carousel-viewport">
         <div className="demo-carousel-track" style={{ transform: `translateX(-${index * 100}%)` }}>
-          {demos.map((demo, demoIndex) => {
-            const primarySources = demo.sources.slice(0, 3);
-            const additionalSources = demo.sources.slice(3);
-
-            return (
+          {demos.map((demo, demoIndex) => (
               <article className="demo-card" key={demo.id} aria-hidden={demoIndex !== index} inert={demoIndex !== index}>
                 <div className="demo-card-media">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -109,28 +104,14 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
                   <p className="demo-card-organization">{demo.organization}</p>
                   <p className="demo-card-location">{demo.location}</p>
                   <p className="demo-card-summary">{demo.summary}</p>
-                  <div className="demo-card-robots" aria-label="Related robots and topics">
-                    {demo.robots.map((robot) => <span key={robot}>{robot}</span>)}
-                  </div>
                   <div className="demo-card-sources" aria-label="External sources">
-                    {primarySources.map((source) => (
+                    {demo.sources.map((source) => (
                       <a href={source.url} key={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true">↗</span></a>
                     ))}
-                    {additionalSources.length > 0 ? (
-                      <details onToggle={stopAutoplay}>
-                        <summary>More coverage ({additionalSources.length})</summary>
-                        <div>
-                          {additionalSources.map((source) => (
-                            <a href={source.url} key={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true">↗</span></a>
-                          ))}
-                        </div>
-                      </details>
-                    ) : null}
                   </div>
                 </div>
               </article>
-            );
-          })}
+          ))}
         </div>
       </div>
 

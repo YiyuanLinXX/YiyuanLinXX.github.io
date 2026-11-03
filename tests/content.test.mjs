@@ -199,7 +199,7 @@ test("home and publication overview expose selected work and resources", async (
   const home = await render("/");
   assert.match(home, /PPB-OTR-UVC/);
   assert.match(home, /PPB_OTR_UVC_web\.mp4/);
-  assert.match(home, /Robot Demonstrations &amp; Visits/);
+  assert.match(home, /Outreach, Extension &amp; Robot Demos/);
   assert.match(home, /Cornell Provost and CALS Dean Visit Cornell AgriTech/);
   assert.match(home, /Advances every 3 seconds/);
 

@@ -318,18 +318,10 @@ html[data-theme="dark"] .prose .education-logo {
 .demo-card-organization { margin: 14px 0 0; color: var(--ink); font-size: 13px; font-weight: 750; line-height: 1.45; }
 .demo-card-location { margin: 3px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
 .demo-card-summary { margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.62; }
-.demo-card-robots { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 17px; }
-.demo-card-robots span { padding: 4px 7px; border-radius: 4px; background: var(--green-soft); color: var(--green); font-size: 10px; font-weight: 700; line-height: 1.3; }
 .demo-card-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: auto; padding-top: 22px; }
-.demo-card-sources > a, .demo-card-sources details a { display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 5px; color: var(--green); font-size: 10px; font-weight: 750; line-height: 1.25; transition: border-color .18s ease, background .18s ease; }
+.demo-card-sources > a { display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 5px; color: var(--green); font-size: 10px; font-weight: 750; line-height: 1.25; transition: border-color .18s ease, background .18s ease; }
 .demo-card-sources a:hover { border-color: var(--green); background: var(--green-soft); }
 .demo-card-sources a span { font-size: 11px; }
-.demo-card-sources details { position: relative; }
-.demo-card-sources summary { padding: 7px 9px; border: 1px solid var(--line); border-radius: 5px; color: var(--muted); font-size: 10px; font-weight: 750; line-height: 1.25; cursor: pointer; list-style: none; }
-.demo-card-sources summary::-webkit-details-marker { display: none; }
-.demo-card-sources details[open] summary { border-color: var(--green); color: var(--green); }
-.demo-card-sources details > div { position: absolute; z-index: 4; right: 0; bottom: calc(100% + 8px); display: grid; width: min(260px, 70vw); gap: 5px; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: 0 12px 34px rgba(27, 36, 33, .16); }
-.demo-card-sources details a { width: 100%; }
 .demo-carousel-progress { display: flex; height: 18px; align-items: center; gap: 5px; margin-top: 12px; }
 .demo-carousel-progress button { width: 16px; height: 3px; flex: 1 1 0; max-width: 38px; padding: 0; border: 0; border-radius: 999px; background: var(--line); cursor: pointer; transition: flex-grow .2s ease, background .2s ease; }
 .demo-carousel-progress button.is-active { flex-grow: 1.8; background: var(--green); }
@@ -544,7 +536,6 @@ html[data-theme="dark"] .demo-card-media { background: #202b25; }
   .demo-card { grid-template-columns: 1fr; }
   .demo-card-media, .demo-card-media img { min-height: 0; aspect-ratio: 16 / 10; }
   .demo-card-body { min-height: 420px; padding: 24px 22px; }
-  .demo-card-sources details > div { right: auto; left: 0; }
   .talk-item { grid-template-columns: 1fr; gap: 10px; }
   .talk-slides-header { align-items: flex-start; flex-direction: column; gap: 12px; }
   .talk-slides-actions { justify-content: flex-start; }
