@@ -23,11 +23,14 @@ const autoplayDelay = 3000;
 export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
   const demos = useMemo(() => [...items].sort((a, b) => b.date.localeCompare(a.date)), [items]);
   const [index, setIndex] = useState(0);
+  const [trackIndex, setTrackIndex] = useState(items.length > 1 ? 1 : 0);
+  const [transitionEnabled, setTransitionEnabled] = useState(true);
   const [stopped, setStopped] = useState(false);
   const [temporarilyPaused, setTemporarilyPaused] = useState(false);
   const [documentHidden, setDocumentHidden] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
   const rootRef = useRef<HTMLElement>(null);
+  const movingRef = useRef(false);
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -45,18 +48,58 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
 
   useEffect(() => {
     if (demos.length < 2 || stopped || temporarilyPaused || documentHidden || reducedMotion) return;
-    const timer = window.setInterval(() => setIndex((current) => (current + 1) % demos.length), autoplayDelay);
+    const timer = window.setInterval(() => {
+      if (movingRef.current) return;
+      movingRef.current = true;
+      setIndex((current) => (current + 1) % demos.length);
+      setTrackIndex((current) => current + 1);
+    }, autoplayDelay);
     return () => window.clearInterval(timer);
   }, [demos.length, documentHidden, reducedMotion, stopped, temporarilyPaused]);
 
   if (demos.length === 0) return null;
 
+  const move = (direction: -1 | 1) => {
+    setStopped(true);
+    if (movingRef.current) return;
+
+    const next = (index + direction + demos.length) % demos.length;
+    setIndex(next);
+    if (reducedMotion || demos.length < 2) {
+      setTrackIndex(demos.length > 1 ? next + 1 : next);
+      return;
+    }
+
+    movingRef.current = true;
+    setTrackIndex((current) => current + direction);
+  };
+
   const select = (next: number) => {
     setStopped(true);
-    setIndex((next + demos.length) % demos.length);
+    if (next === index || movingRef.current) return;
+    setIndex(next);
+    setTrackIndex(demos.length > 1 ? next + 1 : next);
+    if (!reducedMotion) movingRef.current = true;
   };
 
   const stopAutoplay = () => setStopped(true);
+  const loopedDemos = demos.length > 1 ? [demos[demos.length - 1], ...demos, demos[0]] : demos;
+
+  const finishTransition = () => {
+    if (demos.length < 2) return;
+    if (trackIndex === 0 || trackIndex === demos.length + 1) {
+      setTransitionEnabled(false);
+      setTrackIndex(trackIndex === 0 ? demos.length : 1);
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          setTransitionEnabled(true);
+          movingRef.current = false;
+        });
+      });
+      return;
+    }
+    movingRef.current = false;
+  };
 
   return (
     <section
@@ -78,19 +121,25 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
           <p>Field demonstrations, extension activities, institutional visits, and selected media coverage.</p>
         </div>
         <div className="demo-carousel-controls" aria-label="Demonstration carousel controls">
-          <button type="button" onClick={() => select(index - 1)} aria-label="Show previous demonstration">←</button>
+          <button type="button" onClick={() => move(-1)} aria-label="Show previous demonstration">←</button>
           <span aria-live="polite">{index + 1} / {demos.length}</span>
-          <button type="button" onClick={() => select(index + 1)} aria-label="Show next demonstration">→</button>
+          <button type="button" onClick={() => move(1)} aria-label="Show next demonstration">→</button>
         </div>
       </div>
 
       <div className="demo-carousel-viewport">
-        <div className="demo-carousel-track" style={{ transform: `translateX(-${index * 100}%)` }}>
-          {demos.map((demo, demoIndex) => (
-              <article className="demo-card" key={demo.id} aria-hidden={demoIndex !== index} inert={demoIndex !== index}>
+        <div
+          className="demo-carousel-track"
+          style={{ transform: `translateX(-${trackIndex * 100}%)`, transition: transitionEnabled ? undefined : "none" }}
+          onTransitionEnd={(event) => {
+            if (event.target === event.currentTarget && event.propertyName === "transform") finishTransition();
+          }}
+        >
+          {loopedDemos.map((demo, slideIndex) => (
+              <article className="demo-card" key={`${demo.id}-${slideIndex}`} aria-hidden={slideIndex !== trackIndex} inert={slideIndex !== trackIndex}>
                 <div className="demo-card-media">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={demo.image} alt={demo.image_alt} loading={demoIndex === 0 ? "eager" : "lazy"} />
+                  <img src={demo.image} alt={demo.image_alt} loading={slideIndex === 1 ? "eager" : "lazy"} />
                   <div className="demo-card-badges">
                     <span>{demo.category}</span>
                     <span>{demo.date.slice(0, 4)}</span>
