@@ -153,10 +153,13 @@ export function RobotDemoCarousel({ items }: { items: RobotDemo[] }) {
                   <p className="demo-card-organization">{demo.organization}</p>
                   <p className="demo-card-location">{demo.location}</p>
                   <p className="demo-card-summary">{demo.summary}</p>
-                  <div className="demo-card-sources" aria-label="External sources">
-                    {demo.sources.map((source) => (
-                      <a href={source.url} key={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true">↗</span></a>
-                    ))}
+                  <div className="demo-card-coverage">
+                    <h4>News, Media &amp; Related Posts</h4>
+                    <div className="demo-card-sources" aria-label="External sources">
+                      {demo.sources.map((source) => (
+                        <a href={source.url} key={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true">↗</span></a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </article>

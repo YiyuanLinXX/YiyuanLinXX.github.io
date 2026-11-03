@@ -318,7 +318,9 @@ html[data-theme="dark"] .prose .education-logo {
 .demo-card-organization { margin: 14px 0 0; color: var(--ink); font-size: 13px; font-weight: 750; line-height: 1.45; }
 .demo-card-location { margin: 3px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
 .demo-card-summary { margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.62; }
-.demo-card-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: auto; padding-top: 22px; }
+.demo-card-coverage { margin-top: auto; padding-top: 22px; }
+.demo-card-coverage h4 { margin: 0 0 8px; color: var(--muted); font: 700 9px/1.4 var(--font-mono), monospace; letter-spacing: .075em; text-transform: uppercase; }
+.demo-card-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
 .demo-card-sources > a { display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 5px; color: var(--green); font-size: 10px; font-weight: 750; line-height: 1.25; transition: border-color .18s ease, background .18s ease; }
 .demo-card-sources a:hover { border-color: var(--green); background: var(--green-soft); }
 .demo-card-sources a span { font-size: 11px; }
