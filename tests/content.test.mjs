@@ -4,6 +4,7 @@ import test from "node:test";
 
 const content = JSON.parse(await readFile(new URL("../app/generated-content.json", import.meta.url), "utf8"));
 const site = JSON.parse(await readFile(new URL("../content/site.json", import.meta.url), "utf8"));
+const robotDemos = JSON.parse(await readFile(new URL("../content/robot-demos.json", import.meta.url), "utf8"));
 
 const siteHostname = new URL(site.url).hostname.toLowerCase();
 
@@ -85,6 +86,21 @@ test("education logos use transparent vector assets", async () => {
 
   assert.match(content.pages.about.html, /\/images\/logo\/Cornell_logo\.svg/);
   assert.match(content.pages.about.html, /\/images\/logo\/ZJU_Logo\.svg/);
+});
+
+test("robot demonstration records are ordered, sourced, and have local images", async () => {
+  assert.ok(robotDemos.length >= 10);
+  assert.deepEqual(robotDemos.map((demo) => demo.date), [...robotDemos.map((demo) => demo.date)].sort().reverse());
+  assert.equal(new Set(robotDemos.map((demo) => demo.id)).size, robotDemos.length);
+
+  for (const demo of robotDemos) {
+    assert.match(demo.date, /^\d{4}-\d{2}-\d{2}$/);
+    assert.ok(demo.title);
+    assert.ok(demo.summary);
+    assert.ok(demo.sources.length > 0, demo.id);
+    assert.ok(demo.sources.every((source) => /^https:\/\//.test(source.url)), demo.id);
+    await access(new URL(`../public${demo.image}`, import.meta.url));
+  }
 });
 
 test("BibTeX citations use the adaptive citation style", () => {
@@ -183,6 +199,9 @@ test("home and publication overview expose selected work and resources", async (
   const home = await render("/");
   assert.match(home, /PPB-OTR-UVC/);
   assert.match(home, /PPB_OTR_UVC_web\.mp4/);
+  assert.match(home, /Robot Demonstrations &amp; Visits/);
+  assert.match(home, /Cornell Provost and CALS Dean Visit Cornell AgriTech/);
+  assert.match(home, /Advances every 3 seconds/);
 
   const publications = await render("/publications");
   assert.match(publications, /class="publication-resources"/);

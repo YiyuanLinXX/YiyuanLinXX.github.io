@@ -1,0 +1,275 @@
+[
+  {
+    "id": "cornell-leadership-visit-2026",
+    "date": "2026-08-17",
+    "date_label": "August 2026",
+    "category": "Institutional Visit",
+    "tag": "Cornell Leadership",
+    "title": "Cornell Provost and CALS Dean Visit Cornell AgriTech",
+    "organization": "Cornell University",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "Provost Kavita Bala field-tested the PhytoPatholoBot during a visit with CALS Dean Benjamin Z. Houlton and Cornell AgriTech Director Christine Smart.",
+    "image": "/images/demos/cornell-leadership-visit.webp",
+    "image_alt": "Cornell leaders visiting Cornell AgriTech",
+    "image_credit": "Kavita Bala / LinkedIn",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "Kavita Bala · LinkedIn", "url": "https://www.linkedin.com/posts/kavita-bala-052409_last-week-i-visited-cornell-agritech-in-activity-7495118633069621248-s9XX" },
+      { "label": "Benjamin Z. Houlton · LinkedIn", "url": "https://www.linkedin.com/posts/bzhoulton_cornell-cornellagritech-landgrantmission-activity-7493433374859087873-n_AI" },
+      { "label": "Christine Smart · LinkedIn", "url": "https://www.linkedin.com/posts/christine-smart-729168342_it-was-wonderful-to-have-provost-kavita-bala-activity-7495303148337741824-xQG6" }
+    ]
+  },
+  {
+    "id": "plant-health-workshop-2026",
+    "date": "2026-08-07",
+    "date_label": "August 2026",
+    "category": "Workshop",
+    "tag": "Plant Health 2026",
+    "title": "AI-Based Image Analysis Workshop at Plant Health 2026",
+    "organization": "American Phytopathological Society",
+    "location": "Plant Health 2026",
+    "summary": "A participant post highlighted the hands-on workshop on AI-based image analysis, from annotation to phenotypes, and recognized the workshop instructors including Yiyuan Lin.",
+    "image": "/images/demos/plant-health-workshop.webp",
+    "image_alt": "Plant Health 2026 conference welcome sign",
+    "image_credit": "Joshua Omotosho / LinkedIn",
+    "robots": ["AI-Enabled Phenotyping"],
+    "sources": [
+      { "label": "Participant Post · LinkedIn", "url": "https://www.linkedin.com/posts/joshua-omotosho_planthealth2026-planthealth2026-planthealth2026plantdiagnosticbowl-ugcPost-7491380292843319296-uBm4/" }
+    ]
+  },
+  {
+    "id": "cornell-robot-team-2026",
+    "date": "2026-07-09",
+    "date_label": "July 2026",
+    "category": "Team Feature",
+    "tag": "Cornell AgriTech",
+    "title": "Meet the Team Behind Cornell’s Disease-Detecting Robots",
+    "organization": "Cornell AgriTech",
+    "location": "Geneva, New York",
+    "summary": "Cornell AgriTech introduced Yiyuan Lin, Cole Regnier, and Nicholas Short as members of the team developing robots for vineyard disease detection.",
+    "image": "/images/demos/cornell-robot-team.webp",
+    "image_alt": "Members of the Cornell disease-detecting robot team with a field robot",
+    "image_credit": "Cornell AgriTech / LinkedIn",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "Cornell AgriTech · LinkedIn", "url": "https://www.linkedin.com/posts/cornell-agritech_our-disease-detecting-robots-may-often-get-activity-7481061384198234115-i1FN" }
+    ]
+  },
+  {
+    "id": "cornell-robots-feature-2026",
+    "date": "2026-06-12",
+    "date_label": "June 2026",
+    "category": "Program Feature",
+    "tag": "Cornell AgriTech",
+    "title": "Cornell AgriTech Highlights Its Field Robotics Program",
+    "organization": "Cornell AgriTech",
+    "location": "Geneva, New York",
+    "summary": "An official feature introduced the PhytoPatholoBot, a UV treatment robot, and a quadruped robot used across Cornell AgriTech research plots.",
+    "image": "/images/demos/cornell-robots-feature.webp",
+    "image_alt": "Cornell field robotics team working with a PhytoPatholoBot in a vineyard",
+    "image_credit": "Cornell AgriTech / LinkedIn",
+    "robots": ["PhytoPatholoBot", "UV Treatment Robot"],
+    "sources": [
+      { "label": "Cornell AgriTech · LinkedIn", "url": "https://www.linkedin.com/posts/cornell-agritech_if-youve-seen-robots-navigating-research-activity-7471290123981275136-WLiH" }
+    ]
+  },
+  {
+    "id": "ppb-research-news-2025",
+    "date": "2025-09-08",
+    "date_label": "September 8, 2025",
+    "category": "Research Feature",
+    "tag": "Cornell Chronicle",
+    "title": "PhytoPatholoBot Matches Human Vineyard Scouts",
+    "organization": "Cornell University",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "Cornell reported field trials in which the autonomous vineyard robot detected and assessed grape diseases with performance comparable to trained human scouts.",
+    "image": "/images/demos/vineyard-disease-scouting.webp",
+    "image_alt": "PhytoPatholoBot operating in a Cornell AgriTech vineyard",
+    "image_credit": "Ryan Young / Cornell University",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "Cornell Chronicle", "url": "https://news.cornell.edu/stories/2025/09/robot-matches-humans-scouting-vineyard-diseases" },
+      { "label": "Cornell Tech", "url": "https://tech.cornell.edu/news/robot-vineyard/" },
+      { "label": "Cornell University · LinkedIn", "url": "https://www.linkedin.com/posts/cornell-university_robot-matches-humans-in-scouting-for-vineyard-activity-7371626026591973376-v-NK" },
+      { "label": "Cornell University Article · LinkedIn", "url": "https://www.linkedin.com/pulse/robot-matches-humans-scouting-vineyard-diseases-cornell-university-wtbtc" }
+    ]
+  },
+  {
+    "id": "ppbng-aviris-fieldwork-2025",
+    "date": "2025-07-28",
+    "date_label": "July 28, 2025",
+    "category": "Field Deployment",
+    "tag": "NASA AVIRIS-3",
+    "title": "PPB-NG Supports NASA AVIRIS-3 Field Data Collection",
+    "organization": "Cornell AgriTech · NASA Acres",
+    "location": "Finger Lakes, New York",
+    "summary": "PPB-NG collected ground-level multimodal imagery during NASA JPL’s AVIRIS-3 campaign to connect field phenotyping with airborne hyperspectral observations.",
+    "image": "/images/demos/ppbng-aviris-fieldwork.webp",
+    "image_alt": "PPB-NG collecting data in a vineyard",
+    "image_credit": "Yiyuan Lin",
+    "robots": ["PPB-NG"],
+    "sources": [
+      { "label": "Cornell AgriTech · Instagram", "url": "https://www.instagram.com/reel/DNESxjlKwJC/" },
+      { "label": "Cornell AgriTech · Facebook", "url": "https://www.facebook.com/story.php?story_fbid=1232679688656040&id=100057420610467" },
+      { "label": "Cornell Gold Lab", "url": "https://blogs.cornell.edu/goldlab/lab-news/aviris3-flx-imagery/" },
+      { "label": "The Post-Journal", "url": "https://www.post-journal.com/news/top-stories/2025/08/eye-on-the-sky/" }
+    ]
+  },
+  {
+    "id": "npr-vineyard-robots-2024",
+    "date": "2024-12-10",
+    "date_label": "December 10, 2024",
+    "category": "Media Visit",
+    "tag": "NPR Short Wave",
+    "title": "NPR Short Wave Visits Cornell’s Vineyard Robots",
+    "organization": "NPR Short Wave",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "NPR producer Hannah Chinn visited Cornell AgriTech to see the vineyard disease-scouting robots and explain how they could help growers manage labor and crop disease challenges.",
+    "image": "/images/demos/npr-vineyard-robots.webp",
+    "image_alt": "NPR Short Wave artwork featuring a robot in a vineyard",
+    "image_credit": "Allison Usavage / Cornell University",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "NCPR / NPR", "url": "https://www.northcountrypublicradio.org/news/npr/1249800802/these-robots-could-fix-grape-farmers-labor-woes" },
+      { "label": "WRVO Public Media", "url": "https://www.wrvo.org/2024-12-10/these-robots-could-fix-grape-farmers-labor-woes" }
+    ]
+  },
+  {
+    "id": "nasa-space-for-ag-tour-2024",
+    "date": "2024-08-20",
+    "date_label": "August 20, 2024",
+    "category": "Leadership Visit",
+    "tag": "NASA Acres",
+    "title": "NASA Space for Agriculture Leadership Tour",
+    "organization": "NASA Acres · Cornell University",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "NASA leaders visited a technology demonstration where Cornell researchers presented the PhytoPatholoBot and other sensing systems for connecting field observations with satellite data.",
+    "image": "/images/demos/nasa-space-for-ag-tour.webp",
+    "image_alt": "PhytoPatholoBot and a UV treatment robot during the NASA Space for Agriculture Tour",
+    "image_credit": "Ryan Young / Cornell University",
+    "robots": ["PhytoPatholoBot", "UV Treatment Robot"],
+    "sources": [
+      { "label": "Cornell Chronicle", "url": "https://news.cornell.edu/stories/2024/08/space-farm-readying-nasa-satellites-help-growers" },
+      { "label": "Spectrum News 1", "url": "https://spectrumlocalnews.com/nys/central-ny/news/2024/08/21/nasa-cornell-agriculture-robots" },
+      { "label": "Cornell CALS Event", "url": "https://cals.cornell.edu/events/nasa-space-for-ag-new-york-tour-geneva" },
+      { "label": "NASA Acres Newsletter", "url": "https://myemail.constantcontact.com/NASA-Acres-Newsletter--August-Recap.html?aid=IFq5c0oI-EI&soid=1130191479667" },
+      { "label": "NASA Acres Year in Review", "url": "https://myemail.constantcontact.com/NASA-Acres-Newsletter--2024-Year-in-Review.html?aid=wAGFho9quuQ&soid=1130191479667" },
+      { "label": "USDA NIFA", "url": "https://content.govdelivery.com/accounts/USDANIFA/bulletins/3b51084" },
+      { "label": "Cornell Small Farms", "url": "https://smallfarms.cornell.edu/2024/10/from-space-to-farm-readying-nasa-satellites-help-growers/" },
+      { "label": "Seed Today", "url": "https://www.seedtoday.com/article/1028084/from-space-to-farm-readying-nasa-satellites-help-growers" },
+      { "label": "Wevolver · LinkedIn", "url": "https://www.linkedin.com/posts/wevolver_an-autonomous-robot-a-base-on-wheels-fitted-activity-7234009287159693312-gVYS" },
+      { "label": "Federdoc PDF", "url": "https://www.federdoc.com/new/wp-content/uploads/2024/09/Bollettino-FederDoc-Ago-2024-01a.pdf" },
+      { "label": "Babel Moon", "url": "https://www.babelmoon.com/orbital/agritech-and-drought-prevention-from-orbit" },
+      { "label": "Morning Ag Clips", "url": "https://www.morningagclips.com/nasa-space-for-ag-new-york-tour-geneva/" }
+    ]
+  },
+  {
+    "id": "vitisgen3-deployment-2024",
+    "date": "2024-07-16",
+    "date_label": "July 16, 2024",
+    "category": "Field Deployment",
+    "tag": "VitisGen3",
+    "title": "VitisGen3 Imaging System Deployment",
+    "organization": "VitisGen3 · University of Minnesota",
+    "location": "Minnesota",
+    "summary": "VitisGen3 documented the deployment of an additional Cornell imaging system and recognized the teams supporting its installation and vineyard operation.",
+    "image": "/images/demos/vitisgen3-deployment.webp",
+    "image_alt": "PhytoPatholoBot imaging platform",
+    "image_credit": "Yiyuan Lin · project image",
+    "robots": ["PPB Imaging System"],
+    "sources": [
+      { "label": "VitisGen3 · Instagram", "url": "https://www.instagram.com/reel/C9ftnvhS8cI/" }
+    ]
+  },
+  {
+    "id": "novel-technologies-field-meeting-2024",
+    "date": "2024-06-04",
+    "date_label": "June 4, 2024",
+    "category": "Field Demonstration",
+    "tag": "Cornell Cooperative Extension",
+    "title": "Novel Technologies for Agriculture Field Meeting",
+    "organization": "CCE Finger Lakes Grape Program",
+    "location": "Finger Lakes, New York",
+    "summary": "The field meeting included a dedicated “Meet PPB” session alongside demonstrations and discussions on robotics, disease mapping, and precision crop management.",
+    "image": "/images/demos/novel-technologies-field-day.webp",
+    "image_alt": "Agricultural robot displayed during a novel technologies field meeting",
+    "image_credit": "CCE Finger Lakes Grape Program",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "Event Program", "url": "https://blogs.cornell.edu/flxgrapes/calendar_event/novel_tech_field_meeting/" }
+    ]
+  },
+  {
+    "id": "ny-wine-grape-foundation-visit-2024",
+    "date": "2024-05-30",
+    "date_label": "May 2024",
+    "category": "Industry Visit",
+    "tag": "NY Wine & Grape Foundation",
+    "title": "New York Wine & Grape Foundation Visits Cornell AgriTech",
+    "organization": "Center of Excellence for Food and Agriculture",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "The New York Wine & Grape Foundation held a board meeting at Cornell AgriTech and toured research and innovation facilities across the campus.",
+    "image": "/images/demos/ny-wine-grape-foundation-visit.webp",
+    "image_alt": "New York Wine and Grape Foundation visit at Cornell AgriTech",
+    "image_credit": "Cornell Center of Excellence for Food and Agriculture / LinkedIn",
+    "robots": ["Research Visit"],
+    "sources": [
+      { "label": "Cornell Center of Excellence · LinkedIn", "url": "https://www.linkedin.com/posts/cornellcoefoodag_cornelluniversity-cornellagritech-cornellcals-activity-7202048113996443650-sRNx" }
+    ]
+  },
+  {
+    "id": "fao-director-general-visit-2024",
+    "date": "2024-05-09",
+    "date_label": "May 9, 2024",
+    "category": "International Visit",
+    "tag": "FAO Director-General",
+    "title": "FAO Director-General Visits Cornell AgriTech",
+    "organization": "Food and Agriculture Organization of the United Nations",
+    "location": "Cornell AgriTech · Geneva, New York",
+    "summary": "FAO Director-General QU Dongyu observed autonomous robots in the research fields and learned how remote sensing, AI, and digital technologies can support plant disease detection.",
+    "image": "/images/demos/fao-director-general-visit.webp",
+    "image_alt": "FAO Director-General QU Dongyu visiting Cornell AgriTech",
+    "image_credit": "FAO",
+    "robots": ["Autonomous Field Robots"],
+    "sources": [
+      { "label": "FAO", "url": "https://www.fao.org/director-general/news/details/during-cornell-university-visit-qu-dongyu-emphasizes-the-important-role-of-young-people-in-agrifood-system-transformation/en" },
+      { "label": "Cornell CALS", "url": "https://cals.cornell.edu/news/2024/05/un-fao-visit-highlights-importance-of-agrifood-system-transformation" }
+    ]
+  },
+  {
+    "id": "nyfb-robotics-feature-2024",
+    "date": "2024-03-26",
+    "date_label": "March 2024",
+    "category": "Media Coverage",
+    "tag": "Grape Research",
+    "title": "Agricultural Robotics Featured by the Grape Research Community",
+    "organization": "National Grape Research Alliance",
+    "location": "New York",
+    "summary": "An industry research newsletter highlighted Cornell work using imaging robots and AI to accelerate crop-disease phenotyping and support autonomous agricultural systems.",
+    "image": "/images/demos/nyfb-robotics-feature.webp",
+    "image_alt": "PhytoPatholoBot in a Cornell vineyard",
+    "image_credit": "Yiyuan Lin · project image",
+    "robots": ["PhytoPatholoBot"],
+    "sources": [
+      { "label": "National Grape Research Alliance", "url": "https://myemail.constantcontact.com/Fun-with-Phenotypes--SLF-Scrape--Raisin-Marketing.html?aid=E9qeq1oeTnw&soid=1106937002485" }
+    ]
+  },
+  {
+    "id": "vitisgen3-training-2023",
+    "date": "2023-09-05",
+    "date_label": "September 5, 2023",
+    "category": "Installation & Training",
+    "tag": "VitisGen3",
+    "title": "PhytoPatholoBot Installation and Training Across VitisGen3 Sites",
+    "organization": "VitisGen3",
+    "location": "Parlier, California · Brookings, South Dakota",
+    "summary": "The PPB imaging system was installed at USDA-ARS and South Dakota State University sites, where partner teams received hands-on training for vineyard deployment.",
+    "image": "/images/demos/vitisgen3-training.webp",
+    "image_alt": "Installing the PhytoPatholoBot imaging system on a vineyard vehicle",
+    "image_credit": "VitisGen3",
+    "robots": ["PPB Imaging System"],
+    "sources": [
+      { "label": "VitisGen3", "url": "https://vitisgen3.umn.edu/phytopatholobots-deployed-two-vitisgen3-sites" }
+    ]
+  }
+]
