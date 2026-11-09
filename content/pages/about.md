@@ -121,8 +121,6 @@ My unparalleled emotional sponsor: Xunyu Luo.
 
 <!-- ROBOT_DEMOS -->
 
-<br/>
-
 # Selected Awards
 - 2024/08, Best Chinese Cuisine Master Chef (top 1) in Geneva NY
 - 2023/08, Best Chinese Cuisine Master Chef (top 1%) in Ithaca NY
